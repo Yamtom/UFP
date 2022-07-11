@@ -1,5 +1,5 @@
 ZAZ = {
-	pattern = "pattern_horizontal_split_01"
+	pattern = "pattern_horizontal_split_01.tga"
 	color1 = "blue_light"
 	color2 = "yellow"
 
