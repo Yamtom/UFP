@@ -1,0 +1,11 @@
+
+ZAZ = {
+	color = { 146 146 146 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { ukrainian }
+	capital = STATE_CHERSON
+}

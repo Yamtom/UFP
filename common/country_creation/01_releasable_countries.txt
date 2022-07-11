@@ -1,0 +1,8 @@
+
+ZAZ = {
+	states = { STATE_CHERSON STATE_LUHANSK }
+	
+	states = { STATE_CHERSON }
+
+	ai_will_do = { always = no }
+}

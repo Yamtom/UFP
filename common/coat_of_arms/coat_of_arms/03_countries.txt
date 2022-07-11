@@ -1,0 +1,11 @@
+ZAZ = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	colored_emblem = {
+		texture = "zaz.dds"
+		color1 = "yellow"
+		color2 = "red"
+		color3 = "blue_light"
+	}
+}
