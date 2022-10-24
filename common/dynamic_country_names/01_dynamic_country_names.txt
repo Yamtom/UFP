@@ -1,4 +1,4 @@
-UKR = { # Great Britain of United Kingdom
+UKR = { 
 		
 	dynamic_country_name = {
 		name = dyn_c_hetmanate
@@ -35,7 +35,7 @@ UKR = { # Great Britain of United Kingdom
 		adjective = dyn_c_kyiv_patriarchy_adj
 		
 		is_main_tag_only = yes
-		priority = 0
+		priority = 2
 		
 		
 		trigger = {
@@ -49,13 +49,12 @@ UKR = { # Great Britain of United Kingdom
 		adjective = dyn_c_people_ukraine_adj
 		
 		is_main_tag_only = yes
-		priority = 0
+		priority = 1
 		
 		
 		trigger = {
 			OR ={
 				coa_def_multicultural_flag_trigger = yes
-				coa_def_republic_flag_trigger = yes
 			}
 		}
 	}
@@ -64,12 +63,101 @@ UKR = { # Great Britain of United Kingdom
 		adjective = dyn_c_malorossia_adj
 		
 		is_main_tag_only = yes
-		priority = 0
+		priority = 1
 		
 		
 		trigger = {
 			OR ={
 				coa_def_russian_ensign_trigger = yes
+			}
+		}
+	}
+}
+
+ZAZ = { 
+		
+	dynamic_country_name = {
+		name = dyn_c_kdr
+		adjective = dyn_c_kdr_adj
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		
+		trigger = {
+			OR ={
+				coa_def_communist_flag_trigger = yes
+			}
+		}
+	}	
+	dynamic_country_name = {
+		name = dyn_c_zaz_host
+		adjective = dyn_c_zaz_host_adj
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		
+		trigger = {
+			OR ={
+				coa_def_dictatorship_flag_trigger = yes
+				coa_def_military_flag_trigger = yes
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_cossack_order
+		adjective = dyn_c_cossack_order_adj
+		
+		is_main_tag_only = yes
+		priority = 2
+		
+		
+		trigger = {
+			OR ={
+				coa_def_theocracy_flag_trigger = yes
+			}
+		}
+	}	
+	dynamic_country_name = {
+		name = dyn_c_se_ukraine
+		adjective = dyn_c_se_ukraine_adj
+		
+		is_main_tag_only = yes
+		priority = 1
+		
+		
+		trigger = {
+			OR ={
+				coa_def_multicultural_flag_trigger = yes
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_novorossia
+		adjective = dyn_c_novorossia_adj
+		
+		is_main_tag_only = yes
+		priority = 1
+		
+		
+		trigger = {
+			OR ={
+				coa_def_russian_ensign_trigger = yes
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_se_aukraine
+		adjective = dyn_se_aukraine_adj
+		
+		is_main_tag_only = yes
+		priority = 1
+		
+		
+		trigger = {
+			OR ={
+				coa_def_ukrainian_ensign_trigger = yes
 			}
 		}
 	}
