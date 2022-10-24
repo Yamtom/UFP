@@ -988,8 +988,6 @@
  TRH_ADJ:0 "Turkestani"
  UOM:0 "Michigan"
  UOM_ADJ:0 "Michigander"
- ZAZ:0 "Hetmanate"
- ZAZ_ADJ:0 "Hetman's"
   # Dynamic countries
  dyn_c_united_sovereign_archduchy:0 "United Sovereign Archduchy"
  dyn_c_united_sovereign_archduchy_adj:0 "Archducal American"
@@ -1114,3 +1112,6 @@
  dyn_c_korea_joseon_adj:0 "Korean"
  dyn_c_scandinavia_fennoscandia:0 "Fennoscandia"
  dyn_c_scandinavia_fennoscandia_adj:0 "Fennoscandian"
+ #Mods
+ ZAZ:0 "Zaporizhzhian Host"
+ ZAZ_ADJ:0 "Zaporizhzhian"
