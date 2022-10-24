@@ -156,8 +156,13 @@ ZAZ = {
 		
 		
 		trigger = {
-			OR ={
+			AND ={
 				coa_def_ukrainian_ensign_trigger = yes
+				OR={
+					coa_def_dictatorship_flag_trigger = yes
+					coa_def_multicultural_flag_trigger = yes
+					coa_def_republic_flag_trigger = yes
+				}
 			}
 		}
 	}
