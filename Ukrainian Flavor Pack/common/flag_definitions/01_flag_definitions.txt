@@ -1,0 +1,147 @@
+﻿
+UKR = { # Ukraine	
+	flag_definition = {
+		coa = UKR_fascist
+		priority = 1600
+		trigger = { 
+			coa_def_fascist_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = UKR_communist
+		priority = 1600
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = UKR_free_state
+		priority = 1600
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				has_law = law_type:law_council_republic
+				has_law = law_type:law_anarchy
+			}
+		}
+	}
+	flag_definition = {
+		coa = UKR_hetmanate
+		priority = 1500
+		trigger = {
+			OR ={
+				coa_def_dictatorship_flag_trigger = yes
+				coa_def_military_flag_trigger = yes
+			}
+		}
+	}
+	flag_definition = {
+		coa = UKR_kingdom_ukraine
+		priority = 1500
+		trigger = {
+			OR ={
+				coa_def_monarchy_flag_trigger = yes
+				coa_def_absolute_monarchy_flag_trigger = yes
+			}
+		}
+	}
+	flag_definition = {
+		coa = UKR_kyiv_patriarchy
+		priority = 1500
+		trigger = {
+			OR ={
+				coa_def_theocracy_flag_trigger = yes
+			}
+		}
+	}
+	flag_definition = {
+		coa = UKR_people_ukraine
+		priority = 1500
+		trigger = {
+			OR ={
+				coa_def_multicultural_flag_trigger = yes
+			}
+		}
+	}
+	flag_definition = {
+		coa = UKR_malorossia
+		priority = 1600
+		trigger = {
+			OR ={
+				coa_def_russian_ensign_trigger = yes
+			}
+		}
+	}
+	flag_definition = {
+		coa = UKR_free_patriarchy
+		priority = 1600
+		trigger = {
+			coa_def_theocracy_flag_trigger = yes
+			exists = scope:actor
+			scope:actor = {
+				has_law = law_type:law_theocracy
+				has_law = law_type:law_anarchy
+			}
+		}
+	}
+}
+ZAZ = { # Zaz	
+	flag_definition = {
+		coa = ZAZ
+		priority = 1000
+		trigger = {
+			exists = scope:actor
+		}
+	}
+	flag_definition = {
+		coa = ZAZ_kdr
+		priority = 1500
+		trigger = {
+			OR ={
+				coa_def_communist_flag_trigger = yes
+			}
+		}
+	}
+	flag_definition = {
+		coa = ZAZ_zaz_host
+		priority = 1500
+		trigger = {
+			OR ={
+				coa_def_dictatorship_flag_trigger = yes
+				coa_def_military_flag_trigger = yes
+			}
+		}
+	}
+	flag_definition = {
+		coa = ZAZ_cossack_order
+		priority = 1500
+		trigger = {
+			OR ={
+				coa_def_theocracy_flag_trigger = yes
+			}
+		}
+	}
+	flag_definition = {
+		coa = ZAZ_novorossia
+		priority = 1500
+		trigger = {
+			OR ={
+				coa_def_russian_ensign_trigger = yes
+			}
+		}
+	}
+	flag_definition = {
+		coa = ZAZ_se_aukraine
+		priority = 1500
+		trigger = {
+			AND ={
+				coa_def_ukrainian_ensign_trigger = yes
+				OR={
+					coa_def_dictatorship_flag_trigger = yes
+					coa_def_multicultural_flag_trigger = yes
+					coa_def_republic_flag_trigger = yes
+				}
+			}
+		}
+	}
+}
