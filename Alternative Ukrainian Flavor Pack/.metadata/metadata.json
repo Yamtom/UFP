@@ -1,0 +1,12 @@
+{
+  "name" : "Alternative Ukrainian Flavor Pack",
+  "id" : "",
+  "version" : "0.2",
+  "supported_game_version" : "1.*.*.*",
+  "short_description" : "",
+  "tags" : [],
+  "relationships" : [],
+  "game_custom_data" : {
+    "multiplayer_synchronized" : true
+  }
+}

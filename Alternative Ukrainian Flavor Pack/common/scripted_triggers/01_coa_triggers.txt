@@ -1,0 +1,6 @@
+
+coa_def_ukrainian_ensign_trigger = {
+	exists = c:UKR
+	c:UKR = { save_temporary_scope_as = custom_overlord }
+	coa_def_ensign_trigger = yes
+}
