@@ -1,4 +1,4 @@
-STATES = {
+#STATES = {
 	s:STATE_BRYANSK = {
 		create_state = {
 			country = c:RUS

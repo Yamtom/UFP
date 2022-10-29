@@ -1,0 +1,78 @@
+CHARACTERS = {
+	c:UKR = {
+		create_character = {
+			# xxx
+			first_name = "Petro"
+			last_name = "Mikhnovskyi"
+			age = 57
+			ig_leader = yes
+			ruler=yes
+			interest_group = ig_landowners 
+			ideology = ideology_moderate
+			traits = {
+				ambitious
+			}
+		}
+
+		create_character = {
+			# 
+			first_name = "Ivan"
+			last_name = "Bohun"
+			age = 49
+			ig_leader = yes
+			interest_group = ig_armed_forces
+			ideology = ideology_moderate
+			traits = {
+				meticulous
+				surveyor
+				basic_diplomat
+			}
+		}
+
+		create_character = {
+			# 
+			first_name = "Andriy"
+			last_name = "Sheptytskyi"
+			age = 61
+			ig_leader = yes
+			interest_group = ig_devout
+			ideology = ideology_moderate
+			traits = {
+				meticulous
+				pious
+				reserved
+			}
+		}
+
+		create_character = { # General
+			is_general = yes
+			first_name = Mykhailo
+			last_name = Vernydub
+			culture = cu:ukrainian
+			birth_date = 1799.5.30 # Gregorian Calendar
+			interest_group = ig_armed_forces
+			hq = region_dnieper
+			commander_rank = commander_rank_5
+			traits = {
+				brave
+				resupply_commander
+			}
+
+		}
+		create_character = { # Admiral
+			is_admiral = yes
+			first_name = Pavlo
+			last_name = Chaika
+			culture = cu:ukrainian
+			interest_group = ig_landowners
+			ideology = ig_armed_forces
+			birth_date = 1809.7.15
+			hq = region_dnieper
+			commander_rank = commander_rank_3
+			traits = {
+				explorer
+				brave
+			}
+		}
+	}
+}
