@@ -3,105 +3,186 @@ ukrainian={
 	color= hsv{ 0.36 0.46 0.62 }
 	religion = orthodox
 	traits = { east_slavic european_heritage }
-	male_common_first_names={
-		Olexij
-		Andrij
+	male_common_first_names={Andriy
 		Anton
 		Arkadiy
+		Artem
 		Borys
+		Danylo
+		Demian
 		Dmytro
 		Fedir
-		Thedir
 		Hryhoriy
+		Hrytsko
+		Ighor
 		Ivan
+		Kostiantyn
 		Lavr
 		Leonid
 		Lev
+		Lyobomyr
+		Markiyan
+		Maryan
+		Mikhailo
 		Mykhajil
 		Mykola
+		Mykyta
+		Myron
+		Nazar
+		Nestor
 		Oleksandr
-		Panteleimon 
+		Oles
+		Olexiy
+		Orest
+		Panteleimon
 		Pavlo
 		Petro
+		Pylyp
 		Roman
 		Semen
 		Sergiy
+		Severyn
+		Stepan
+		Symon
+		Taras
+		Thedir
 		Valeriy
 		Viktor
+		Vitaliy
 		Vladyslav
 		Volodymyr
+		Vsevolod
+		Vyacheslav
+		Yakiv
+		Yaroslav
 		Yevhen
 		Yuriy
-		Hrytsko
+		Yustyn
+		Zynoviy
 	}
 	female_common_first_names = {
-		Darya
+		Anastasiya
+		Antonina
+		Bohdana
+		Bozhena
 		Darja
+		Darya
+		Daryna
+		Eva
+		Hanna
+		Iryna
+		Ivanna
+		Kateryna
+		Lidiya
 		Lyubov
-		Lyudmila
-		Maria
-		Nadija
-		Natalija
+		Lyudmyla
+		Mariya
+		Nadiya
+		Nataliya
 		Olena
 		Olha
 		Polina
 		Ruslana
 		Slava
+		Solomiya
+		Stefaniya
+		Tetiana
 		Ulyana
 		Valeriya
 		Xenia
+		Yevdokiya
 		Yevheniya
+		Zoiya
+		Zoriana
+		Zynaida
 	}	
 	noble_last_names = {
-		Chubynsky
-		Czajkowski
+		Bohun
+		Bortnianskiy
+		Chernyakhovskiy
+		Chubynskiy
+		Chajkovskiy
 		Drahomanov
-		Gogol-Yanovsky
-		Gryhorenko
-		Hnizdovsky
+		Franko
+		Gogol-Yanovskiy
+		Halytskiy
+		Hnizdovskiy
 		Hrekov
-		Hrushevsky
-		Karaszewicz-Tokarzewski
-		Kobyliansky
-		Konysky
-		Kropyvnytsky
+		Hrushevskiy
+		Tokazhevskiy-Karashevich
+		Khmelnytskiy
+		Kobylianskiy
+		Konyskiy
+		Kotliarevskiy
+		Kropyvnytskiy
 		Kulish
-		Levytsky
-		Lototsky
-		Ohonovsky
+		Levytskiy
+		Lototskiy
+		Lysenko
+		Maksymovych
+		Mazepa
+		Moghyla
+		Ohonovskiy
 		Omelianovych-Pavlenko
-		Ortynsky
+		Orlyk
+		Ortynskiy
+		Ostrozskiy
+		Paton
+		Petliura
 		Petrushevych
 		Rodzianko
-		Sas-Kuilovsky
+		Sagaydachniy
+		Sas-Kuilovskiy
 		Shakhovskoy
-		Sheptytsky
-		Skoropadskyi
+		Shakhovskoyi
+		Sheptytskiy
+		Skoropadskiy
+		Skovoroda
 		Vakhnianyn
-		Vitovsky
-		Zubrytsky
+		Vedel
+		Vitovskiy
+		Vygovskiy
+		Vyshnyvetskiy
+		Zubrytskiy
 	}
 	common_last_names={
+		Andruseyko
+		Antonov
+		Antonenko
 		Bezruchko
-		Chernyakhovsky
+		Bondarenko
+		Bandera
+		Chernyakhovskiy
 		Dyachenko
+		Dontsov
 		Gamula
+		Gonchar
 		Grigoriev
+		Gryhorenko
 		Hrekov
 		Ivanenko
-		Ivanov
-		Kapustiansky
+		Kapustianskiy
 		Kondratenko
+		Koval
+		Konovalets
+		Khrushchov
 		Leshchenko
 		Leshchinskiy
+		Melnyk
+		Musiyenko
+		Oliynyk
+		Pasichnyk
 		Paskevich
 		Petliura
 		Radchenko
 		Shevchenko
-		Skoropadskyi
+		Skoropadskiy
 		Stefaniv
+		Shukhevych
+		Sikorskiy
+		Tolochko
 		Tymoshenko
-		Vitovsky
+		Vitovskiy
 	}
 	ethnicities = {
 		1 = slavic
