@@ -4,3 +4,18 @@ coa_def_ukrainian_ensign_trigger = {
 	c:UKR = { save_temporary_scope_as = custom_overlord }
 	coa_def_ensign_trigger = yes
 }
+
+coa_def_polish_ensign_trigger = {
+	OR = {
+		AND = {
+			exists = c:PLC
+			c:PLC = { save_temporary_scope_as = custom_overlord }
+			coa_def_ensign_trigger = yes
+		}
+		AND = {
+			exists = c:POL
+			c:POL = { save_temporary_scope_as = custom_overlord }
+			coa_def_ensign_trigger = yes
+		}
+	}
+}

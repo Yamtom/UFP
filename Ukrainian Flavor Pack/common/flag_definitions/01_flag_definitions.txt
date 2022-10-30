@@ -73,7 +73,25 @@ UKR = { # Ukraine
 		}
 	}
 	flag_definition = {
-		coa = UKR_free_patriarchy
+		coa = UKR_malorossia
+		priority = 1600
+		trigger = {
+			OR ={
+				coa_def_austrian_ensign_trigger = yes
+			}
+		}
+	}
+	flag_definition = {
+		coa = UKR_austrian_ukraine
+		priority = 1600
+		trigger = {
+			OR ={
+				coa_def_polish_ensign_trigger = yes
+			}
+		}
+	}
+	flag_definition = {
+		coa = UKR_polish_ukraine
 		priority = 1600
 		trigger = {
 			coa_def_theocracy_flag_trigger = yes
@@ -133,6 +151,84 @@ ZAZ = { # Zaz
 	flag_definition = {
 		coa = ZAZ_se_aukraine
 		priority = 1500
+		trigger = {
+			AND ={
+				coa_def_ukrainian_ensign_trigger = yes
+				OR={
+					coa_def_dictatorship_flag_trigger = yes
+					coa_def_multicultural_flag_trigger = yes
+					coa_def_republic_flag_trigger = yes
+				}
+			}
+		}
+	}
+}
+GAL = { # Gal	
+	flag_definition = {
+		coa = GAL
+		priority = 100
+		trigger = {
+			exists = scope:actor
+		}
+	}
+	flag_definition = {
+		coa = GAL_gssr
+		priority = 1500
+		trigger = {
+			OR ={
+				coa_def_communist_flag_trigger = yes
+			}
+		}
+	}
+	flag_definition = {
+		coa = GAL_ulegion
+		priority = 1500
+		trigger = {
+			OR ={
+				coa_def_dictatorship_flag_trigger = yes
+				coa_def_military_flag_trigger = yes
+			}
+		}
+	}
+	flag_definition = {
+		coa = GAL_brest
+		priority = 1500
+		trigger = {
+			OR ={
+				coa_def_theocracy_flag_trigger = yes
+			}
+		}
+	}
+	flag_definition = {
+		coa = GAL_austrian_wukraine
+		priority = 1600
+		trigger = {
+			OR ={
+				coa_def_austrian_ensign_trigger = yes
+			}
+		}
+	}
+	flag_definition = {
+		coa = GAL_polish_wukraine
+		priority = 1600
+		trigger = {
+			OR ={
+				coa_def_polish_ensign_trigger = yes
+			}
+		}
+	}
+	flag_definition = {
+		coa = GAL_zapadorossia
+		priority = 1600
+		trigger = {
+			OR ={
+				coa_def_russian_ensign_trigger = yes
+			}
+		}
+	}
+	flag_definition = {
+		coa = GAL_we_aukraine
+		priority = 1600
 		trigger = {
 			AND ={
 				coa_def_ukrainian_ensign_trigger = yes

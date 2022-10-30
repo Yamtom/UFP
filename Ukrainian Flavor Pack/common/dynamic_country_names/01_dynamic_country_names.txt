@@ -128,10 +128,37 @@ UKR = {
 			}
 		}
 	}
+	dynamic_country_name = {
+		name = dyn_c_austrian_ukraine
+		adjective = dyn_c_austrian_ukraine_adj
+		
+		is_main_tag_only = yes
+		priority = 1
+		
+		
+		trigger = {
+			OR ={
+				coa_def_austrian_ensign_trigger = yes
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_polish_ukraine
+		adjective = dyn_c_polish_ukraine_adj
+		
+		is_main_tag_only = yes
+		priority = 1
+		
+		
+		trigger = {
+			OR ={
+				coa_def_polish_ensign_trigger = yes
+			}
+		}
+	}
 }
 
 ZAZ = { 
-		
 	dynamic_country_name = {
 		name = dyn_c_kdr
 		adjective = dyn_c_kdr_adj
@@ -290,6 +317,211 @@ ZAZ = {
 		
 		is_main_tag_only = yes
 		priority = 1
+		
+		
+		trigger = {
+			coa_def_ukrainian_ensign_trigger = yes
+			exists = scope:actor
+			scope:actor = {
+				has_law = law_type:law_council_republic
+				has_law = law_type:law_anarchy
+			}
+		}
+	}
+}
+
+GAL = { 
+	dynamic_country_name = {
+		name = dyn_c_gal
+		adjective = dyn_c_gal_adj
+		
+		is_main_tag_only = yes
+		priority = 1
+		
+		
+		trigger = {
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_gssr
+		adjective = dyn_c_gssr_adj
+		
+		is_main_tag_only = yes
+		priority = 2
+		
+		
+		trigger = {
+			OR ={
+				coa_def_communist_flag_trigger = yes
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_ulegion
+		adjective = dyn_c_ulegion_adj
+		
+		is_main_tag_only = yes
+		priority = 2
+		
+		
+		trigger = {
+			OR ={
+				coa_def_dictatorship_flag_trigger = yes
+				coa_def_military_flag_trigger = yes
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_brest
+		adjective = dyn_c_brest_adj
+		
+		is_main_tag_only = yes
+		priority = 2
+		
+		
+		trigger = {
+			OR ={
+				coa_def_theocracy_flag_trigger = yes
+			}
+		}
+	}	
+	dynamic_country_name = {
+		name = dyn_c_wupp
+		adjective = dyn_c_wupp_adj
+		
+		is_main_tag_only = yes
+		priority = 2
+		
+		trigger = {
+			OR ={
+				coa_def_multicultural_flag_trigger = yes
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_austrian_wukraine
+		adjective = dyn_c_austrian_wukraine_adj
+		
+		is_main_tag_only = yes
+		priority = 3 
+		trigger = {
+			coa_def_austrian_ensign_trigger = yes
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_polish_wukraine
+		adjective = dyn_c_polish_wukraine_adj
+		
+		is_main_tag_only = yes
+		priority = 3
+				
+		trigger = {
+			OR ={
+				coa_def_polish_ensign_trigger = yes
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_zapadorossia
+		adjective = dyn_c_zapadorossia_adj
+		
+		is_main_tag_only = yes
+		priority = 3
+		
+		
+		trigger = {
+			OR ={
+				coa_def_russian_ensign_trigger = yes
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_we_aukraine
+		adjective = dyn_we_aukraine_adj
+		
+		is_main_tag_only = yes
+		priority = 3
+		
+		
+		trigger = {
+			AND ={
+				coa_def_ukrainian_ensign_trigger = yes
+				OR={
+					coa_def_dictatorship_flag_trigger = yes
+					coa_def_multicultural_flag_trigger = yes
+					coa_def_republic_flag_trigger = yes
+				}
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_lviv_self
+		adjective = dyn_c_lviv_self_adj
+		
+		is_main_tag_only = yes
+		priority = 2
+		
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				has_law = law_type:law_council_republic
+				has_law = law_type:law_anarchy
+			}
+		}
+	}	
+	dynamic_country_name = {
+		name = dyn_c_halych_revcom
+		adjective = dyn_c_halych_revcom_adj
+		
+		is_main_tag_only = yes
+		priority = 4
+		
+		
+		trigger = {
+			coa_def_ukrainian_ensign_trigger = yes
+			OR ={
+				coa_def_communist_flag_trigger = yes
+			}
+		}
+	}	
+	dynamic_country_name = {
+		name = dyn_c_west_sich
+		adjective = dyn_c_west_sich_adj
+		
+		is_main_tag_only = yes
+		priority = 4
+		
+		
+		trigger = {
+			coa_def_ukrainian_ensign_trigger = yes
+			OR ={
+				coa_def_dictatorship_flag_trigger = yes
+				coa_def_military_flag_trigger = yes
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_halych_metropolia
+		adjective = dyn_c_halych_metropolia_adj
+		
+		is_main_tag_only = yes
+		priority = 4
+		
+		
+		trigger = {
+			coa_def_ukrainian_ensign_trigger = yes
+			OR ={
+				coa_def_theocracy_flag_trigger = yes
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_west_terriytory
+		adjective = dyn_c_west_terriytory_adj
+		
+		is_main_tag_only = yes
+		priority = 4
 		
 		
 		trigger = {
