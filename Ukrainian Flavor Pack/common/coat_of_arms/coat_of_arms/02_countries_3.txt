@@ -187,3 +187,137 @@ ZAZ_se_aukraine = {
 		instance = {scale = { 1.05 1.05 } }
 	}
 }	
+
+GAL = { # Galicia (Halych)	
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "red"
+		color2 = "yellow"
+	}
+}
+GAL_gssr = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+	color2 = "yellow"
+	color3 = "red"
+	
+	colored_emblem = {
+		texture = "ce_bicolor_bottom.dds"
+		color1 = "blue"
+		color2 = "blue"
+        instance = { scale = { 1.0 @[third] } position = { 0.5 @[1-third] }  }
+	}
+	colored_emblem = {
+		texture = "ce_hammer_sickle_star_ussr.dds"
+		color1 = color2
+		color2 = color2
+		instance = { position = { 0.25 @third } scale = { 0.5 0.5 } }
+	}	
+}
+GAL_ulegion = { # Galicia (Halych)	
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "red"
+		color2 = "yellow"
+	}
+}
+GAL_ulegion = {
+	pattern = "pattern_horizontal_split_01.tga"
+	color1 = "blue"
+	color2 = "yellow"
+
+	colored_emblem = {
+		texture = "uss.dds"
+		color1 = "yellow"
+		color2 = "yellow_dark"
+		color3 = "blue_light"
+		instance = {scale = { 0.4875 0.75 } }
+	}
+}
+GAL_brest = { # Galicia (Halych)	
+	pattern = "pattern_solid.tga"
+	color1 = "blue_light"
+
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "yellow"
+		color2 = "green_light"
+	}
+}
+GAL_austrian_wukraine = { 	
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+
+	colored_emblem = {
+		texture = "ce_bicolor_bottom.dds"
+		color1 = "red"
+		color2 = "red"
+	}
+}
+GAL_zapadorossia = { 
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "red"
+		color2 = "white"
+	}
+	colored_emblem = {
+		texture = "ce_eagle_doubleheaded_base.dds"
+		color1 = "black"
+		color2 = "yellow"
+		color3 = "black"
+		instance = { scale = { 0.9 0.9 } position = { 0.5 0.51 } }
+	}
+	colored_emblem = {
+		texture = "ce_lion_rampant.dds"
+		color1 = "yellow_dark"
+		color2 = "yellow"
+		color3 = "black"
+		instance = { scale = { 0.225 0.2295} }
+	}
+}
+GAL_polish_wukraine = { 	
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+
+	colored_emblem = {
+		texture = "ce_bicolor_bottom.dds"
+		color1 = "red"
+		color2 = "red"
+	}
+	colored_emblem = {
+		texture = "ce_eagle_crown.dds"
+		color1 = "white"
+		color2 = "yellow"
+		color3 = "white"
+		instance = { scale = { 0.9 0.9 } position = { 0.5 0.51 } }
+	}
+}
+GAL_we_aukraine = { 	
+	pattern = "pattern_horizontal_split_01.tga"
+	color1 = "blue_light"
+	color2 = "yellow"
+
+	colored_emblem = {
+		texture = "ce_shield_heater.dds"
+		color1 = "blue_light"
+		color2 = "yellow_dark"
+		color3 = "blue"
+		instance = {scale = { 1 1 }  position = { 0.5 0.49 } }
+	}
+	colored_emblem = {
+		texture = "ce_lion_rampant_crowned.dds"
+		color1 = "yellow_dark"
+		color2 = "yellow"
+		color3 = "blue_light"
+		instance = {scale = { 0.65 0.65 } }
+	}
+}
