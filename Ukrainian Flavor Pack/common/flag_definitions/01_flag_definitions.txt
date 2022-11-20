@@ -8,6 +8,13 @@ UKR = { # Ukraine
 		}
 	}	
 	flag_definition = {
+		coa = UKR_kukurudza
+		priority = 2000
+		trigger = { 
+			coa_kukurudza_trigger = yes
+		}
+	}	
+	flag_definition = {
 		coa = UKR_communist
 		priority = 1600
 		trigger = { 
@@ -65,19 +72,10 @@ UKR = { # Ukraine
 	}
 	flag_definition = {
 		coa = UKR_malorossia
-		priority = 1600
+		priority = 1550
 		trigger = {
 			OR ={
 				coa_def_russian_ensign_trigger = yes
-			}
-		}
-	}
-	flag_definition = {
-		coa = UKR_malorossia
-		priority = 1600
-		trigger = {
-			OR ={
-				coa_def_austrian_ensign_trigger = yes
 			}
 		}
 	}
@@ -141,7 +139,7 @@ ZAZ = { # Zaz
 	}
 	flag_definition = {
 		coa = ZAZ_novorossia
-		priority = 1500
+		priority = 1450
 		trigger = {
 			OR ={
 				coa_def_russian_ensign_trigger = yes
@@ -163,27 +161,31 @@ ZAZ = { # Zaz
 		}
 	}
 }
-GAL = { # Gal	
+GAL = { # hal-vol	
+	#Halych
 	flag_definition = {
-		coa = GAL
+		coa = GAL_h
 		priority = 100
 		trigger = {
+			coa_controls_halych_trigger = yes
 			exists = scope:actor
 		}
 	}
 	flag_definition = {
-		coa = GAL_gssr
+		coa = GAL_h_gssr
 		priority = 1500
 		trigger = {
+			coa_controls_halych_trigger = yes
 			OR ={
 				coa_def_communist_flag_trigger = yes
 			}
 		}
 	}
 	flag_definition = {
-		coa = GAL_ulegion
+		coa = GAL_h_ulegion
 		priority = 1500
 		trigger = {
+			coa_controls_halych_trigger = yes
 			OR ={
 				coa_def_dictatorship_flag_trigger = yes
 				coa_def_military_flag_trigger = yes
@@ -191,53 +193,940 @@ GAL = { # Gal
 		}
 	}
 	flag_definition = {
-		coa = GAL_brest
+		coa = GAL_h_brest
 		priority = 1500
 		trigger = {
+			coa_controls_halych_trigger = yes
 			OR ={
 				coa_def_theocracy_flag_trigger = yes
 			}
 		}
 	}
 	flag_definition = {
-		coa = GAL_austrian_wukraine
+		coa = GAL_h_austrian_wukraine
 		priority = 1600
 		trigger = {
+			coa_controls_halych_trigger = yes
 			OR ={
 				coa_def_austrian_ensign_trigger = yes
 			}
 		}
 	}
 	flag_definition = {
-		coa = GAL_polish_wukraine
+		coa = GAL_h_polish_wukraine
 		priority = 1600
 		trigger = {
+			coa_controls_halych_trigger = yes
 			OR ={
 				coa_def_polish_ensign_trigger = yes
 			}
 		}
 	}
 	flag_definition = {
-		coa = GAL_zapadorossia
-		priority = 1600
+		coa = GAL_h_zapadorossia
+		priority = 1550
 		trigger = {
+			coa_controls_halych_trigger = yes
 			OR ={
 				coa_def_russian_ensign_trigger = yes
 			}
 		}
 	}
 	flag_definition = {
-		coa = GAL_we_aukraine
+		coa = GAL_h_hvp
 		priority = 1600
 		trigger = {
+			coa_controls_halych_trigger = yes
+			coa_def_ukrainian_ensign_trigger = yes
+			OR ={
+				coa_def_monarchy_flag_trigger = yes
+				coa_def_absolute_monarchy_flag_trigger = yes
+			}
+		}
+	}
+	#Volhyn
+	flag_definition = {
+		coa = GAL_v
+		priority = 100
+		trigger = {
+			coa_controls_volhyn_trigger = yes
+			exists = scope:actor
+		}
+	}
+	flag_definition = {
+		coa = GAL_v_gssr
+		priority = 1500
+		trigger = {
+			coa_controls_volhyn_trigger = yes
+			OR ={
+				coa_def_communist_flag_trigger = yes
+			}
+		}
+	}
+	flag_definition = {
+		coa = GAL_v_ulegion
+		priority = 1500
+		trigger = {
+			coa_controls_volhyn_trigger = yes
+			OR ={
+				coa_def_dictatorship_flag_trigger = yes
+				coa_def_military_flag_trigger = yes
+			}
+		}
+	}
+	flag_definition = {
+		coa = GAL_v_brest
+		priority = 1500
+		trigger = {
+			coa_controls_volhyn_trigger = yes
+			OR ={
+				coa_def_theocracy_flag_trigger = yes
+			}
+		}
+	}
+	flag_definition = {
+		coa = GAL_v_austrian_wukraine
+		priority = 1600
+		trigger = {
+			coa_controls_volhyn_trigger = yes
+			OR ={
+				coa_def_austrian_ensign_trigger = yes
+			}
+		}
+	}
+	flag_definition = {
+		coa = GAL_v_polish_wukraine
+		priority = 1600
+		trigger = {
+			coa_controls_volhyn_trigger = yes
+			OR ={
+				coa_def_polish_ensign_trigger = yes
+			}
+		}
+	}
+	flag_definition = {
+		coa = GAL_v_zapadorossia
+		priority = 1550
+		trigger = {
+			coa_controls_volhyn_trigger = yes
+			OR ={
+				coa_def_russian_ensign_trigger = yes
+			}
+		}
+	}
+	flag_definition = {
+		coa = GAL_v_hvp
+		priority = 1600
+		trigger = {
+			coa_controls_volhyn_trigger = yes
+			coa_def_ukrainian_ensign_trigger = yes
+			OR ={
+				coa_def_monarchy_flag_trigger = yes
+				coa_def_absolute_monarchy_flag_trigger = yes
+			}
+		}
+	}
+	#Halych-Volhyn
+	flag_definition = {
+		coa = GAL_hv
+		priority = 100
+		trigger = {
+			coa_controls_volhyn_halych_trigger = yes
+			exists = scope:actor
+		}
+	}
+	flag_definition = {
+		coa = GAL_hv_gssr
+		priority = 1500
+		trigger = {
+			coa_controls_volhyn_halych_trigger = yes
+			OR ={
+				coa_def_communist_flag_trigger = yes
+			}
+		}
+	}
+	flag_definition = {
+		coa = GAL_hv_ulegion
+		priority = 1500
+		trigger = {
+			coa_controls_volhyn_halych_trigger = yes
+			OR ={
+				coa_def_dictatorship_flag_trigger = yes
+				coa_def_military_flag_trigger = yes
+			}
+		}
+	}
+	flag_definition = {
+		coa = GAL_hv_brest
+		priority = 1500
+		trigger = {
+			coa_controls_volhyn_halych_trigger = yes
+			OR ={
+				coa_def_theocracy_flag_trigger = yes
+			}
+		}
+	}
+	flag_definition = {
+		coa = GAL_hv_austrian_wukraine
+		priority = 1600
+		trigger = {
+			coa_controls_volhyn_halych_trigger = yes
+			OR ={
+				coa_def_austrian_ensign_trigger = yes
+			}
+		}
+	}
+	flag_definition = {
+		coa = GAL_hv_polish_wukraine
+		priority = 1600
+		trigger = {
+			coa_controls_volhyn_halych_trigger = yes
+			OR ={
+				coa_def_polish_ensign_trigger = yes
+			}
+		}
+	}
+	flag_definition = {
+		coa = GAL_hv_zapadorossia
+		priority = 1550
+		trigger = {
+			coa_controls_volhyn_halych_trigger = yes
+			OR ={
+				coa_def_russian_ensign_trigger = yes
+			}
+		}
+	}
+	flag_definition = {
+		coa = GAL_hv_hvp
+		priority = 1600
+		trigger = {
+			coa_controls_volhyn_halych_trigger = yes
+			coa_def_ukrainian_ensign_trigger = yes
+			OR ={
+				coa_def_monarchy_flag_trigger = yes
+				coa_def_absolute_monarchy_flag_trigger = yes
+			}
+		}
+	}
+}
+CRI = { #Qirim
+	flag_definition = {
+		coa = CRI_crimean_imamate
+		priority = 1500
+		trigger = {
+			OR ={
+				coa_def_theocracy_flag_trigger = yes
+			}
+		}
+	}	
+	flag_definition = {
+		coa = CRI_crimean_khanate
+		priority = 1500
+
+		trigger = {
+			OR ={
+				coa_def_monarchy_flag_trigger = yes
+				coa_def_absolute_monarchy_flag_trigger = yes
+				coa_def_military_flag_trigger = yes
+			}
+		}
+	}
+	flag_definition = {
+		coa = CRI_cdr
+		priority = 1500
+
+		trigger = {
 			AND ={
-				coa_def_ukrainian_ensign_trigger = yes
 				OR={
-					coa_def_dictatorship_flag_trigger = yes
 					coa_def_multicultural_flag_trigger = yes
 					coa_def_republic_flag_trigger = yes
 				}
 			}
 		}
 	}
+	flag_definition = {
+		coa = CRI_ssrt
+		priority = 1600
+
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = CRI_pontic_step
+		priority = 1600
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				has_law = law_type:law_council_republic
+				has_law = law_type:law_anarchy
+			}
+		}
+	}	
+	flag_definition = {
+		coa = CRI_taurid
+		priority = 1650
+
+		trigger = {
+			exists = scope:actor
+			coa_def_russian_ensign_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = CRI_beylik_qirim
+		priority = 1700
+
+		trigger = {
+			exists = scope:actor
+			coa_def_turkish_ensign_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = CRI_bosporus
+		priority = 1700
+
+		trigger = {
+			exists = scope:actor
+			OR = {
+				coa_def_turkish_ensign_trigger = yes
+				coa_def_pope_ensign_trigger = yes
+				coa_def_greek_ensign_trigger = yes
+			}
+		}
+	}
+	flag_definition = {
+		coa = CRI_crimean_metropolis
+		priority = 1700
+
+		trigger = {
+			coa_def_ukrainian_ensign_trigger = yes
+			OR ={
+				coa_def_theocracy_flag_trigger = yes
+			}
+		}
+	}	
+	flag_definition = {
+		coa = CRI_crimean_principality
+		priority = 1700
+		trigger = {
+			coa_def_ukrainian_ensign_trigger = yes
+			OR ={
+				coa_def_monarchy_flag_trigger = yes
+				coa_def_absolute_monarchy_flag_trigger = yes
+				coa_def_military_flag_trigger = yes
+			}
+		}
+	}
+	flag_definition = {
+		coa = CRI_arc
+		priority = 1700
+
+		trigger = {
+			AND ={
+				coa_def_ukrainian_ensign_trigger = yes
+				OR={
+					coa_def_multicultural_flag_trigger = yes
+					coa_def_republic_flag_trigger = yes
+				}
+			}
+		}
+	}
+	flag_definition = {
+		coa = CRI_cassr
+		priority = 1750
+
+		trigger = { 
+			OR = {
+			coa_def_ukrainian_ensign_trigger = yes
+			coa_def_russian_ensign_trigger = yes
+			}
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = CRI_free_peninsula
+		priority = 1700
+
+		trigger = {
+			coa_def_ukrainian_ensign_trigger = yes
+			exists = scope:actor
+			scope:actor = {
+				has_law = law_type:law_council_republic
+				has_law = law_type:law_anarchy
+			}
+		}
+	}	
+}
+DON = { #Don-kub
+	#Don
+    flag_definition = {
+        coa = DON_d_don
+        priority = 1500
+        
+        
+        trigger = {
+            coa_controls_don_trigger = yes
+        }
+    }
+    flag_definition = {
+        coa = DON_d_dsr
+        priority = 1600
+        
+        
+        trigger = {
+            coa_controls_don_trigger = yes
+            OR ={
+                coa_def_communist_flag_trigger = yes
+            }
+        }
+    }
+    flag_definition = {
+        coa = DON_d_don_host
+        priority = 1600
+        
+        
+        trigger = {
+            coa_controls_don_trigger = yes
+            OR ={
+                coa_def_dictatorship_flag_trigger = yes
+                coa_def_military_flag_trigger = yes
+            }
+        }
+    }
+    flag_definition = {
+        coa = DON_d_don_order
+        priority = 1600
+        
+        
+        trigger = {
+            coa_controls_don_trigger = yes
+            OR ={
+                coa_def_theocracy_flag_trigger = yes
+            }
+        }
+    }	
+    flag_definition = {
+        coa = DON_d_dr
+        priority = 1600
+        
+        trigger = {
+            coa_controls_don_trigger = yes
+            OR ={
+                coa_def_multicultural_flag_trigger = yes
+            }
+        }
+    }
+    flag_definition = {
+        coa = DON_d_yugorosia
+        priority = 1650
+        
+        
+        trigger = {
+            coa_controls_don_trigger = yes
+            OR ={
+                coa_def_russian_ensign_trigger = yes
+            }
+        }
+    }
+    flag_definition = {
+        coa = DON_d_azov
+        priority = 1700
+        
+        
+        trigger = {
+            coa_controls_don_trigger = yes
+            AND ={
+                coa_def_ukrainian_ensign_trigger = yes
+                OR={
+                    coa_def_multicultural_flag_trigger = yes
+                    coa_def_republic_flag_trigger = yes
+                }
+            }
+        }
+    }
+    flag_definition = {
+        coa = DON_d_rostiv_self
+        priority = 1700
+        
+        
+        trigger = {
+            coa_controls_don_trigger = yes
+            exists = scope:actor
+            scope:actor = {
+                has_law = law_type:law_council_republic
+                has_law = law_type:law_anarchy
+            }
+        }
+    }	
+    flag_definition = {
+        coa = DON_d_don_revcom
+        priority = 1800
+        
+        
+        trigger = {
+            coa_controls_don_trigger = yes
+            coa_def_ukrainian_ensign_trigger = yes
+            OR ={
+                coa_def_communist_flag_trigger = yes
+            }
+        }
+    }	
+    flag_definition = {
+        coa = DON_d_east_sich
+        priority = 1800
+        
+        
+        trigger = {
+            coa_controls_don_trigger = yes
+            coa_def_ukrainian_ensign_trigger = yes
+            OR ={
+                coa_def_dictatorship_flag_trigger = yes
+                coa_def_military_flag_trigger = yes
+            }
+        }
+    }
+    flag_definition = {
+        coa = DON_d_don_metropolia
+        priority = 1800
+        
+        
+        trigger = {
+            coa_controls_don_trigger = yes
+            coa_def_ukrainian_ensign_trigger = yes
+            OR ={
+                coa_def_theocracy_flag_trigger = yes
+            }
+        }
+    }
+    flag_definition = {
+        coa = DON_d_azov_territory
+        priority = 1700
+        
+        
+        trigger = {
+            coa_controls_don_trigger = yes
+            coa_def_ukrainian_ensign_trigger = yes
+            exists = scope:actor
+            scope:actor = {
+                has_law = law_type:law_council_republic
+                has_law = law_type:law_anarchy
+            }
+        }
+    }
+    flag_definition = {
+        coa = DON_d_pd 
+        priority = 1800
+        
+        
+        trigger = {
+            coa_controls_don_trigger = yes
+            coa_def_ukrainian_ensign_trigger = yes
+            OR ={
+                coa_def_monarchy_flag_trigger = yes
+                coa_def_absolute_monarchy_flag_trigger = yes
+            }
+        }
+    }	
+    flag_definition = {
+        coa = DON_d_tana
+        priority = 1700
+        
+        
+        trigger = {
+            AND = {
+                coa_controls_don_trigger = yes
+                coa_def_italian_ensign_trigger = yes
+            }
+        }
+    }
+    #Kuban
+        flag_definition = {
+        coa = DON_k_kuban
+        priority = 1500
+        
+        
+        trigger = {
+            coa_controls_kuban_trigger = yes
+        }
+    }
+    flag_definition = {
+        coa = DON_k_ksr
+        priority = 1600
+        
+        
+        trigger = {
+            coa_controls_kuban_trigger = yes
+            OR ={
+                coa_def_communist_flag_trigger = yes
+            }
+        }
+    }
+    flag_definition = {
+        coa = DON_k_kubam_host
+        priority = 1600
+        
+        
+        trigger = {
+            coa_controls_kuban_trigger = yes
+            OR ={
+                coa_def_dictatorship_flag_trigger = yes
+                coa_def_military_flag_trigger = yes
+            }
+        }
+    }
+    flag_definition = {
+        coa = DON_k_bogodar
+        priority = 1600
+        
+        
+        trigger = {
+            coa_controls_kuban_trigger = yes
+            OR ={
+                coa_def_theocracy_flag_trigger = yes
+            }
+        }
+    }	
+    flag_definition = {
+        coa = DON_k_kpr
+        priority = 1600
+        
+        trigger = {
+            coa_controls_kuban_trigger = yes
+            OR ={
+                coa_def_republic_flag_trigger = yes
+                coa_def_multicultural_flag_trigger = yes
+            }
+        }
+    }
+    flag_definition = {
+        coa = DON_k_chornorossia
+        priority = 1650
+        
+        
+        trigger = {
+            coa_controls_kuban_trigger = yes
+            OR ={
+                coa_def_russian_ensign_trigger = yes
+            }
+        }
+    }
+    flag_definition = {
+        coa = DON_k_akpr
+        priority = 1700
+        
+        
+        trigger = {
+            coa_controls_kuban_trigger = yes
+            AND ={
+                coa_def_ukrainian_ensign_trigger = yes
+                OR={
+                    coa_def_dictatorship_flag_trigger = yes
+                    coa_def_multicultural_flag_trigger = yes
+                    coa_def_republic_flag_trigger = yes
+                }
+            }
+        }
+    }
+    flag_definition = {
+        coa = DON_k_kuban_self
+        priority = 1600
+        
+        
+        trigger = {
+            coa_controls_kuban_trigger = yes
+            exists = scope:actor
+            scope:actor = {
+                has_law = law_type:law_council_republic
+                has_law = law_type:law_anarchy
+            }
+        }
+    }	
+    flag_definition = {
+        coa = DON_k_kuban_com
+        priority = 1800
+        
+        
+        trigger = {
+            coa_controls_kuban_trigger = yes
+            coa_def_ukrainian_ensign_trigger = yes
+            OR ={
+                coa_def_communist_flag_trigger = yes
+            }
+        }
+    }	
+    flag_definition = {
+        coa = DON_k_kuban_sich
+        priority = 1800
+        
+        
+        trigger = {
+            coa_controls_kuban_trigger = yes
+            coa_def_ukrainian_ensign_trigger = yes
+            OR ={
+                coa_def_dictatorship_flag_trigger = yes
+                coa_def_military_flag_trigger = yes
+            }
+        }
+    }
+    flag_definition = {
+        coa = DON_k_tmutarakan_metropolia
+        priority = 1800
+        
+        
+        trigger = {
+            coa_controls_kuban_trigger = yes
+            coa_def_ukrainian_ensign_trigger = yes
+            OR ={
+                coa_def_theocracy_flag_trigger = yes
+            }
+        }
+    }
+    flag_definition = {
+        coa = DON_k_kuban_terriytory
+        priority = 1800
+        
+        
+        trigger = {
+            coa_controls_kuban_trigger = yes
+            coa_def_ukrainian_ensign_trigger = yes
+            exists = scope:actor
+            scope:actor = {
+                has_law = law_type:law_council_republic
+                has_law = law_type:law_anarchy
+            }
+        }
+    }
+    flag_definition = {
+        coa = DON_k_pt
+        priority = 1500
+        
+        
+        trigger = {
+            coa_controls_kuban_trigger = yes
+            coa_def_ukrainian_ensign_trigger = yes
+            OR ={
+                coa_def_monarchy_flag_trigger = yes
+                coa_def_absolute_monarchy_flag_trigger = yes
+            }
+        }
+    }	
+    flag_definition = {
+        coa = DON_k_hermonassa
+        priority = 1700
+        
+        
+        trigger = {
+            coa_controls_kuban_trigger = yes
+            OR ={
+                coa_def_greek_ensign_trigger = yes
+            }
+        }
+    }
+    flag_definition = {
+        coa = DON_k_tamantarkhan
+        priority = 1700
+        
+        
+        trigger = {
+            coa_controls_kuban_trigger = yes
+            OR ={
+                coa_def_crimea_ensign_trigger = yes
+            }
+        }
+    }
+    #Don-Kuban
+    flag_definition = {
+        coa = DON_dk_dk
+        priority = 1500
+        
+        
+        trigger = {
+        coa_controls_kuban_don_trigger = yes
+        }
+    }
+    flag_definition = {
+        coa = DON_dk_kbssr
+        priority = 1600
+        
+        
+        trigger = {
+        coa_controls_kuban_don_trigger = yes
+            OR ={
+                coa_def_communist_flag_trigger = yes
+            }
+        }
+    }
+    flag_definition = {
+        coa = DON_dk_dkch
+        priority = 1600
+        
+        
+        trigger = {
+        coa_controls_kuban_don_trigger = yes
+            OR ={
+                coa_def_dictatorship_flag_trigger = yes
+                coa_def_military_flag_trigger = yes
+            }
+        }
+    }
+    flag_definition = {
+        coa = DON_dk_hdto
+        priority = 1600
+        
+        
+        trigger = {
+        coa_controls_kuban_don_trigger = yes
+            OR ={
+                coa_def_theocracy_flag_trigger = yes
+            }
+        }
+    }	
+    flag_definition = {
+        coa = DON_dk_eupr
+        priority = 1600
+        
+        trigger = {
+        coa_controls_kuban_don_trigger = yes
+            OR ={
+                coa_def_multicultural_flag_trigger = yes
+            }
+        }
+    }
+    flag_definition = {
+        coa = DON_dk_adh
+        priority = 1650
+        
+        
+        trigger = {
+        coa_controls_kuban_don_trigger = yes
+            OR ={
+                coa_def_russian_ensign_trigger = yes
+            }
+        }
+    }
+    flag_definition = {
+        coa = DON_dk_ea_aukraine
+        priority = 1700
+        
+        
+        trigger = {
+        coa_controls_kuban_don_trigger = yes
+            AND ={
+                coa_def_ukrainian_ensign_trigger = yes
+                OR={
+                    coa_def_dictatorship_flag_trigger = yes
+                    coa_def_multicultural_flag_trigger = yes
+                    coa_def_republic_flag_trigger = yes
+                }
+            }
+        }
+    }
+    flag_definition = {
+        coa = DON_dk_alg
+        priority = 1600
+        
+        
+        trigger = {
+        coa_controls_kuban_don_trigger = yes
+            exists = scope:actor
+            scope:actor = {
+                has_law = law_type:law_council_republic
+                has_law = law_type:law_anarchy
+            }
+        }
+    }	
+    flag_definition = {
+        coa = DON_dk_dkuc
+        priority = 1800
+        
+        
+        trigger = {
+        coa_controls_kuban_don_trigger = yes
+            coa_def_ukrainian_ensign_trigger = yes
+            OR ={
+                coa_def_communist_flag_trigger = yes
+            }
+        }
+    }	
+    flag_definition = {
+        coa = DON_dk_east_sich
+        priority = 1800
+        
+        
+        trigger = {
+        coa_controls_kuban_don_trigger = yes
+            coa_def_ukrainian_ensign_trigger = yes
+            OR ={
+                coa_def_dictatorship_flag_trigger = yes
+                coa_def_military_flag_trigger = yes
+            }
+        }
+    }
+    flag_definition = {
+        coa = DON_dk_west_terriytory
+        priority = 1800
+        
+        
+        trigger = {
+        coa_controls_kuban_don_trigger = yes
+            coa_def_ukrainian_ensign_trigger = yes
+            exists = scope:actor
+            scope:actor = {
+                has_law = law_type:law_council_republic
+                has_law = law_type:law_anarchy
+            }
+        }
+    }
+    flag_definition = {
+        coa = DON_dk_gpt
+        priority = 1500
+        
+        
+        trigger = {
+        coa_controls_kuban_don_trigger = yes
+            coa_def_ukrainian_ensign_trigger = yes
+            OR ={
+                coa_def_monarchy_flag_trigger = yes
+                coa_def_absolute_monarchy_flag_trigger = yes
+            }
+        }
+    }	
+    flag_definition = {
+        coa = DON_dk_tana
+        priority = 1700
+        
+        
+        trigger = {
+            AND = {
+                coa_controls_don_trigger = yes
+                coa_def_italian_ensign_trigger = yes
+            }
+        }
+    }
+    flag_definition = {
+        coa = DON_dk_hermonassa
+        priority = 1700
+        
+        
+        trigger = {
+            coa_controls_kuban_trigger = yes
+            OR ={
+                coa_def_greek_ensign_trigger = yes
+            }
+        }
+    }
+    flag_definition = {
+        coa = DON_dk_tamantarkhan
+        priority = 1700
+        
+        
+        trigger = {
+            coa_controls_kuban_trigger = yes
+            OR ={
+                coa_def_crimea_ensign_trigger = yes
+            }
+        }
+    }
+
 }
