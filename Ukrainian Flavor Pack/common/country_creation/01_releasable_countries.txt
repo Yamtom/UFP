@@ -2,7 +2,16 @@
 ZAZ = {
 	states = { STATE_CHERSON STATE_LUHANSK }
 	
-	states = { STATE_CHERSON }
-
 	ai_will_do = { always = no }
 }
+GAL = {
+	states = { STATE_EAST_GALICIA STATE_WEST_GALICIA STATE_VOLHYNIA STATE_BREST}
+	ai_will_do = { always = no }
+}
+DON = {
+	states = {
+		STATE_ROSTOV
+		STATE_KUBAN
+	}
+	ai_will_do = { always = no }
+} 

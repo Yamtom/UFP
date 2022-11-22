@@ -19,3 +19,190 @@ coa_def_polish_ensign_trigger = {
 		}
 	}
 }
+coa_def_pope_ensign_trigger = {
+	exists = c:PAP
+	c:PAP = { save_temporary_scope_as = custom_overlord }
+	coa_def_ensign_trigger = yes
+}
+
+coa_def_italian_ensign_trigger = {
+	OR = {
+		AND = {
+			exists = c:ITA
+			c:ITA = { save_temporary_scope_as = custom_overlord }
+			coa_def_ensign_trigger = yes
+		}
+		AND = {
+			exists = c:SIC
+			c:SIC = { save_temporary_scope_as = custom_overlord }
+			coa_def_ensign_trigger = yes
+		}
+		AND = {
+			exists = c:TUS
+			c:TUS = { save_temporary_scope_as = custom_overlord }
+			coa_def_ensign_trigger = yes
+		}
+		AND = {
+			exists = c:SAR
+			c:SAR = { save_temporary_scope_as = custom_overlord }
+			coa_def_ensign_trigger = yes
+		}
+	}
+}
+coa_def_greek_ensign_trigger = {
+	OR = {
+		AND = {
+			exists = c:GRE
+			c:GRE = { save_temporary_scope_as = custom_overlord }
+			coa_def_ensign_trigger = yes
+		}
+		AND = {
+			exists = c:BYZ
+			c:BYZ = { save_temporary_scope_as = custom_overlord }
+			coa_def_ensign_trigger = yes
+		}
+	}
+}
+coa_def_crimea_ensign_trigger = {
+	exists = c:CRI
+	c:CRI = { save_temporary_scope_as = custom_overlord }
+	coa_def_ensign_trigger = yes
+}
+coa_controls_halych_trigger = {
+	exists = scope:actor
+	AND = {
+		scope:actor = {
+			any_scope_state = {
+				state_region = {
+					this = s:STATE_EAST_GALICIA
+				}
+			}
+		}
+		NOT = {
+			scope:actor = {
+				any_scope_state = {
+					state_region = {
+						this = s:STATE_VOLHYNIA
+					}
+				}
+			}
+		}
+	}
+}
+coa_controls_volhyn_trigger = {
+	exists = scope:actor
+	AND = {
+		scope:actor = {
+			any_scope_state = {
+				state_region = {
+					this = s:STATE_VOLHYNIA
+				}
+			}
+		}
+		NOT = {
+			scope:actor = {
+				any_scope_state = {
+					state_region = {
+						this = s:STATE_EAST_GALICIA
+					}
+				}
+			}
+		}
+	}
+}
+coa_controls_volhyn_halych_trigger = {
+	exists = scope:actor
+	AND = {
+		scope:actor = {
+			any_scope_state = {
+				state_region = {
+					this = s:STATE_VOLHYNIA
+				}
+			}
+		}
+		scope:actor = {
+			any_scope_state = {
+				state_region = {
+					this = s:STATE_EAST_GALICIA
+				}
+			}
+		}
+		scope:actor = {
+			any_scope_state = {
+				state_region = {
+					this = s:STATE_WEST_GALICIA
+				}
+			}
+		}
+	}
+}
+coa_controls_don_trigger = {
+	exists = scope:actor
+	AND = {
+		scope:actor = {
+			any_scope_state = {
+				state_region = {
+					this = s:STATE_ROSTOV
+				}
+			}
+		}
+		NOT = {
+			scope:actor = {
+				any_scope_state = {
+					state_region = {
+						this = s:STATE_KUBAN
+					}
+				}
+			}
+		}
+	}
+}
+coa_controls_kuban_trigger = {
+	exists = scope:actor
+	AND = {
+		scope:actor = {
+			any_scope_state = {
+				state_region = {
+					this = s:STATE_KUBAN
+				}
+			}
+		}
+		NOT = {
+			scope:actor = {
+				any_scope_state = {
+					state_region = {
+						this = s:STATE_ROSTOV
+					}
+				}
+			}
+		}
+	}	
+}
+coa_controls_don_kuban_trigger = {
+	exists = scope:actor
+	AND = {
+		scope:actor = {
+			any_scope_state = {
+				state_region = {
+					this = s:STATE_KUBAN
+				}
+			}
+		}
+		scope:actor = {
+			any_scope_state = {
+				state_region = {
+					this = s:STATE_ROSTOV
+				}
+			}
+		}
+	}
+}
+coa_kukurudza_trigger = {
+	any_scope_character = {
+		is_ruler = yes
+		OR ={
+			has_last_name = Khrushchiv
+			has_first_name = Yaroslav
+		}
+    }
+}

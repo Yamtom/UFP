@@ -4,8 +4,29 @@ ZAZ = {
 	
 	country_type = recognized
 
-	tier = kingdom
+	tier = principality
 	
 	cultures = { ukrainian }
 	capital = STATE_CHERSON
+}
+
+GAL = {
+	color = { 13  81  130 }
+			
+	country_type = recognized
+
+	tier = principality
+			
+	cultures = { ukrainian polish }
+	
+	capital = STATE_EAST_GALICIA
+	capital = STATE_VOLHYNIA
+}
+DON = {
+	color = { 245 221 42 }
+	country_type = recognized
+	tier = principality
+	cultures = { russian ukrainian }
+	capital = STATE_ROSTOV
+	capital = STATE_KUBAN
 }

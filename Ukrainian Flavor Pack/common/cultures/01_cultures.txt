@@ -1,9 +1,10 @@
 
 ukrainian={
-	color= hsv{ 0.36 0.46 0.62 }
+	color= rgb{ 0.36 0.46 0.62 }
 	religion = orthodox
 	traits = { east_slavic european_heritage }
-	male_common_first_names={Andriy
+	male_common_first_names={
+		Andriy
 		Anton
 		Arkadiy
 		Artem
@@ -165,7 +166,6 @@ ukrainian={
 		Kondratenko
 		Koval
 		Konovalets
-		Khrushchov
 		Leshchenko
 		Leshchinskiy
 		Melnyk
@@ -183,6 +183,7 @@ ukrainian={
 		Tolochko
 		Tymoshenko
 		Vitovskiy
+		Khrushchiv
 	}
 	ethnicities = {
 		1 = slavic

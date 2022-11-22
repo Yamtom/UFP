@@ -6379,7 +6379,6 @@ STATES = {
 			owned_provinces = { x9426E7 x61F467 x87516C x6B9AB7 x1C2E4D x31E0E0 x706060 xF56D13 xB0DFDF }
 		}
 		
-		add_homeland = russian
 		add_homeland = tatar
 		add_homeland = ukrainian
 	}
@@ -6390,7 +6389,6 @@ STATES = {
 		}
 		
 		add_homeland = ukrainian
-		add_homeland = russian
 	}
 	s:STATE_KURSK = {
 		create_state = {
