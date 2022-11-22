@@ -420,18 +420,6 @@ CRI = { #Qirim
 		}
 	}	
 	flag_definition = {
-		coa = CRI_crimean_khanate
-		priority = 1500
-
-		trigger = {
-			OR ={
-				coa_def_monarchy_flag_trigger = yes
-				coa_def_absolute_monarchy_flag_trigger = yes
-				coa_def_military_flag_trigger = yes
-			}
-		}
-	}
-	flag_definition = {
 		coa = CRI_cdr
 		priority = 1500
 
@@ -1064,13 +1052,13 @@ DON = { #Don-kub
         }
     }
     flag_definition = {
-        coa = DON_dk_west_terriytory
+        coa = DON_dk_east_terriytory
         priority = 1800
         
         
         trigger = {
         coa_controls_kuban_don_trigger = yes
-            coa_def_ukrainian_ensign_trigger = yes
+        coa_def_ukrainian_ensign_trigger = yes
             exists = scope:actor
             scope:actor = {
                 has_law = law_type:law_council_republic
@@ -1128,5 +1116,4 @@ DON = { #Don-kub
             }
         }
     }
-
 }
