@@ -634,7 +634,7 @@ GAL_hv_we_aukraine = {
 		instance = {scale = { 0.65 0.65 } }
 	}
 }
-GAL_hv_hvp = { 	
+GAL_hv_hvp = { 	``
 	pattern = "pattern_horizontal_split_01.tga"
 	color1 = "blue_light"
 	color2 = "yellow"
@@ -834,7 +834,7 @@ CRI_cassr = {
 		instance = { position = { 0.25 @third } scale = { 0.5 0.5 } }
 	}
 }
-DON_d_don = {
+DON = {
 	pattern = "pattern_solid.tga"
 	color1 = "blue"
 
@@ -1036,257 +1036,6 @@ DON_d_tana = {
 		color2 = "red_dark"
 	}
 }
-DON_k_kuban = {
-	pattern = "pattern_solid.tga"
-	color1 = "pink"
-
-	colored_emblem = {
-		texture = "ce_bicolor_bottom.dds"
-		color1 = "blue_light"
-		color2 = "blue_light"
-        instance = { scale = { 1.0 0.5 } position = { 0.5 0 }  }
-	}
-	colored_emblem = {
-		texture = "ce_bicolor_top.dds"
-		color1 = "green_light"
-		color2 = "green_light"
-        instance = { scale = { 1.0 0.5 } position = { 0.5 1 }  }
-	}
-}
-DON_k_ksr = {
-	pattern = "pattern_solid.tga"
-	color1 = "red"
-	color2 = "yellow"
-	color3 = "pink"
-	
-	colored_emblem = {
-		texture = "ce_solid.dds"
-		color1 = color3
-		color2 = color3
-        instance = { scale = { 1.0 @third } position = { 0.5 @[1-third/2] }  }	
-	}
-	colored_emblem = {
-		texture = "ce_hammer_sickle_star_ussr.dds"
-		color1 = color2
-		color2 = color2
-		instance = { position = { 0.25 @third } scale = { 0.5 0.5 } }
-	}	
-}
-DON_k_kubam_host = {
-	pattern = "pattern_solid.tga"
-	color1 = "pink"
-	color2 = "blue_light"
-	color3 = "yellow"
-	
-	colored_emblem = {
-		texture = "ce_solid.dds"
-		color1 = color3
-		color2 = color3
-        instance = { scale = { 1.0 @[third] } position = { 0.5 @[1-third/4] }  }	
-	}
-	colored_emblem = {
-		texture = "ce_solid.dds"
-		color1 = color2
-		color2 = color2
-        instance = { scale = { 1.0 @[third] } position = { 0.5 0.05 }  }	
-	}
-	colored_emblem = {
-		texture = "zaz.dds"
-		color1 = "blue_light"
-		color2 = "yellow"
-		color3 = "blue_light"
-		instance = { position = { 0.25 0.5 } scale = { 0.5 0.5 } }
-	}	
-}
-DON_k_bogodar = {
-	pattern = "pattern_solid.tga"
-	color1 = "pink"
-
-	colored_emblem = {
-		texture = "ce_bicolor_bottom.dds"
-		color1 = "blue_light"
-		color2 = "blue_light"
-        instance = { scale = { 1.0 0.5 } position = { 0.5 0 }  }
-	}
-	colored_emblem = {
-		texture = "ce_bicolor_top.dds"
-		color1 = "green_light"
-		color2 = "green_light"
-        instance = { scale = { 1.0 0.5 } position = { 0.5 1 }  }
-	}
-	colored_emblem = {
-		texture = "orthodox_cross.dds"
-		color1 = "black"
-		instance = { position = { 0.5 0.5 } scale = { 0.25 0.5 } }
-	}	
-}
-DON_k_kpr = {
-	pattern = "pattern_solid.tga"
-	color1 = "pink"
-
-	colored_emblem = {
-		texture = "ce_bicolor_bottom.dds"
-		color1 = "blue_light"
-		color2 = "blue_light"
-        instance = { scale = { 1.0 0.5 } position = { 0.5 0 }  }
-	}
-	colored_emblem = {
-		texture = "ce_bicolor_top.dds"
-		color1 = "green_light"
-		color2 = "green_light"
-        instance = { scale = { 1.0 0.5 } position = { 0.5 1 }  }
-	}
-}
-DON_k_chornorossia = {
-	pattern = "pattern_solid.tga"
-	color1 = "blue"
-
-	colored_emblem = {
-		texture = "ped_rus_cross.dds"
-		color1 = "white"
-		color2 = "black"
-	}
-	colored_emblem = {
-		texture = "ce_circle.dds"
-		color1 = "red"
-        instance = { scale = { 1.25 1.25 } position = { 0.5 0.5 }  }
-	}
-	colored_emblem = {
-		texture = "ce_eagle_doubleheaded_base.dds"
-		color1 = "black"
-		color2 = "yellow"
-		color3 = "white"
-        instance = { scale = { 0.75 0.75 } position = { 0.5 0.5 }  }
-	}
-}
-DON_k_akpr = {
-	pattern = "pattern_horizontal_split_01.tga"
-	color1 = "blue_light"
-	color2 = "yellow"
-
-	colored_emblem = {
-		texture = "ce_rhombus.dds"
-		color1 = "pink"
-		color2 = "pink"
-		instance = { position = { 0 0.5 } }
-	}
-}
-DON_k_kuban_com = {
-	pattern = "pattern_solid.tga"
-	color1 = "pink"
-	
-	colored_emblem = {
-		texture = "ce_hammer_sickle_star_ussr.dds"
-		color1 = "yellow_light"
-		color2 = "yellow_light"
-		instance = { position = { 0.175 @third } scale = { 0.5 0.5 } }
-	}	
-	colored_emblem = {
-		texture = "ce_tricolor_vertical.dds"
-		color1 = "yellow"
-		color2 = "red"
-	}
-}
-DON_k_kuban_sich = {
-	pattern = "pattern_solid.tga"
-	color1 = "blue_light"
-	color2 = "pink"
-	color3 = "pink"
-	
-	colored_emblem = {
-		texture = "ce_bicolor_bottom.dds"
-		color1 = "green_light"
-        instance = { scale = { 1.0 @[third] } position = { 0.5 @[1-third/2] }  }	
-	}
-	colored_emblem = {
-		texture = "ce_bicolor_bottom.dds"
-		color1 = "pink"
-        instance = { scale = { 1.0 @[third] } position = { 0.5 @[1-third/1] }  }	
-	}
-	colored_emblem = {
-		texture = "zaz.dds"
-		color1 = "pink"
-		color2 = "yellow"
-		color3 = "blue_light"
-		instance = { position = { 0.25 @third } scale = { 0.5 0.5 } }
-	}
-}
-DON_k_tmutarakan_metropolia = {
-	pattern = "pattern_solid.tga"
-	color1 = "white"
-
-	colored_emblem = {
-		texture = "ce_tricolor_horizontal.dds"
-		color1 = "blue"
-		color2 = "yellow"
-	}
-	colored_emblem = {
-		texture = "ce_circle.dds"
-		color1 = "blue"
-		color2 = "yellow"
-	}
-	colored_emblem = {
-		texture = "tryzub.dds"
-		color1 = "white"
-		color2 = "yellow_dark"
-		color3 = "yellow"
-		instance = { position = { 0.5 0.5 } scale = { 0.35 0.5 } }
-	}
-}
-DON_k_kuban_terriytory = {
-	pattern = "pattern_solid.tga"
-	color1 = "pink"
-
-	colored_emblem = {
-		texture = "ce_bicolor_bottom.dds"
-		color1 = "blue_light"
-		color2 = "blue_light"
-        instance = { scale = { 1.0 0.5 } position = { 0.5 0 }  }
-	}
-	colored_emblem = {
-		texture = "ce_bicolor_top.dds"
-		color1 = "green_light"
-		color2 = "green_light"
-        instance = { scale = { 1.0 0.5 } position = { 0.5 1 }  }
-	}
-}
-DON_k_pt = {
-	pattern = "pattern_horizontal_split_01.tga"
-	color1 = "blue_light"
-	color2 = "yellow"
-
-	colored_emblem = {
-		texture = "ce_shield_cross.dds"
-		color1 = "pink"
-		color2 = "green_light"
-		color3 = "green_light"
-		instance = {scale = { 1 1 }  position = { 0.5 0.49 } }
-	}
-}
-DON_k_hermonassa = {
-	pattern = "pattern_horizontal_split_01.tga"
-	color1 = "blue_light"
-	color2 = "green_light"
-
-	colored_emblem = {
-		texture = "ce_aurochs_head.dds"
-		color1 = "red_faint"
-		color2 = "yellow"
-		instance = {scale = { 1 1 }  position = { 0.5 0.49 } }
-	}
-}
-DON_k_tamantarkhan = {
-	pattern = "pattern_solid.tga"
-	color1 = "blue_light"
-
-	colored_emblem = {
-		texture = "tamga2.dds"
-		color1 = "pink"
-		color2 = "pink"
-		color3 = "green_light"
-		instance = {scale = { 0.5 0.75 }  position = { 0.5 0.51 } }
-	}
-}
 DON_dk_dk = {
 	pattern = "pattern_solid.tga"
 	color1 = "pink"
@@ -1475,6 +1224,457 @@ DON_dk_hermonassa = {
 	}
 } 
 DON_dk_tamantarkhan = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue_light"
+
+	colored_emblem = {
+		texture = "tamga2.dds"
+		color1 = "pink"
+		color2 = "pink"
+		color3 = "green_light"
+		instance = {scale = { 0.5 0.75 }  position = { 0.5 0.51 } }
+	}
+} 
+
+KUB = {
+	pattern = "pattern_solid.tga"
+	color1 = "pink"
+
+	colored_emblem = {
+		texture = "ce_bicolor_bottom.dds"
+		color1 = "blue_light"
+		color2 = "blue_light"
+        instance = { scale = { 1.0 0.5 } position = { 0.5 0 }  }
+	}
+	colored_emblem = {
+		texture = "ce_bicolor_top.dds"
+		color1 = "green_light"
+		color2 = "green_light"
+        instance = { scale = { 1.0 0.5 } position = { 0.5 1 }  }
+	}
+}
+KUB_k_ksr = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+	color2 = "yellow"
+	color3 = "pink"
+	
+	colored_emblem = {
+		texture = "ce_solid.dds"
+		color1 = color3
+		color2 = color3
+        instance = { scale = { 1.0 @third } position = { 0.5 @[1-third/2] }  }	
+	}
+	colored_emblem = {
+		texture = "ce_hammer_sickle_star_ussr.dds"
+		color1 = color2
+		color2 = color2
+		instance = { position = { 0.25 @third } scale = { 0.5 0.5 } }
+	}	
+}
+KUB_k_kubam_host = {
+	pattern = "pattern_solid.tga"
+	color1 = "pink"
+	color2 = "blue_light"
+	color3 = "yellow"
+	
+	colored_emblem = {
+		texture = "ce_solid.dds"
+		color1 = color3
+		color2 = color3
+        instance = { scale = { 1.0 @[third] } position = { 0.5 @[1-third/4] }  }	
+	}
+	colored_emblem = {
+		texture = "ce_solid.dds"
+		color1 = color2
+		color2 = color2
+        instance = { scale = { 1.0 @[third] } position = { 0.5 0.05 }  }	
+	}
+	colored_emblem = {
+		texture = "zaz.dds"
+		color1 = "blue_light"
+		color2 = "yellow"
+		color3 = "blue_light"
+		instance = { position = { 0.25 0.5 } scale = { 0.5 0.5 } }
+	}	
+}
+KUB_k_bogodar = {
+	pattern = "pattern_solid.tga"
+	color1 = "pink"
+
+	colored_emblem = {
+		texture = "ce_bicolor_bottom.dds"
+		color1 = "blue_light"
+		color2 = "blue_light"
+        instance = { scale = { 1.0 0.5 } position = { 0.5 0 }  }
+	}
+	colored_emblem = {
+		texture = "ce_bicolor_top.dds"
+		color1 = "green_light"
+		color2 = "green_light"
+        instance = { scale = { 1.0 0.5 } position = { 0.5 1 }  }
+	}
+	colored_emblem = {
+		texture = "orthodox_cross.dds"
+		color1 = "black"
+		instance = { position = { 0.5 0.5 } scale = { 0.25 0.5 } }
+	}	
+}
+KUB_k_kpr = {
+	pattern = "pattern_solid.tga"
+	color1 = "pink"
+
+	colored_emblem = {
+		texture = "ce_bicolor_bottom.dds"
+		color1 = "blue_light"
+		color2 = "blue_light"
+        instance = { scale = { 1.0 0.5 } position = { 0.5 0 }  }
+	}
+	colored_emblem = {
+		texture = "ce_bicolor_top.dds"
+		color1 = "green_light"
+		color2 = "green_light"
+        instance = { scale = { 1.0 0.5 } position = { 0.5 1 }  }
+	}
+}
+KUB_k_chornorossia = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+
+	colored_emblem = {
+		texture = "ped_rus_cross.dds"
+		color1 = "white"
+		color2 = "black"
+	}
+	colored_emblem = {
+		texture = "ce_circle.dds"
+		color1 = "red"
+        instance = { scale = { 1.25 1.25 } position = { 0.5 0.5 }  }
+	}
+	colored_emblem = {
+		texture = "ce_eagle_doubleheaded_base.dds"
+		color1 = "black"
+		color2 = "yellow"
+		color3 = "white"
+        instance = { scale = { 0.75 0.75 } position = { 0.5 0.5 }  }
+	}
+}
+KUB_k_akpr = {
+	pattern = "pattern_horizontal_split_01.tga"
+	color1 = "blue_light"
+	color2 = "yellow"
+
+	colored_emblem = {
+		texture = "ce_rhombus.dds"
+		color1 = "pink"
+		color2 = "pink"
+		instance = { position = { 0 0.5 } }
+	}
+}
+KUB_k_kuban_com = {
+	pattern = "pattern_solid.tga"
+	color1 = "pink"
+	
+	colored_emblem = {
+		texture = "ce_hammer_sickle_star_ussr.dds"
+		color1 = "yellow_light"
+		color2 = "yellow_light"
+		instance = { position = { 0.175 @third } scale = { 0.5 0.5 } }
+	}	
+	colored_emblem = {
+		texture = "ce_tricolor_vertical.dds"
+		color1 = "yellow"
+		color2 = "red"
+	}
+}
+KUB_k_kuban_sich = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue_light"
+	color2 = "pink"
+	color3 = "pink"
+	
+	colored_emblem = {
+		texture = "ce_bicolor_bottom.dds"
+		color1 = "green_light"
+        instance = { scale = { 1.0 @[third] } position = { 0.5 @[1-third/2] }  }	
+	}
+	colored_emblem = {
+		texture = "ce_bicolor_bottom.dds"
+		color1 = "pink"
+        instance = { scale = { 1.0 @[third] } position = { 0.5 @[1-third/1] }  }	
+	}
+	colored_emblem = {
+		texture = "zaz.dds"
+		color1 = "pink"
+		color2 = "yellow"
+		color3 = "blue_light"
+		instance = { position = { 0.25 @third } scale = { 0.5 0.5 } }
+	}
+}
+KUB_k_tmutarakan_metropolia = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "blue"
+		color2 = "yellow"
+	}
+	colored_emblem = {
+		texture = "ce_circle.dds"
+		color1 = "blue"
+		color2 = "yellow"
+	}
+	colored_emblem = {
+		texture = "tryzub.dds"
+		color1 = "white"
+		color2 = "yellow_dark"
+		color3 = "yellow"
+		instance = { position = { 0.5 0.5 } scale = { 0.35 0.5 } }
+	}
+}
+KUB_k_kuban_terriytory = {
+	pattern = "pattern_solid.tga"
+	color1 = "pink"
+
+	colored_emblem = {
+		texture = "ce_bicolor_bottom.dds"
+		color1 = "blue_light"
+		color2 = "blue_light"
+        instance = { scale = { 1.0 0.5 } position = { 0.5 0 }  }
+	}
+	colored_emblem = {
+		texture = "ce_bicolor_top.dds"
+		color1 = "green_light"
+		color2 = "green_light"
+        instance = { scale = { 1.0 0.5 } position = { 0.5 1 }  }
+	}
+}
+KUB_k_pt = {
+	pattern = "pattern_horizontal_split_01.tga"
+	color1 = "blue_light"
+	color2 = "yellow"
+
+	colored_emblem = {
+		texture = "ce_shield_cross.dds"
+		color1 = "pink"
+		color2 = "green_light"
+		color3 = "green_light"
+		instance = {scale = { 1 1 }  position = { 0.5 0.49 } }
+	}
+}
+KUB_k_hermonassa = {
+	pattern = "pattern_horizontal_split_01.tga"
+	color1 = "blue_light"
+	color2 = "green_light"
+
+	colored_emblem = {
+		texture = "ce_aurochs_head.dds"
+		color1 = "red_faint"
+		color2 = "yellow"
+		instance = {scale = { 1 1 }  position = { 0.5 0.49 } }
+	}
+}
+KUB_k_tamantarkhan = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue_light"
+
+	colored_emblem = {
+		texture = "tamga2.dds"
+		color1 = "pink"
+		color2 = "pink"
+		color3 = "green_light"
+		instance = {scale = { 0.5 0.75 }  position = { 0.5 0.51 } }
+	}
+}
+KUB_dk_dk = {
+	pattern = "pattern_solid.tga"
+	color1 = "pink"
+
+	colored_emblem = {
+		texture = "ce_bicolor_bottom.dds"
+		color1 = "blue_light"
+		color2 = "blue_light"
+        instance = { scale = { 1.0 0.5 } position = { 0.5 0 }  }
+	}
+	colored_emblem = {
+		texture = "ce_bicolor_top.dds"
+		color1 = "green_light"
+		color2 = "green_light"
+        instance = { scale = { 1.0 0.5 } position = { 0.5 1 }  }
+	}
+}
+KUB_dk_kbssr = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+	color2 = "yellow"
+	color3 = "pink"
+	
+	colored_emblem = {
+		texture = "ce_solid.dds"
+		color1 = color3
+		color2 = color3
+        instance = { scale = { 1.0 @third } position = { 0.5 @[1-third/2] }  }	
+	}
+	colored_emblem = {
+		texture = "ce_hammer_sickle_star_ussr.dds"
+		color1 = color2
+		color2 = color2
+		instance = { position = { 0.25 @third } scale = { 0.5 0.5 } }
+	}	
+}
+KUB_dk_dkch = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "yellow"
+		color2 = "red"
+	}
+	colored_emblem = {
+		texture = "KUB.dds"
+		color1 = "blue"
+		color2 = "yellow"
+		color3 = "white"
+		instance = { position = { 0.25 0.5 } scale = { 0.25 0.375 } }
+	}
+	colored_emblem = {
+		texture = "zaz.dds"
+		color1 = "white"
+		color2 = "yellow"
+		color3 = "blue_light"
+		instance = { position = { 0.75 0.47 } scale = { 0.5 0.5 } }
+	}
+}
+KUB_dk_hdto = {
+	pattern = "pattern_vertical_split_01.tga"
+	color1 = "yellow"
+	color2 = "white"
+	colored_emblem = {
+		texture = "ce_rhombus.dds"
+		color1 = "blue_light"
+		instance = { scale = { 0.375 0.75 } position = { 0.5 0.49 } }
+	}	
+	colored_emblem = {
+		texture = "ce_cross_order_christ.dds"
+		color1 = "red"
+		instance = { scale = { 0.375 0.75 } position = { 0.5 0.49 } }
+	}	
+}
+KUB_dk_eupr = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	colored_emblem = {
+		texture = "ce_bicolor_bottom.dds"
+		color1 = "blue_light"
+		color2 = "yellow"
+		instance = { scale = { 0.333 0.333 } position = { 0.333 0.333 } }
+	}
+}
+KUB_dk_adh = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "yellow"
+		color2 = "red"
+	}
+	colored_emblem = {
+		texture = "ce_rhombus.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { position = { 0 0.5 } }
+	}
+}
+KUB_dk_ea_aukraine = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	colored_emblem = {
+		texture = "ce_bicolor_bottom.dds"
+		color1 = "blue_light"
+		color2 = "blue_light"
+		instance = { scale = { 0.333 0.333 } position = { 0.1666 0 } }
+	}
+	colored_emblem = {
+		texture = "ce_bicolor_bottom.dds"
+		color1 = "yellow_light"
+		color2 = "yellow_light"
+		instance = { scale = { 0.333 0.333 } position = { 0.1666 0.1666 } }
+	}
+	colored_emblem = {
+		texture = "tryzub2.dds"
+		color1 = "yellow_light"
+		color2 = "yellow_light"
+		color3 = "blue_light"
+		instance = { scale = { 0.333 0.5 } position = { 0.7 0.6 } }
+	}
+}
+KUB_dk_east_sich = {
+	pattern = "pattern_border_of_3.dds"
+	color1 = "red"
+	color2 = "yellow"
+
+	colored_emblem = {
+		texture = "archangel.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+		color3 = "blue"
+		instance = { scale = { 0.4885 0.75 } position = { 0.5 0.5 } }
+	}
+}
+KUB_dk_east_terriytory = {
+	pattern = "pattern_solid.tga"
+	color1 = "black"
+	colored_emblem = {
+		texture = "tryzub.dds"
+		color1 = "blue_light"
+		color2 = "yellow_dark"
+		color3 = "blue_light"
+		instance = { scale = { 0.5 0.5 } position = { 0.5 0.5 } }	
+	}
+}
+KUB_dk_dkuc = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+
+	colored_emblem = {
+		texture = "ce_bicolor_bottom.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+	}
+	colored_emblem = {
+		texture = "ce_tricolor_vertical.dds"
+		color1 = "red"
+		color2 = "green"
+	}
+}  
+KUB_dk_tana = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue_light"
+
+	colored_emblem = {
+		texture = "ce_tricolor_vertical.dds"
+		color1 = "yellow"
+		color2 = "red_dark"
+	}
+} 
+KUB_dk_hermonassa = {
+	pattern = "pattern_horizontal_split_01.tga"
+	color1 = "blue_light"
+	color2 = "green_light"
+
+	colored_emblem = {
+		texture = "ce_aurochs_head.dds"
+		color1 = "red_faint"
+		color2 = "yellow"
+		instance = {scale = { 1 1 }  position = { 0.5 0.49 } }
+	}
+} 
+KUB_dk_tamantarkhan = {
 	pattern = "pattern_solid.tga"
 	color1 = "blue_light"
 

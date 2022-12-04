@@ -127,13 +127,6 @@ coa_controls_volhyn_halych_trigger = {
 				}
 			}
 		}
-		scope:actor = {
-			any_scope_state = {
-				state_region = {
-					this = s:STATE_WEST_GALICIA
-				}
-			}
-		}
 	}
 }
 coa_controls_don_trigger = {
@@ -200,9 +193,8 @@ coa_controls_don_kuban_trigger = {
 coa_kukurudza_trigger = {
 	any_scope_character = {
 		is_ruler = yes
-		OR ={
+		scope:actor = {
 			has_last_name = Khrushchiv
-			has_first_name = Yaroslav
 		}
-    }
+	}
 }

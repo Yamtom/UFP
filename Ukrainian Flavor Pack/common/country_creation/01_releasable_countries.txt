@@ -6,12 +6,10 @@ ZAZ = {
 }
 GAL = {
 	states = { STATE_EAST_GALICIA STATE_WEST_GALICIA STATE_VOLHYNIA STATE_BREST}
-	ai_will_do = { always = no }
 }
 DON = {
-	states = {
-		STATE_ROSTOV
-		STATE_KUBAN
-	}
-	ai_will_do = { always = no }
+	states = { STATE_ROSTOV }
 } 
+KUB = {
+	states = { STATE_KUBAN	}
+}
