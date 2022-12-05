@@ -1,7 +1,7 @@
 ﻿l_english:
  STATE_ROSTOV:0 "Rostiv"
  STATE_KURSK:0 "Slobozhanchyna"
- STATE_KYIV: "Kyiv"
+ STATE_KYIV:0 "Kyiv"
  HUB_NAME_STATE_EAST_GALICIA_city:1 "Lviv"
  HUB_NAME_STATE_VOLHYNIA_city:1 "Rivne"
  HUB_NAME_STATE_VOLHYNIA_mine:1 "Tarnopil"

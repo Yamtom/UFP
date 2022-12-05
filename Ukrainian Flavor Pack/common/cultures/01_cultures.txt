@@ -1,6 +1,6 @@
 
 ukrainian={
-	color= rgb{ 0.36 0.46 0.62 }
+	color= { 0.36 0.46 0.62 }
 	religion = orthodox
 	traits = { east_slavic european_heritage }
 	male_common_first_names={

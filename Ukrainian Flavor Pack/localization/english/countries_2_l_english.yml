@@ -1,7 +1,7 @@
 ﻿l_english:
 
  dyn_c_hetmanate:0 "Hetmanate Ukraine"
- dyn_c_hetmanate_adj:0 "Hetmanskian"
+ dyn_c_hetmanate_adj:0 "Hetmanian"
  dyn_c_kingdom_ukraine:0 "Kingdom of Ukraine"
  dyn_c_kingdom_ukraine_adj:0 "Ukrainian"
  dyn_c_kyiv_patriarchy:0 "Kyiv Patriarchy"
@@ -112,7 +112,7 @@
  dyn_c_v_hvp:0 "Principality of Volyn"
  dyn_c_v_hvp_adj:0 "Volynian"
  #halych-Volhyn
-  dyn_c_hv_gal:0 "Halych-Volyn"
+ dyn_c_hv_gal:0 "Halych-Volyn"
  dyn_c_hv_gal_adj:0 "Halych-Volynian"
  dyn_c_hv_gssr:0 "Halycia-Volhynian Socialist Soviet Republic"
  dyn_c_hv_gssr_adj:0 "Red"
@@ -200,8 +200,8 @@
  dyn_c_d_azov_territory:0 "Azov territory"
  dyn_c_d_azov_territory_adj:0 "Azov ukrainian"
  #Kuban
- dyn_c_k_kuban:0 "Kuban"
- dyn_c_k_kuban_adj:0 "Kubanian"
+ KUB:0 "Kuban"
+ KUB_adj:0 "Kubanian"
  dyn_c_k_ksr:0 "Kuban Soviet Republic"
  dyn_c_k_ksr_adj:0 "Red"
  dyn_c_k_kubam_host:0 "Kuban Cossack Host"

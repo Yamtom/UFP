@@ -2,33 +2,7 @@
 @third = @[1/3]
 @sixth = @[1/6]
 
-UKR_hetmanate = {
-	pattern = "pattern_horizontal_split_01.tga"
-	color1 = "blue_light"
-	color2 = "yellow"
-
-	colored_emblem = {
-		texture = "zaz.dds"
-		color1 = "red"
-		color2 = "yellow"
-		color3 = "blue_light"
-		instance = {scale = { 0.75 0.75 } }
-	}
-}
-UKR_kingdom_ukraine = {
-	pattern = "pattern_horizontal_split_01.tga"
-	color1 = "blue_light"
-	color2 = "blue_light"
-
-	colored_emblem = {
-		texture = "tryzub.dds"
-		color1 = "yellow"
-		color2 = "yellow_dark"
-		color3 = "yellow"
-		instance = {scale = { 0.5 0.75 } }
-	}
-}
-UKR_kyiv_patriarchy = {
+UKR_theocracy = {
 	pattern = "pattern_horizontal_split_01.tga"
 	color1 = "yellow_dark"
 	color2 = "yellow_dark"
@@ -41,7 +15,7 @@ UKR_kyiv_patriarchy = {
 		instance = {scale = { 0.5 1 } }
 	}
 }
-UKR_free_patriarchy = {
+UKR_theocracy_anarchy = {
 	pattern = "pattern_horizontal_split_01.tga"
 	color1 = "black"
 	color2 = "black"
@@ -54,17 +28,46 @@ UKR_free_patriarchy = {
 		instance = {scale = { 0.5 1 } }
 	}
 }
-UKR_malorossia = {
+UKR_absolute_monarchy = {
 	pattern = "pattern_horizontal_split_01.tga"
-	color1 = "yellow_dark"
-	color2 = "yellow_dark"
+	color1 = "blue_light"
+	color2 = "blue_light"
 
-	textured_emblem = {
-		texture = "te_st_george_and_the_dragon.dds"
-		instance = { scale = { 0.9 0.9 } position = { 0.5 0.51 } }
+	colored_emblem = {
+		texture = "tryzub.dds"
+		color1 = "yellow"
+		color2 = "yellow_dark"
+		color3 = "yellow"
+		instance = {scale = { 0.5 0.75 } }
 	}
 }
-UKR_people_ukraine = {
+UKR_monarchy = {
+	pattern = "pattern_horizontal_split_01.tga"
+	color1 = "blue_light"
+	color2 = "blue_light"
+
+	colored_emblem = {
+		texture = "tryzub.dds"
+		color1 = "yellow"
+		color2 = "yellow_dark"
+		color3 = "yellow"
+		instance = {scale = { 0.5 0.75 } }
+	}
+}
+UKR_dictatorship_military = {
+	pattern = "pattern_horizontal_split_01.tga"
+	color1 = "blue_light"
+	color2 = "yellow"
+
+	colored_emblem = {
+		texture = "zaz.dds"
+		color1 = "red"
+		color2 = "yellow"
+		color3 = "blue_light"
+		instance = {scale = { 0.75 0.75 } }
+	}
+}
+UKR_republic = {
 	pattern = "pattern_horizontal_split_01.tga"
 	color1 = "yellow"
 	color2 = "yellow"
@@ -75,6 +78,78 @@ UKR_people_ukraine = {
 		color2 = "blue_light"
 		color3 = "red"
 		instance = {scale = { 0.65 0.5 } }
+	}
+}
+UKR_communist = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+	color2 = "yellow"
+	color3 = "blue_light"
+	
+	colored_emblem = {
+		texture = "ce_solid.dds"
+		color1 = color3
+		color2 = color3
+        instance = { scale = { 1.0 @third } position = { 0.5 @[1-third/2] }  }	
+	}
+	colored_emblem = {
+		texture = "ce_hammer_sickle_star_ussr.dds"
+		color1 = color2
+		color2 = color2
+		instance = { position = { 0.25 @third } scale = { 0.5 0.5 } }
+	}	
+}
+UKR_free_state = {
+	pattern = "pattern_solid.tga"
+	color1 = "black"
+}
+UKR_fascist = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	colored_emblem = {
+		texture = "ce_bicolor_bottom.dds"
+		color1 = "black"
+		color2 = "black"
+	}
+}
+UKR_russian = {
+	pattern = "pattern_horizontal_split_01.tga"
+	color1 = "yellow_dark"
+	color2 = "yellow_dark"
+
+	textured_emblem = {
+		texture = "te_st_george_and_the_dragon.dds"
+		instance = { scale = { 0.9 0.9 } position = { 0.5 0.51 } }
+	}
+}
+UKR_austrian = {
+	pattern = "pattern_horizontal_split_01.tga"
+	color1 = "yellow_dark"
+	color2 = "yellow_dark"
+
+	textured_emblem = {
+		texture = "te_st_george_and_the_dragon.dds"
+		instance = { scale = { 0.9 0.9 } position = { 0.5 0.51 } }
+	}
+}
+UKR_polish = {
+	pattern = "pattern_horizontal_split_01.tga"
+	color1 = "yellow_dark"
+	color2 = "yellow_dark"
+
+	textured_emblem = {
+		texture = "te_st_george_and_the_dragon.dds"
+		instance = { scale = { 0.9 0.9 } position = { 0.5 0.51 } }
+	}
+}
+UKR_subject = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+	
+	textured_emblem = {
+		texture = "te_coa_canada.dds"
+		instance = { scale = { 0.6 0.6 } position = { 0.75 0.50 } }
 	}
 }
 UKR_kukurudza = {
