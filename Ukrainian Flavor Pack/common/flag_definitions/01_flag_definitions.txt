@@ -11,7 +11,7 @@ UKR = { # Ukraine
 	}
 	flag_definition = {
 		coa = UKR_theocracy_anarchy
-		priority = 1600
+		priority = 1700
 		trigger = {
 			coa_def_theocracy_flag_trigger = yes
 			exists = scope:actor
@@ -29,7 +29,7 @@ UKR = { # Ukraine
 				coa_def_absolute_monarchy_flag_trigger = yes
 				AND ={
 					has_law = law_type:law_monarchy
-					has_law = law_type:law_anarchy
+					has_law = law_type:law_autocracy
 				}
 			}
 		}

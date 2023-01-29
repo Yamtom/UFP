@@ -1,0 +1,124 @@
+﻿
+gov_free_theocracy = {
+	transfer_of_power = dictatorial
+	male_ruler = "RULER_PATRIARCH"
+	female_ruler = "RULER_PATRIARCH"
+
+	possible = {
+		has_law = law_type:law_anarchy
+		has_law = law_type:law_theocracy
+		country_has_state_religion = rel:orthodox
+		exists = c:UKR
+		c:UKR = ROOT
+	}
+}
+gov_hetmanate = {
+	transfer_of_power = dictatorial
+	
+	male_ruler = "RULER_TITLE_HETMAN"
+	female_ruler = "" # Empty on purpose
+
+	male_heir = "RULER_TITLE_HETMANYCH"
+	female_heir = "" # Empty on purpose
+	
+	possible = {
+		OR ={
+			AND = {
+				has_law = law_type:law_monarchy
+				NOT = {has_law = law_type:law_autocracy}
+			}
+			AND = {
+				OR = {
+					has_law = law_type:law_parliamentary_republic
+					has_law = law_type:law_presidential_republic
+				}
+				has_law = law_type:law_autocracy
+			}
+			AND = {
+				OR = {
+					has_law = law_type:law_mass_conscription
+					has_law = law_type:law_professional_army
+				}
+				has_law = law_type:law_autocracy
+			}
+			AND = {
+				OR = {
+					has_law = law_type:law_mass_conscription
+					has_law = law_type:law_professional_army
+				}
+				OR = {
+					has_law = law_type:law_parliamentary_republic
+					has_law = law_type:law_presidential_republic
+				}
+			}
+			AND = {
+				OR = {
+					has_law = law_type:law_parliamentary_republic
+					has_law = law_type:law_presidential_republic
+				}
+				OR = {
+					has_law = law_type:law_mass_conscription
+					has_law = law_type:law_professional_army
+				}
+			}
+		}
+		exists = c:UKR 
+		c:UKR = ROOT
+	}
+}
+gov_radian_dictatorship = {
+	transfer_of_power = dictatorial
+
+	male_ruler = "RULER_PREMIER"
+	female_ruler = "RULER_PREMIER"
+	
+	possible = {
+		has_law = law_type:law_council_republic
+		has_law = law_type:law_autocracy 
+		exists = c:UKR 
+		c:UKR = ROOT
+	}
+}
+
+gov_radian_republic = {
+	transfer_of_power = parliamentary_elective
+	new_leader_on_reform_government = yes
+
+	male_ruler = "RULER_PREMIER"
+	female_ruler = "RULER_PREMIER"
+	
+	possible = {
+		has_law = law_type:law_council_republic
+		country_has_voting_franchise = yes
+		exists = c:UKR 
+		c:UKR = ROOT
+	}
+}
+gov_makhnovshchina = {
+	transfer_of_power = parliamentary_elective
+	new_leader_on_reform_government = yes
+	
+	male_ruler = "RULER_MAKHNO"
+	female_ruler = "RULER_MAKHNA"
+	
+	possible = {
+		exists = c:UKR 
+		c:UKR = ROOT
+		has_law = law_type:law_anarchy
+	}
+}
+gov_ukrainian_archduchy = {
+	transfer_of_power = hereditary
+	
+	male_ruler = "RULER_TITLE_GRAND_ARCHDUKE"
+	female_ruler = "RULER_TITLE_GRAND_ARCHDUCHESS" 
+
+	male_heir = ""
+	female_heir = ""
+	
+	possible = {
+		has_law = law_type:law_monarchy
+		exists = c:UKR 
+		c:UKR = AUS
+	}		
+}
