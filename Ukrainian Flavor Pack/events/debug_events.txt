@@ -64,3 +64,146 @@ debug.8 = {
 		activate_law = law_type:law_anarchy
 	}
 }
+debug.9 = {
+	type = country_event
+	hidden = yes
+	immediate = {
+		activate_law = law_type:law_parliamentary_republic
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_ethnostate
+	}
+}
+
+debug.10 = { #fascist ideology spread
+	type = country_event
+	placement = root
+
+	title = debug.10.t
+	desc = debug.10.d
+	flavor = debug.10.f
+
+	duration = 3
+
+	event_image = {
+		video = "gfx/event_pictures/europenorthamerica_political_extremism.bk2"
+	}
+
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/europenorthamerica/political_extremism"
+
+	trigger = {
+		#triggered by JE
+		NOT = {
+			var:fascist_spread_var >= 3
+		}
+		every_interest_group = {
+			NOR = {
+				has_variable = chose_fascism
+				has_variable = chose_conservatism
+				has_variable = chose_ethno_nationalism
+			}
+		}
+	}
+
+	immediate = {
+		every_interest_group = {
+			limit = {
+				NOR = {
+					has_variable = chose_fascism
+					has_variable = chose_conservatism
+					has_variable = chose_ethno_nationalism
+				}
+			}
+			save_scope_as = new_fascist_ig
+		}
+		every_interest_group = {
+			limit = { has_variable = og_fascist_ig }
+			save_scope_as = fascist_ig
+		}
+		create_character = {
+			ig_leader = yes
+			interest_group = scope:new_fascist_ig
+			ideology = ideology_fascist
+			on_created = {
+				set_variable = {
+					name = new_fascist_leader_var
+				}
+			}
+		}
+		every_scope_character = {
+			limit = { has_variable = new_fascist_leader_var }
+			save_scope_as = new_fascist_leader
+			remove_variable = new_fascist_leader_var
+		}
+		if = {
+			limit = { exists = var:fascist_spread_var }
+			change_variable = {
+				name = fascist_spread_var
+				add = 1
+			}
+		}
+		else = {
+			set_variable = {
+				name = fascist_spread_var
+				value = 1
+			}
+		}
+	}
+
+	option = { #only fascist leaders
+		name = debug.10.a
+		default_option = yes
+		custom_tooltip = fascism_leaders.tt
+		scope:new_fascist_ig = {
+			set_variable = {
+				name = chose_fascism
+			}
+		}
+		if = {
+			limit = {
+				scope:new_fascist_leader = {
+					NOT = { has_ideology = ideology_fascist }
+				}
+			}
+			scope:new_fascist_leader = {
+				set_ideology = ideology_fascist
+			}
+		}
+	}
+
+	option = { #any conservative leader
+		name = debug.10.b
+		custom_tooltip = conservative_leaders.tt
+		scope:new_fascist_ig = {
+			set_variable = {
+				name = chose_conservatism
+			}
+		}
+		if = {
+			limit = {
+				scope:new_fascist_leader = {
+					NOR = {
+						has_ideology = ideology_fascist
+						has_ideology = ideology_traditionalist
+						has_ideology = ideology_ethno_nationalist
+					}
+				}
+			}
+			scope:new_fascist_leader = {
+				every_list = {
+					33 = {
+						set_ideology = ideology_fascist
+					}
+					33 = {
+						set_ideology = ideology_traditionalist
+					}
+					33 = {
+						set_ideology = ideology_ethno_nationalist
+					}
+				}
+			}
+		}
+	}
+}
