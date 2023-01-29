@@ -66,7 +66,10 @@ UKR = { # Ukraine
 		coa = UKR_communist
 		priority = 1600
 		trigger = { 
-			coa_def_communist_flag_trigger = yes
+			OR = {
+				has_law = law_type:law_council_republic
+				has_law = law_type:law_elder_council
+			}
 		}
 	}	
 	flag_definition = {

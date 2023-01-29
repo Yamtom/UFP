@@ -175,9 +175,9 @@ UKR_republic = {
 }
 UKR_communist = {
 	pattern = "pattern_solid.tga"
-	color1 = "red"
+	color1 = "blue_light"
 	color2 = "red"
-	color3 = "red"
+	color3 = "yellow"
 	
 	colored_emblem = {
 		texture = "ce_solid.dds"
