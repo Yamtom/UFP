@@ -62,8 +62,16 @@ gov_hetmanate = {
 				}
 			}
 		}
-		exists = c:UKR 
-		c:UKR = ROOT
+		OR = {
+			AND = {
+				exists = c:UKR 
+				c:UKR = ROOT
+			}
+			AND = {
+				exists = c:ZAZ 
+				c:ZAZ = ROOT
+			}
+		}
 	}
 }
 gov_radian_dictatorship = {
@@ -75,8 +83,16 @@ gov_radian_dictatorship = {
 	possible = {
 		has_law = law_type:law_council_republic
 		has_law = law_type:law_autocracy 
-		exists = c:UKR 
-		c:UKR = ROOT
+		OR = {
+			AND = {
+				exists = c:UKR 
+				c:UKR = ROOT
+			}
+			AND = {
+				exists = c:ZAZ 
+				c:ZAZ = ROOT
+			}
+		}
 	}
 }
 
@@ -90,8 +106,16 @@ gov_radian_republic = {
 	possible = {
 		has_law = law_type:law_council_republic
 		country_has_voting_franchise = yes
-		exists = c:UKR 
-		c:UKR = ROOT
+		OR = {
+			AND = {
+				exists = c:UKR 
+				c:UKR = ROOT
+			}
+			AND = {
+				exists = c:ZAZ 
+				c:ZAZ = ROOT
+			}
+		}
 	}
 }
 gov_makhnovshchina = {
@@ -102,8 +126,16 @@ gov_makhnovshchina = {
 	female_ruler = "RULER_MAKHNA"
 	
 	possible = {
-		exists = c:UKR 
-		c:UKR = ROOT
+		OR = {
+			AND = {
+				exists = c:UKR 
+				c:UKR = ROOT
+			}
+			AND = {
+				exists = c:ZAZ 
+				c:ZAZ = ROOT
+			}
+		}
 		has_law = law_type:law_anarchy
 	}
 }

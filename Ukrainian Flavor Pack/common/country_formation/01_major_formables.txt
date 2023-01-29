@@ -22,3 +22,48 @@ UKR = {
 		}
 	}
 }
+DKB = {
+	use_culture_states = yes
+	
+	is_major_formation = yes
+	
+	unification_play = dp_unify_don_kuban
+	leadership_play = dp_leadership_don_kuban
+
+	required_states_fraction = 0.33
+	
+	ai_will_do = { always = yes }
+
+	possible = {
+		OR = {
+			tag = DON
+			tag = KUB
+		}
+		any_country = {			
+			has_technology_researched = nationalism
+		}
+	}
+}
+CSS = {
+	use_culture_states = yes
+	
+	is_major_formation = yes
+	
+	unification_play = dp_unify_cossackia
+	leadership_play = dp_leadership_cossackia
+
+	required_states_fraction = 0.63
+	
+	ai_will_do = { always = yes }
+
+	possible = {
+		OR = {
+			tag = DON
+			tag = KUB
+			tag = DKB
+		}
+		any_country = {			
+			has_technology_researched = pan-nationalism
+		}
+	}
+}

@@ -1,6 +1,17 @@
 
+
+UKR = {
+	color = { 222 189 67 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { ukrainian }
+	capital = STATE_KIEV
+}
 ZAZ = {
-	color = { 146 146 146 }
+	color = { 146 146 176 }
 	country_type = recognized
 	tier = principality
 	cultures = { ukrainian }
@@ -14,7 +25,7 @@ GAL = {
 	capital = STATE_EAST_GALICIA
 }
 DON = {
-	color = { 245 221 42 }
+	color = { 275 221 42 }
 	country_type = recognized
 	tier = principality
 	cultures = { ukrainian russian }
@@ -28,9 +39,23 @@ CRI = {
 	capital = STATE_CRIMEA
 }
 KUB = {
-	color = { 200  202  85 }
+	color = { 220  202  95 }
 	country_type = recognized
 	tier = principality
 	cultures = { ukrainian }
 	capital = STATE_KUBAN
+}
+DKB = {
+	color = { 253  222  68 }
+	country_type = recognized
+	tier = grand_principality
+	cultures = { ukrainian }
+	capital = STATE_KUBAN
+}
+CSS = {
+	color = { 205  184  132 }
+	country_type = recognized
+	tier = kingdom
+	cultures = { ukrainian }
+	capital = STATE_CHERSON
 }

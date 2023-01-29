@@ -584,6 +584,7 @@ ZAZ_anarchy = {
 		instance = {scale = { 0.127 0.127 }  position = { 0.72 0.65 } }
 	}
 }
+
 ZAZ_fascist = {
 	pattern = "pattern_solid.tga"
 	color1 = "blue"

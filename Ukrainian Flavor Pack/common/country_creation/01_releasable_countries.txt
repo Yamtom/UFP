@@ -13,3 +13,17 @@ DON = {
 KUB = {
 	states = { STATE_KUBAN	}
 }
+DKB = {
+	states = { STATE_KUBAN STATE_ROSTOV	}
+	
+	possible = {
+		has_technology_researched = nationalism
+	}
+}
+CSS = {
+	states = { STATE_KUBAN STATE_ROSTOV STATE_CHERSON STATE_LUHANSK	}
+	
+	possible = {
+		has_technology_researched = pan-nationalism
+	}
+}
