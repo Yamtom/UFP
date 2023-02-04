@@ -7,6 +7,15 @@ ZAZ = {
 GAL = {
 	states = { STATE_EAST_GALICIA STATE_WEST_GALICIA STATE_VOLHYNIA STATE_BREST}
 }
+VOL = {
+	states = { STATE_VOLHYNIA STATE_BREST}
+}
+RUT = {
+	states = { STATE_EAST_GALICIA STATE_VOLHYNIA STATE_BREST}
+	possible = {
+		has_technology_researched = nationalism
+	}
+}
 DON = {
 	states = { STATE_ROSTOV }
 } 
@@ -18,12 +27,5 @@ DKB = {
 	
 	possible = {
 		has_technology_researched = nationalism
-	}
-}
-CSS = {
-	states = { STATE_KUBAN STATE_ROSTOV STATE_CHERSON STATE_LUHANSK	}
-	
-	possible = {
-		has_technology_researched = pan-nationalism
 	}
 }

@@ -129,7 +129,7 @@ UKR = { # Ukraine
 		}
 	}
 }
-ZAZ = { # Zaz	
+ZAZ = { # Zaz
 	flag_definition = {
 		coa = ZAZ
 		priority = 1000
@@ -229,7 +229,7 @@ ZAZ = { # Zaz
 		}
 	}
 }
-GAL = { # hal-vol	
+GAL = { # hal-vol
 	#Halych
 	flag_definition = {
 		coa = GAL_h
