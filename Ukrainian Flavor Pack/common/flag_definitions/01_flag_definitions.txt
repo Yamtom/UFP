@@ -489,16 +489,16 @@ DON = { # DON
 		}
 	}
 }
-KUN = { # KUN
+KUB = { # KUB
 	flag_definition = {
-		coa = KUN
+		coa = KUB
 		priority = 1000
 		trigger = {
 			exists = scope:actor
 		}
 	}
 	flag_definition = {
-		coa = KUN_theocracy
+		coa = KUB_theocracy
 		priority = 1500
 		trigger = {
 			OR ={
@@ -507,7 +507,7 @@ KUN = { # KUN
 		}
 	}
 	flag_definition = {
-		coa = KUN_monarchy
+		coa = KUB_monarchy
 		priority = 1500
 		trigger = {
 			OR ={
@@ -517,7 +517,7 @@ KUN = { # KUN
 		}
 	}
 	flag_definition = {
-		coa = KUN_dictatorship_military
+		coa = KUB_dictatorship_military
 		priority = 1500
 		trigger = {
 			OR ={
@@ -527,7 +527,7 @@ KUN = { # KUN
 		}
 	}
 	flag_definition = {
-		coa = KUN_republic
+		coa = KUB_republic
 		priority = 1500
 		trigger = {
 			OR ={
@@ -536,7 +536,7 @@ KUN = { # KUN
 		}
 	}
 	flag_definition = {
-		coa = KUN_communist
+		coa = KUB_communist
 		priority = 1600
 		trigger = {
 			OR ={
@@ -545,7 +545,7 @@ KUN = { # KUN
 		}
 	}
 	flag_definition = {
-		coa = KUN_anarchy
+		coa = KUB_anarchy
 		priority = 1700
 		trigger = {
 			exists = scope:actor
@@ -555,14 +555,14 @@ KUN = { # KUN
 		}
 	}
 	flag_definition = {
-		coa = KUN_fascist
+		coa = KUB_fascist
 		priority = 1700
 		trigger = { 
 			coa_def_fascist_flag_trigger = yes
 		}
 	}
 	flag_definition = {
-		coa = KUN_ukraine
+		coa = KUB_ukraine
 		priority = 1800
 		trigger = {
 			OR = {
@@ -571,7 +571,7 @@ KUN = { # KUN
 		}
 	}
 	flag_definition = {
-		coa = KUN_russian
+		coa = KUB_russian
 		priority = 1550
 		trigger = {
 			OR ={
@@ -580,7 +580,7 @@ KUN = { # KUN
 		}
 	}
 	flag_definition = {
-		coa = KUN_italian
+		coa = KUB_italian
 		priority = 1600
 		trigger = {
 			OR ={
@@ -589,7 +589,7 @@ KUN = { # KUN
 		}
 	}
 	flag_definition = {
-		coa = KUN_polish
+		coa = KUB_polish
 		priority = 1600
 		trigger = {
 			OR ={
