@@ -73,3 +73,33 @@ CSS = {
 	cultures = { ukrainian }
 	capital = STATE_CHERSON
 }
+TCA = {
+	color = { 154 151 163 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { ukrainian hungarian }
+	capital = STATE_EAST_SLOVAKIA
+}
+BKV = {
+	color = { 187 160 74 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { ukrainian romanian }
+	capital = STATE_MOLDAVIA
+}
+ITM = {
+	color = { 180 80 120 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { ukrainian polish byelorussian latvian estonian lithuanian}
+	capital = STATE_BREST
+}

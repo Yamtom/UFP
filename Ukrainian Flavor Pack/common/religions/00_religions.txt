@@ -1,0 +1,8 @@
+
+greek_catholic = {
+	texture = "gfx/interface/icons/religion_icons/orthodox.dds"
+	traits = {
+		christian
+	}
+	color = { 0.7 0.62 0.5 }
+}

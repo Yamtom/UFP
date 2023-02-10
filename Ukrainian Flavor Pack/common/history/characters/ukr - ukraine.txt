@@ -1,0 +1,35 @@
+CHARACTERS = {
+	c:UKR = {
+		create_character = {
+			# Yevhen Hrebinka a Ukrainian artist and nationalist
+			role = politician 
+			first_name = Yevhen
+			last_name = Hrebinka
+			culture=cu:ukrainian
+			birth_date = 1812.2.2 
+			ig_leader = yes
+			interest_group = ig_rural_folk
+			ideology = ideology_moderate
+			traits = {
+				concept_wikipedia_Yevhen_Hrebinka
+				romantic
+			}
+		}
+	}
+	create_character = {  
+		is_admiral = yes
+		first_name = Vasily
+		last_name = Zavoyko
+		culture = cu:ukrainian
+		interest_group = ig_landowners
+		ideology = ideology_royalist
+		birth_date = 1809.7.15
+		hq = region_dnieper
+		commander_rank = commander_rank_3
+		traits = {
+			concept_wikipedia_Vasily_Zavoyko
+			explorer
+			brave
+		}
+	}
+}

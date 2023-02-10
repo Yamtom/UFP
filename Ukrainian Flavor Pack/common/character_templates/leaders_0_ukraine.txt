@@ -1,0 +1,29 @@
+ukr_makhno_character_template = {
+    first_name = Nestor
+    last_name = Makhno
+    culture = cu:ukrainian
+    female = no
+    religion = orthodox
+    ideology = ideology_anarchist
+    interest_group = ig_rural_folk
+	dna = dna_nestor_makhno
+    birth_date = 1888.11.8
+    traits = { demagogue popular_commander }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:UKR
+            this = c:UKR
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            OR = {
+                is_interest_group_type = ig_rural_folk
+                is_interest_group_type = ig_trade_unions
+                is_interest_group_type = ig_intelligentsia
+            }
+        }
+        earliest_usage_date = 1908.1.1
+        latest_usage_date = 1934.7.25
+        chance = 90
+    }
+}

@@ -61,7 +61,7 @@ POPS = {
 			}
 			create_pop = {
 				culture = byelorussian
-				religion = catholic
+				religion = greek_catholic
 				size = 300000
 			}
 			create_pop = {
@@ -70,7 +70,7 @@ POPS = {
 			}
 			create_pop = {
 				culture = ukrainian
-				religion = catholic
+				religion = greek_catholic
 				size = 18040
 			}
 			create_pop = {
@@ -91,7 +91,12 @@ POPS = {
 			}
 			create_pop = {
 				culture = ukrainian
-				size = 1033855
+				size = 689243
+			}
+			create_pop = {
+				culture = ukrainian
+				religion = greek_catholic
+				size = 344612
 			}
 			create_pop = {
 				culture = south_german
@@ -665,6 +670,7 @@ POPS = {
 			}
 			create_pop = {
 				culture = ukrainian
+				religion = greek_catholic
 				size = 82197
 			}
 			create_pop = {
@@ -759,7 +765,12 @@ POPS = {
 			}
 			create_pop = {
 				culture = ukrainian
-				size = 152000
+				size = 76000
+			}
+			create_pop = {
+				culture = ukrainian
+				religion = greek_catholic
+				size = 76000
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -781,6 +792,7 @@ POPS = {
 			}
 			create_pop = {
 				culture = ukrainian
+				religion = greek_catholic
 				size = 16000
 			}
 		}
@@ -793,7 +805,12 @@ POPS = {
 			}
 			create_pop = {
 				culture = ukrainian
-				size = 1544404
+				size = 1022270
+			}
+			create_pop = {
+				culture = ukrainian
+				religion = greek_catholic
+				size = 518134
 			}
 			create_pop = {
 				culture = south_german
@@ -990,10 +1007,7 @@ POPS = {
 			}
 			create_pop = {
 				culture = ukrainian
-				size = 244000
-			}
-			create_pop = {
-				culture = ukrainian
+				religion = greek_catholic
 				size = 244000
 			}
 			create_pop = {
@@ -1031,7 +1045,7 @@ POPS = {
 			}
 			create_pop = {
 				culture = ukrainian
-				religion = catholic
+				religion = greek_catholic
 				size = 16400
 			}
 			create_pop = {
@@ -1131,7 +1145,12 @@ POPS = {
 			}
 			create_pop = {
 				culture = ukrainian
-				size = 144400
+				size = 96234
+			}
+			create_pop = {
+				culture = ukrainian
+				religion = greek_catholic
+				size = 48166
 			}
 			create_pop = {
 				culture = south_german
