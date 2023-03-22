@@ -1,35 +1,75 @@
-
 ZAZ = {
-	states = { STATE_CHERSON STATE_LUHANSK }
+	states = {
+		STATE_CHERSON
+		STATE_LUHANSK
+	}
 }
+
 GAL = {
-	states = { STATE_EAST_GALICIA STATE_WEST_GALICIA STATE_VOLHYNIA STATE_BREST}
+	states = {
+		STATE_EAST_GALICIA
+		STATE_WEST_GALICIA
+		STATE_VOLHYNIA
+		STATE_BREST
+	}
 }
+
 VOL = {
-	states = { STATE_VOLHYNIA STATE_BREST}
+	states = {
+		STATE_VOLHYNIA
+		STATE_BREST
+	}
 }
+
 RUT = {
-	states = { STATE_EAST_GALICIA STATE_VOLHYNIA STATE_BREST}
+	states = {
+		STATE_EAST_GALICIA
+		STATE_VOLHYNIA
+		STATE_BREST
+	}
 	possible = {
 		has_technology_researched = nationalism
 	}
 }
+
 DON = {
-	states = { STATE_ROSTOV }
-} 
-KUB = {
-	states = { STATE_KUBAN	}
+	states = {
+		STATE_ROSTOV
+	}
 }
-DKB = {
-	states = { STATE_KUBAN STATE_ROSTOV	}
-	
+
+KUB = {
+	states = {
+		STATE_KUBAN
+	}
+}
+
+DKU = {
+	states = {
+		STATE_KUBAN
+		STATE_ROSTOV
+	}
 	possible = {
 		has_technology_researched = nationalism
 	}
 }
+
 TCA = {
-	provinces = { xC85CD0 x69BAC7 x359378 xA0531B xD0E061 }
+	provinces = {
+		xC85CD0
+		x69BAC7
+		x359378
+		xA0531B
+		xD0E061
+	}
 }
+
 BKV = {
-	provinces = { x067DF0 x00A7F4 xFFCCDA x7E6263 x31A0A0 }
+	provinces = {
+		x067DF0
+		x00A7F4
+		xFFCCDA
+		x7E6263
+		x31A0A0
+	}
 }

@@ -6,6 +6,13 @@ radical_party = {
 	name = {
 		first_valid = {
 			triggered_desc = {
+				desc = party_UKR_radical
+				trigger = {
+					exists = c:UKR
+					THIS = c:UKR
+				}
+			}
+			triggered_desc = {
 				desc = party_radical_civic_union
 				trigger = {
 					exists = c:ARG

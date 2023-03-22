@@ -1,317 +1,706 @@
-
 @third = @[1/3]
 @sixth = @[1/6]
-
 UKR_theocracy = {
 	pattern = "pattern_horizontal_split_01.tga"
 	color1 = "yellow_dark"
 	color2 = "yellow_dark"
-
 	colored_emblem = {
 		texture = "shield_hetman.dds"
 		color1 = "blue_light"
 		color2 = "yellow"
 		color3 = "blue_light"
-		instance = {scale = { 0.75 0.75 } position = { 0.5 0.5 }  }
+		instance = {
+			scale = {
+				0.75
+				0.75
+			}
+			position = {
+				0.5
+				0.5
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "orthodox_cross.dds"
 		color1 = "yellow"
-		instance = {scale = { 0.75 0.75 } position = { 0.5 0.6 } }
+		instance = {
+			scale = {
+				0.75
+				0.75
+			}
+			position = {
+				0.5
+				0.6
+			}
+		}
 	}
 }
+
 UKR_theocracy_anarchy = {
 	pattern = "pattern_horizontal_split_01.tga"
 	color1 = "black"
 	color2 = "black"
-
 	colored_emblem = {
 		texture = "orthodox_cross.dds"
 		color1 = "white"
-		instance = {scale = { 1 1 }  position = { 0.5 0.375 }}
+		instance = {
+			scale = {
+				1
+				1
+			}
+			position = {
+				0.5
+				0.375
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "S_cyrillic.dds"
 		color1 = "white"
-		instance = {scale = { 0.1 0.1 }  position = { 0.13 0.75 } }
+		instance = {
+			scale = {
+				0.1
+				0.1
+			}
+			position = {
+				0.13
+				0.75
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "V_cyrillic.dds"
 		color1 = "white"
-		instance = {scale = { 0.1 0.1 }  position = { 0.18 0.75 } }
+		instance = {
+			scale = {
+				0.1
+				0.1
+			}
+			position = {
+				0.18
+				0.75
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "O_cyrillic.dds"
 		color1 = "white"
-		instance = {scale = { 0.1 0.1 }  position = { 0.22 0.75 } }
+		instance = {
+			scale = {
+				0.1
+				0.1
+			}
+			position = {
+				0.22
+				0.75
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "B_cyrillic.dds"
 		color1 = "white"
-		instance = {scale = { 0.1 0.1 }  position = { 0.27 0.75 } }
+		instance = {
+			scale = {
+				0.1
+				0.1
+			}
+			position = {
+				0.27
+				0.75
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "O_cyrillic.dds"
 		color1 = "white"
-		instance = {scale = { 0.1 0.1 }  position = { 0.31 0.75 } }
+		instance = {
+			scale = {
+				0.1
+				0.1
+			}
+			position = {
+				0.31
+				0.75
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "2D_cyrillic.dds"
 		color1 = "white"
-		instance = {scale = { 0.2 0.2 }  position = { 0.36 0.75 } }
+		instance = {
+			scale = {
+				0.2
+				0.2
+			}
+			position = {
+				0.36
+				0.75
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "A_cyrillic.dds"
 		color1 = "white"
-		instance = {scale = { 0.1 0.1 }  position = { 0.40 0.75 } }
+		instance = {
+			scale = {
+				0.1
+				0.1
+			}
+			position = {
+				0.4
+				0.75
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "V_cyrillic.dds"
 		color1 = "white"
-		instance = {scale = { 0.1 0.1 }  position = { 0.5 0.75 } }
+		instance = {
+			scale = {
+				0.1
+				0.1
+			}
+			position = {
+				0.5
+				0.75
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "I_cyrillic.dds"
 		color1 = "white"
-		instance = {scale = { 0.1 0.1 }  position = { 0.54 0.75 } }
+		instance = {
+			scale = {
+				0.1
+				0.1
+			}
+			position = {
+				0.54
+				0.75
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "2D_cyrillic.dds"
 		color1 = "white"
-		instance = {scale = { 0.2 0.2 }  position = { 0.59 0.75 } }
+		instance = {
+			scale = {
+				0.2
+				0.2
+			}
+			position = {
+				0.59
+				0.75
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "B_cyrillic.dds"
 		color1 = "white"
-		instance = {scale = { 0.1 0.1 }  position = { 0.68 0.75 } }
+		instance = {
+			scale = {
+				0.1
+				0.1
+			}
+			position = {
+				0.68
+				0.75
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "O_cyrillic.dds"
 		color1 = "white"
-		instance = {scale = { 0.1 0.1 }  position = { 0.72 0.75 } }
+		instance = {
+			scale = {
+				0.1
+				0.1
+			}
+			position = {
+				0.72
+				0.75
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "Gh_cyrillic.dds"
 		color1 = "white"
-		instance = {scale = { 0.1 0.1 }  position = { 0.77 0.75 } }
+		instance = {
+			scale = {
+				0.1
+				0.1
+			}
+			position = {
+				0.77
+				0.75
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "A_cyrillic.dds"
 		color1 = "white"
-		instance = {scale = { 0.1 0.1 }  position = { 0.81 0.75 } }
+		instance = {
+			scale = {
+				0.1
+				0.1
+			}
+			position = {
+				0.81
+				0.75
+			}
+		}
 	}
 }
+
 UKR_absolute_monarchy = {
 	pattern = "pattern_horizontal_split_01.tga"
 	color1 = "blue_light"
 	color2 = "blue_light"
-
 	colored_emblem = {
 		texture = "tryzub.dds"
 		color1 = "yellow"
 		color2 = "yellow"
 		color3 = "yellow"
-		instance = {scale = { 1.5 1.5 } }
+		instance = {
+			scale = {
+				1.5
+				1.5
+			}
+		}
 	}
 }
+
 UKR_monarchy = {
 	pattern = "pattern_horizontal_split_01.tga"
 	color1 = "blue_light"
 	color2 = "yellow"
-
 	colored_emblem = {
 		texture = "ce_solid.dds"
 		color1 = "yellow_dark"
-		instance = {scale = { 0.525 0.525 } position = { 0.5 0.5 }  }
+		instance = {
+			scale = {
+				0.525
+				0.525
+			}
+			position = {
+				0.5
+				0.5
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "ce_solid.dds"
 		color1 = "blue_light"
-		instance = {scale = { 0.5 0.5 } position = { 0.5 0.5 }  }
+		instance = {
+			scale = {
+				0.5
+				0.5
+			}
+			position = {
+				0.5
+				0.5
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "tryzub3.dds"
 		color1 = "yellow_dark"
-		instance = {scale = { 0.55 0.55 } position = { 0.5 0.5 }  }
+		instance = {
+			scale = {
+				0.55
+				0.55
+			}
+			position = {
+				0.5
+				0.5
+			}
+		}
 	}
 }
+
 UKR_dictatorship_military = {
 	pattern = "pattern_horizontal_split_01.tga"
 	color1 = "blue_light"
 	color2 = "yellow"
-
 	colored_emblem = {
 		texture = "shield_hetman.dds"
 		color1 = "blue_light"
 		color2 = "yellow"
 		color3 = "blue_light"
-		instance = {scale = { 0.75 0.75 } }
+		instance = {
+			scale = {
+				0.75
+				0.75
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "cossack.dds"
 		color1 = "red"
 		color2 = "yellow"
 		color3 = "blue_light"
-		instance = {scale = { 0.75 0.75 } position = { 0.5 0.55 }  }
+		instance = {
+			scale = {
+				0.75
+				0.75
+			}
+			position = {
+				0.5
+				0.55
+			}
+		}
 	}
 }
+
 UKR_republic = {
 	pattern = "pattern_horizontal_split_01.tga"
 	color1 = "blue_light"
 	color2 = "yellow"
-
 	colored_emblem = {
 		texture = "ce_circle.dds"
 		color1 = "yellow"
-		instance = {scale = { 1.125	1.25 } }
+		instance = {
+			scale = {
+				1.125
+				1.25
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "tryzub2.dds"
 		color1 = "blue_light"
 		color2 = "yellow"
 		color3 = "blue_light"
-		instance = {scale = { 0.75	0.75 } }
+		instance = {
+			scale = {
+				0.75
+				0.75
+			}
+		}
 	}
 }
+
 UKR_communist = {
 	pattern = "pattern_solid.tga"
 	color1 = "blue_light"
 	color2 = "red"
 	color3 = "yellow"
-	
 	colored_emblem = {
 		texture = "ce_solid.dds"
 		color1 = color3
 		color2 = color3
-        instance = { scale = { 1.0 0.5 } position = { 0.5 0.75 }  }	
+		instance = {
+			scale = {
+				1
+				0.5
+			}
+			position = {
+				0.5
+				0.75
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "ce_rhombus.dds"
 		color1 = color2
 		color2 = color2
-        instance = { scale = { 1.0 1 } position = { 0 0.5 }  }	
+		instance = {
+			scale = {
+				1
+				1
+			}
+			position = {
+				0
+				0.5
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "ce_hammer_sickle_star_ussr.dds"
 		color1 = color3
 		color2 = color3
-		instance = { position = { 0.1875 0.5 } scale = { 0.5 0.5 } }
-	}	
+		instance = {
+			position = {
+				0.1875
+				0.5
+			}
+			scale = {
+				0.5
+				0.5
+			}
+		}
+	}
 }
+
 UKR_anarchy = {
 	pattern = "pattern_solid.tga"
 	color1 = "black"
-
 	colored_emblem = {
 		texture = "skull_n_bones.dds"
 		color1 = "white"
-		instance = { position = { 0.5 0.5 } scale = { 1 1 } }
-	}	
+		instance = {
+			position = {
+				0.5
+				0.5
+			}
+			scale = {
+				1
+				1
+			}
+		}
+	}
 	colored_emblem = {
 		texture = "U_cyrillic.dds"
 		color1 = "white"
-		instance = {scale = { 0.16 0.16 }  position = { 0.32 0.125 } }
+		instance = {
+			scale = {
+				0.16
+				0.16
+			}
+			position = {
+				0.32
+				0.125
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "K_cyrillic.dds"
 		color1 = "white"
-		instance = {scale = { 0.16 0.16 }  position = { 0.38 0.125 } }
+		instance = {
+			scale = {
+				0.16
+				0.16
+			}
+			position = {
+				0.38
+				0.125
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "R_cyrillic.dds"
 		color1 = "white"
-		instance = {scale = { 0.16 0.16 }  position = { 0.44 0.125 } }
+		instance = {
+			scale = {
+				0.16
+				0.16
+			}
+			position = {
+				0.44
+				0.125
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "A_cyrillic.dds"
 		color1 = "white"
-		instance = {scale = { 0.16 0.16 }  position = { 0.5 0.125 } }
+		instance = {
+			scale = {
+				0.16
+				0.16
+			}
+			position = {
+				0.5
+				0.125
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "2Ji_cyrillic.dds"
 		color1 = "white"
-		instance = {scale = { 0.16 0.32 }  position = { 0.56 0.125 } }
+		instance = {
+			scale = {
+				0.16
+				0.32
+			}
+			position = {
+				0.56
+				0.125
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "N_cyrillic.dds"
 		color1 = "white"
-		instance = {scale = { 0.16 0.16 }  position = { 0.62 0.125 } }
+		instance = {
+			scale = {
+				0.16
+				0.16
+			}
+			position = {
+				0.62
+				0.125
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "A_cyrillic.dds"
 		color1 = "white"
-		instance = {scale = { 0.16 0.16 }  position = { 0.68 0.125 } }
+		instance = {
+			scale = {
+				0.16
+				0.16
+			}
+			position = {
+				0.68
+				0.125
+			}
+		}
 	}
-
 	colored_emblem = {
 		texture = "A_cyrillic.dds"
 		color1 = "white"
-		instance = {scale = { 0.13 0.13 }  position = { 0.28 0.625 } }
+		instance = {
+			scale = {
+				0.13
+				0.13
+			}
+			position = {
+				0.28
+				0.625
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "B_cyrillic.dds"
 		color1 = "white"
-		instance = {scale = { 0.13 0.13 }  position = { 0.34 0.625 } }
+		instance = {
+			scale = {
+				0.13
+				0.13
+			}
+			position = {
+				0.34
+				0.625
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "O_cyrillic.dds"
 		color1 = "white"
-		instance = {scale = { 0.13 0.13 }  position = { 0.39 0.625 } }
+		instance = {
+			scale = {
+				0.13
+				0.13
+			}
+			position = {
+				0.39
+				0.625
+			}
+		}
 	}
-	
 	colored_emblem = {
 		texture = "S_cyrillic.dds"
 		color1 = "white"
-		instance = {scale = { 0.13 0.13 }  position = { 0.5 0.625 } }
+		instance = {
+			scale = {
+				0.13
+				0.13
+			}
+			position = {
+				0.5
+				0.625
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "M_cyrillic.dds"
 		color1 = "white"
-		instance = {scale = { 0.13 0.13 }  position = { 0.55 0.625 } }
+		instance = {
+			scale = {
+				0.13
+				0.13
+			}
+			position = {
+				0.55
+				0.625
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "E_cyrillic.dds"
 		color1 = "white"
-		instance = {scale = { 0.13 0.13 }  position = { 0.61 0.625 } }
+		instance = {
+			scale = {
+				0.13
+				0.13
+			}
+			position = {
+				0.61
+				0.625
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "R_cyrillic.dds"
 		color1 = "white"
-		instance = {scale = { 0.13 0.13 }  position = { 0.66 0.625 } }
+		instance = {
+			scale = {
+				0.13
+				0.13
+			}
+			position = {
+				0.66
+				0.625
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "-j_cyrillic.dds"
 		color1 = "white"
-		instance = {scale = { 0.127 0.127 }  position = { 0.72 0.625 } }
+		instance = {
+			scale = {
+				0.127
+				0.127
+			}
+			position = {
+				0.72
+				0.625
+			}
+		}
 	}
 }
+
 UKR_fascist = {
 	pattern = "pattern_horizontal_split_01.tga"
 	color1 = "blue_light"
 	color2 = "blue_light"
-
 	colored_emblem = {
 		texture = "Nat_tryzub.dds"
 		color1 = "yellow"
 		color2 = "yellow"
 		color3 = "yellow"
-		instance = {scale = { 1 1 } }
+		instance = {
+			scale = {
+				1
+				1
+			}
+		}
 	}
 }
+
 UKR_russian = {
 	pattern = "pattern_horizontal_split_01.tga"
 	color1 = "blue"
 	color2 = "blue"
-
 	textured_emblem = {
 		texture = "te_st_george_and_the_dragon.dds"
-		instance = { scale = { 0.9 0.9 } position = { 0.5 0.51 } }
+		instance = {
+			scale = {
+				0.9
+				0.9
+			}
+			position = {
+				0.5
+				0.51
+			}
+		}
 	}
 }
+
 UKR_austrian = {
 	pattern = "pattern_solid.tga"
 	color1 = "blue_light"
-
 	colored_emblem = {
 		texture = "ce_bicolor_bottom.dds"
 		color1 = "yellow"
@@ -321,13 +710,22 @@ UKR_austrian = {
 		texture = "ce_bicolor_bottom.dds"
 		color1 = "black"
 		color2 = "black"
-		instance = { scale = { 0.333 1 } position = { 0.1665 0.0 } }
+		instance = {
+			scale = {
+				0.333
+				1
+			}
+			position = {
+				0.1665
+				0
+			}
+		}
 	}
 }
+
 UKR_polish = {
 	pattern = "pattern_solid.tga"
 	color1 = "blue_light"
-
 	colored_emblem = {
 		texture = "ce_bicolor_bottom.dds"
 		color1 = "yellow"
@@ -337,74 +735,139 @@ UKR_polish = {
 		texture = "ce_bicolor_bottom.dds"
 		color1 = "white"
 		color2 = "white"
-		instance = { scale = { 0.333 1 } position = { 0.1665 0.0 } }
+		instance = {
+			scale = {
+				0.333
+				1
+			}
+			position = {
+				0.1665
+				0
+			}
+		}
 	}
 }
+
 UKR_subject = {
 	colored_emblem = {
 		texture = "ce_solid.dds"
 		color1 = "blue_light"
 		color2 = "blue_light"
-        instance = { scale = { @third 1.0  } position = { 0.175 0.5 }  }	
+		instance = {
+			scale = {
+				@third
+				1
+			}
+			position = {
+				0.175
+				0.5
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "tryzub.dds"
 		color1 = "yellow"
 		color2 = "yellow"
 		color3 = "yellow"
-		instance = { position = { 0.175 0.49 } scale = { 0.55 0.5 } }
-	}	
+		instance = {
+			position = {
+				0.175
+				0.49
+			}
+			scale = {
+				0.55
+				0.5
+			}
+		}
+	}
 }
+
 UKR_kukurudza = {
 	pattern = "pattern_solid.tga"
 	color1 = "blue_light"
 	color2 = "yellow"
 	color3 = "green_light"
-	
 	colored_emblem = {
 		texture = "ce_solid.dds"
 		color1 = color3
 		color2 = color3
-        instance = { scale = { 1.0 @third } position = { 0.5 @[1-third/2] }  }	
+		instance = {
+			scale = {
+				1
+				@third
+			}
+			position = {
+				0.5
+				@[1-third/2]
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "ce_corn_sickle.dds"
 		color1 = color2
 		color2 = color2
-		instance = { position = { 0.3 @third } scale = { 1.0 1 } }
-	}	
+		instance = {
+			position = {
+				0.3
+				@third
+			}
+			scale = {
+				1
+				1
+			}
+		}
+	}
 }
 
 ZAZ = {
 	pattern = "pattern_horizontal_split_01.tga"
 	color1 = "blue"
 	color2 = "yellow"
-
 	colored_emblem = {
 		texture = "shield_hetman.dds"
 		color1 = "red"
 		color2 = "yellow"
 		color3 = "blue"
-		instance = {scale = { 0.9 0.9 } }
+		instance = {
+			scale = {
+				0.9
+				0.9
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "cossack.dds"
 		color1 = "red"
 		color2 = "yellow"
 		color3 = "blue"
-		instance = {scale = { 0.8 0.8 }  position = { 0.5 0.55 } }
+		instance = {
+			scale = {
+				0.8
+				0.8
+			}
+			position = {
+				0.5
+				0.55
+			}
+		}
 	}
 }
+
 ZAZ_theocracy = {
 	pattern = "pattern_border_of_3.dds"
 	color1 = "red"
 	color2 = "yellow_dark"
-
 	textured_emblem = {
 		texture = "te_zaz_george.dds"
-		instance = { scale = { 0.9 0.9 } }
+		instance = {
+			scale = {
+				0.9
+				0.9
+			}
+		}
 	}
 }
+
 ZAZ_monarchy = {
 	pattern = "pattern_border_of_3.dds"
 	color1 = "red"
@@ -414,35 +877,68 @@ ZAZ_monarchy = {
 		color1 = "red"
 		color2 = "yellow"
 		color3 = "blue"
-		instance = {scale = { 0.625 0.625 } }
+		instance = {
+			scale = {
+				0.625
+				0.625
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "cossack.dds"
 		color1 = "red"
 		color2 = "yellow"
 		color3 = "blue"
-		instance = {scale = { 0.6 0.6 }  position = { 0.5 0.55 } }
+		instance = {
+			scale = {
+				0.6
+				0.6
+			}
+			position = {
+				0.5
+				0.55
+			}
+		}
 	}
 }
+
 ZAZ_dictatorship_military = {
 	pattern = "pattern_horizontal_split_01.tga"
 	color1 = "blue"
 	color2 = "yellow"
-	
 	colored_emblem = {
 		texture = "ce_solid.dds"
 		color1 = "red_light"
 		color2 = "red_light"
-        instance = { scale = { @third 1.0  } position = { 0.175 0.5 }  }	
+		instance = {
+			scale = {
+				@third
+				1
+			}
+			position = {
+				0.175
+				0.5
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "zaz_cross.dds"
 		color1 = "yellow"
 		color2 = "yellow"
 		color3 = "yellow"
-		instance = { position = { 0.175 0.49 } scale = { 0.55 0.5 } }
-	}	
+		instance = {
+			position = {
+				0.175
+				0.49
+			}
+			scale = {
+				0.55
+				0.5
+			}
+		}
+	}
 }
+
 ZAZ_communist = {
 	pattern = "pattern_border_of_3.dds"
 	color1 = "red"
@@ -450,144 +946,359 @@ ZAZ_communist = {
 	colored_emblem = {
 		texture = "ce_solid.dds"
 		color1 = "yellow"
-		instance = {scale = { 0.30 0.90 } position = { 0.5 0.5 }  }
+		instance = {
+			scale = {
+				0.3
+				0.9
+			}
+			position = {
+				0.5
+				0.5
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "ce_solid.dds"
 		color1 = "red"
-		instance = {scale = { 0.24 0.83 } position = { 0.5 0.5 }  }
+		instance = {
+			scale = {
+				0.24
+				0.83
+			}
+			position = {
+				0.5
+				0.5
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "ce_hammer_sickle_star_wreath.dds"
 		color1 = "yellow"
-		instance = {scale = { 0.34 0.34 } position = { 0.5 0.23 }  }
+		instance = {
+			scale = {
+				0.34
+				0.34
+			}
+			position = {
+				0.5
+				0.23
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "cossack.dds"
 		color1 = "red"
 		color2 = "yellow"
 		color3 = "yellow_dark"
-		instance = {scale = { 0.83 0.83 }  position = { 0.5 0.6 } }
+		instance = {
+			scale = {
+				0.83
+				0.83
+			}
+			position = {
+				0.5
+				0.6
+			}
+		}
 	}
 }
-ZAZ_communist = {
+
+ZAZ_communist_alt = {
 	pattern = "pattern_border_of_3.dds"
 	color1 = "red"
 	color2 = "red"
 	colored_emblem = {
 		texture = "ce_solid.dds"
 		color1 = "yellow"
-		instance = {scale = { 0.30 0.90 } position = { 0.5 0.5 }  }
+		instance = {
+			scale = {
+				0.3
+				0.9
+			}
+			position = {
+				0.5
+				0.5
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "ce_solid.dds"
 		color1 = "red"
-		instance = {scale = { 0.24 0.83 } position = { 0.5 0.5 }  }
+		instance = {
+			scale = {
+				0.24
+				0.83
+			}
+			position = {
+				0.5
+				0.5
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "ce_hammer_sickle_star_wreath.dds"
 		color1 = "yellow"
-		instance = {scale = { 0.34 0.34 } position = { 0.5 0.23 }  }
+		instance = {
+			scale = {
+				0.34
+				0.34
+			}
+			position = {
+				0.5
+				0.23
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "cossack.dds"
 		color1 = "red"
 		color2 = "yellow"
 		color3 = "yellow_dark"
-		instance = {scale = { 0.83 0.83 }  position = { 0.5 0.6 } }
+		instance = {
+			scale = {
+				0.83
+				0.83
+			}
+			position = {
+				0.5
+				0.6
+			}
+		}
 	}
 }
+
 ZAZ_anarchy = {
 	pattern = "pattern_solid.tga"
 	color1 = "black"
-
 	colored_emblem = {
 		texture = "skull_n_bones.dds"
 		color1 = "white"
-		instance = { position = { 0.5 0.5 } scale = { 1 1 } }
-	}	
+		instance = {
+			position = {
+				0.5
+				0.5
+			}
+			scale = {
+				1
+				1
+			}
+		}
+	}
 	colored_emblem = {
 		texture = "S_cyrillic.dds"
 		color1 = "white"
-		instance = {scale = { 0.16 0.16 }  position = { 0.29 0.15 } }
+		instance = {
+			scale = {
+				0.16
+				0.16
+			}
+			position = {
+				0.29
+				0.15
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "V_cyrillic.dds"
 		color1 = "white"
-		instance = {scale = { 0.16 0.16 }  position = { 0.36 0.15 } }
+		instance = {
+			scale = {
+				0.16
+				0.16
+			}
+			position = {
+				0.36
+				0.15
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "O_cyrillic.dds"
 		color1 = "white"
-		instance = {scale = { 0.16 0.16 }  position = { 0.43 0.15 } }
+		instance = {
+			scale = {
+				0.16
+				0.16
+			}
+			position = {
+				0.43
+				0.15
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "B_cyrillic.dds"
 		color1 = "white"
-		instance = {scale = { 0.16 0.16 }  position = { 0.5 0.15 } }
+		instance = {
+			scale = {
+				0.16
+				0.16
+			}
+			position = {
+				0.5
+				0.15
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "O_cyrillic.dds"
 		color1 = "white"
-		instance = {scale = { 0.16 0.16 }  position = { 0.57 0.15 } }
+		instance = {
+			scale = {
+				0.16
+				0.16
+			}
+			position = {
+				0.57
+				0.15
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "2D_cyrillic.dds"
 		color1 = "white"
-		instance = {scale = { 0.32 0.32 }  position = { 0.64 0.15 } }
+		instance = {
+			scale = {
+				0.32
+				0.32
+			}
+			position = {
+				0.64
+				0.15
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "A_cyrillic.dds"
 		color1 = "white"
-		instance = {scale = { 0.16 0.16 }  position = { 0.71 0.15 } }
+		instance = {
+			scale = {
+				0.16
+				0.16
+			}
+			position = {
+				0.71
+				0.15
+			}
+		}
 	}
-
 	colored_emblem = {
 		texture = "A_cyrillic.dds"
 		color1 = "white"
-		instance = {scale = { 0.13 0.13 }  position = { 0.28 0.65 } }
+		instance = {
+			scale = {
+				0.13
+				0.13
+			}
+			position = {
+				0.28
+				0.65
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "B_cyrillic.dds"
 		color1 = "white"
-		instance = {scale = { 0.13 0.13 }  position = { 0.34 0.65 } }
+		instance = {
+			scale = {
+				0.13
+				0.13
+			}
+			position = {
+				0.34
+				0.65
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "O_cyrillic.dds"
 		color1 = "white"
-		instance = {scale = { 0.13 0.13 }  position = { 0.39 0.65 } }
+		instance = {
+			scale = {
+				0.13
+				0.13
+			}
+			position = {
+				0.39
+				0.65
+			}
+		}
 	}
-	
 	colored_emblem = {
 		texture = "S_cyrillic.dds"
 		color1 = "white"
-		instance = {scale = { 0.13 0.13 }  position = { 0.5 0.65 } }
+		instance = {
+			scale = {
+				0.13
+				0.13
+			}
+			position = {
+				0.5
+				0.65
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "M_cyrillic.dds"
 		color1 = "white"
-		instance = {scale = { 0.13 0.13 }  position = { 0.55 0.65 } }
+		instance = {
+			scale = {
+				0.13
+				0.13
+			}
+			position = {
+				0.55
+				0.65
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "E_cyrillic.dds"
 		color1 = "white"
-		instance = {scale = { 0.13 0.13 }  position = { 0.61 0.65 } }
+		instance = {
+			scale = {
+				0.13
+				0.13
+			}
+			position = {
+				0.61
+				0.65
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "R_cyrillic.dds"
 		color1 = "white"
-		instance = {scale = { 0.13 0.13 }  position = { 0.66 0.65 } }
+		instance = {
+			scale = {
+				0.13
+				0.13
+			}
+			position = {
+				0.66
+				0.65
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "-j_cyrillic.dds"
 		color1 = "white"
-		instance = {scale = { 0.127 0.127 }  position = { 0.72 0.65 } }
+		instance = {
+			scale = {
+				0.127
+				0.127
+			}
+			position = {
+				0.72
+				0.65
+			}
+		}
 	}
 }
+
 ZAZ_fascist = {
 	pattern = "pattern_solid.tga"
 	color1 = "blue"
-
 	colored_emblem = {
 		texture = "ce_bicolor_bottom.dds"
 		color1 = "yellow"
@@ -598,21 +1309,49 @@ ZAZ_fascist = {
 		color1 = "black"
 		color2 = "yellow_dark"
 		color3 = "yellow"
-		instance = { position = { 0.5 0.48 } scale = { 1 1 } }
-	}	
+		instance = {
+			position = {
+				0.5
+				0.48
+			}
+			scale = {
+				1
+				1
+			}
+		}
+	}
 	colored_emblem = {
 		texture = "ce_circle.dds"
 		color1 = "blue_light"
-		instance = { position = { 0.5 0.48 } scale = { 0.5 0.5 } }
+		instance = {
+			position = {
+				0.5
+				0.48
+			}
+			scale = {
+				0.5
+				0.5
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "tryzub.dds"
 		color1 = "yellow"
 		color2 = "yellow"
 		color3 = "yellow"
-		instance = { position = { 0.5 0.48 } scale = { 0.5 0.5 } }
+		instance = {
+			position = {
+				0.5
+				0.48
+			}
+			scale = {
+				0.5
+				0.5
+			}
+		}
 	}
 }
+
 ZAZ_ukraine = {
 	pattern = "pattern_horizontal_split_01.tga"
 	color1 = "blue_light"
@@ -621,14 +1360,86 @@ ZAZ_ukraine = {
 		texture = "ce_rhombus.dds"
 		color1 = "blue"
 		color2 = "blue"
-        instance = { scale = { 1 1.0  } position = { 0.0 0.5 }  }	
+		instance = {
+			scale = {
+				1
+				1
+			}
+			position = {
+				0
+				0.5
+			}
+		}
 	}
-}		
+}
+
+ZAZ_ukraine_dem = {
+	pattern = "pattern_horizontal_split_01.tga"
+	color1 = "blue_light"
+	color2 = "yellow"
+	colored_emblem = {
+		texture = "ce_rhombus.dds"
+		color1 = "blue"
+		color2 = "blue"
+		instance = {
+			scale = {
+				1
+				1
+			}
+			position = {
+				0
+				0.5
+			}
+		}
+	}
+}
+
+ZAZ_ukraine_com = {
+	pattern = "pattern_horizontal_split_01.tga"
+	color1 = "blue_light"
+	color2 = "yellow"
+	colored_emblem = {
+		texture = "ce_rhombus.dds"
+		color1 = "blue"
+		color2 = "blue"
+		instance = {
+			scale = {
+				1
+				1
+			}
+			position = {
+				0
+				0.5
+			}
+		}
+	}
+}
+
+ZAZ_ukraine_mon = {
+	pattern = "pattern_horizontal_split_01.tga"
+	color1 = "blue_light"
+	color2 = "yellow"
+	colored_emblem = {
+		texture = "ce_rhombus.dds"
+		color1 = "blue"
+		color2 = "blue"
+		instance = {
+			scale = {
+				1
+				1
+			}
+			position = {
+				0
+				0.5
+			}
+		}
+	}
+}
+
 ZAZ_russian = {
 	pattern = "pattern_solid.tga"
 	color1 = "red"
 	color2 = "yellow"
-
 	colored_emblem = {
 		texture = "ce_saltire_fimbriated.dds"
 		color1 = "white"
@@ -645,22 +1456,32 @@ ZAZ_russian = {
 		color1 = "red"
 		color2 = "yellow"
 		color3 = "red"
-		instance = { scale = { 0.5 0.5 } }
+		instance = {
+			scale = {
+				0.5
+				0.5
+			}
+		}
 	}
 }
+
 ZAZ_theocracy_monarchy_RUS = {
 	pattern = "pattern_solid.tga"
 	color1 = "red"
-
 	textured_emblem = {
 		texture = "te_archangel_michael_with_dragon.dds"
-		instance = { scale = { 0.45 0.45} }		
+		instance = {
+			scale = {
+				0.45
+				0.45
+			}
+		}
 	}
 }
+
 ZAZ_austrian = {
 	pattern = "pattern_solid.tga"
 	color1 = "black"
-
 	colored_emblem = {
 		texture = "ce_cross_england_fimbriated.dds"
 		color1 = "yellow"
@@ -677,13 +1498,18 @@ ZAZ_austrian = {
 		color1 = "red"
 		color2 = "yellow"
 		color3 = "blue"
-		instance = { scale = { 0.375 0.375 } }
+		instance = {
+			scale = {
+				0.375
+				0.375
+			}
+		}
 	}
-}	
+}
+
 ZAZ_polish = {
 	pattern = "pattern_solid.tga"
 	color1 = "blue"
-
 	colored_emblem = {
 		texture = "ce_bicolor_bottom.dds"
 		color1 = "yellow"
@@ -699,99 +1525,151 @@ ZAZ_polish = {
 		color1 = "black"
 		color2 = "yellow_dark"
 		color3 = "yellow"
-		instance = { position = { 0.5 0.48 } scale = { 1 1 } }
-	}	
+		instance = {
+			position = {
+				0.5
+				0.48
+			}
+			scale = {
+				1
+				1
+			}
+		}
+	}
 	colored_emblem = {
 		texture = "ce_shield_accolade.dds"
 		color1 = "red"
 		color2 = "red"
-		instance = { scale = { 0.62 0.58 } position = { 0.5 0.48 } }		
-	}	
+		instance = {
+			scale = {
+				0.62
+				0.58
+			}
+			position = {
+				0.5
+				0.48
+			}
+		}
+	}
 	colored_emblem = {
 		texture = "ce_eagle_crown.dds"
 		color1 = "white"
 		color2 = "yellow"
 		color3 = "white"
-		instance = { scale = { 0.5 0.5 } position = { 0.5 0.48 } }
+		instance = {
+			scale = {
+				0.5
+				0.5
+			}
+			position = {
+				0.5
+				0.48
+			}
+		}
 	}
-}	
+}
 
-GAL_h = { # Galicia (Halych)	
+GAL_h = {
+	# Galicia (Halych)	
 	pattern = "pattern_solid.tga"
 	color1 = "blue"
-
 	colored_emblem = {
 		texture = "ce_tricolor_horizontal.dds"
 		color1 = "red"
 		color2 = "yellow"
 	}
 }
+
 GAL_h_gssr = {
 	pattern = "pattern_solid.tga"
 	color1 = "red"
 	color2 = "yellow"
 	color3 = "red"
-	
 	colored_emblem = {
 		texture = "ce_bicolor_bottom.dds"
 		color1 = "blue"
 		color2 = "blue"
-        instance = { scale = { 1.0 @[third] } position = { 0.5 @[1-third] }  }
+		instance = {
+			scale = {
+				1
+				@[third]
+			}
+			position = {
+				0.5
+				@[1-third]
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "ce_hammer_sickle_star_ussr.dds"
 		color1 = color2
 		color2 = color2
-		instance = { position = { 0.25 @third } scale = { 0.5 0.5 } }
-	}	
+		instance = {
+			position = {
+				0.25
+				@third
+			}
+			scale = {
+				0.5
+				0.5
+			}
+		}
+	}
 }
-GAL_h_ulegion = { # Galicia (Halych)	
+
+GAL_h_ulegion = {
+	# Galicia (Halych)	
 	pattern = "pattern_solid.tga"
 	color1 = "blue"
-
 	colored_emblem = {
 		texture = "ce_tricolor_horizontal.dds"
 		color1 = "red"
 		color2 = "yellow"
 	}
 }
+
 GAL_h_ulegion = {
 	pattern = "pattern_horizontal_split_01.tga"
 	color1 = "blue"
 	color2 = "yellow"
-
 	colored_emblem = {
 		texture = "uss.dds"
 		color1 = "yellow"
 		color2 = "yellow_dark"
 		color3 = "blue_light"
-		instance = {scale = { 0.4875 0.75 } }
+		instance = {
+			scale = {
+				0.4875
+				0.75
+			}
+		}
 	}
 }
-GAL_h_brest = { # Galicia (Halych)	
+
+GAL_h_brest = {
+	# Galicia (Halych)	
 	pattern = "pattern_solid.tga"
 	color1 = "blue_light"
-
 	colored_emblem = {
 		texture = "ce_tricolor_horizontal.dds"
 		color1 = "yellow"
 		color2 = "green_light"
 	}
 }
-GAL_h_austrian_wukraine = { 	
+
+GAL_h_austrian_wukraine = {
 	pattern = "pattern_solid.tga"
 	color1 = "blue"
-
 	colored_emblem = {
 		texture = "ce_bicolor_bottom.dds"
 		color1 = "red"
 		color2 = "red"
 	}
 }
-GAL_h_zapadorossia = { 
+
+GAL_h_zapadorossia = {
 	pattern = "pattern_solid.tga"
 	color1 = "blue"
-
 	colored_emblem = {
 		texture = "ce_tricolor_horizontal.dds"
 		color1 = "red"
@@ -802,20 +1680,34 @@ GAL_h_zapadorossia = {
 		color1 = "black"
 		color2 = "yellow"
 		color3 = "black"
-		instance = { scale = { 0.9 0.9 } position = { 0.5 0.51 } }
+		instance = {
+			scale = {
+				0.9
+				0.9
+			}
+			position = {
+				0.5
+				0.51
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "ce_shield_cross.dds"
 		color1 = "red_faint"
 		color2 = "white"
 		color3 = "white"
-		instance = { scale = { 0.225 0.2295} }
+		instance = {
+			scale = {
+				0.225
+				0.2295
+			}
+		}
 	}
 }
-GAL_h_polish_wukraine = { 	
+
+GAL_h_polish_wukraine = {
 	pattern = "pattern_solid.tga"
 	color1 = "blue"
-
 	colored_emblem = {
 		texture = "ce_bicolor_bottom.dds"
 		color1 = "red"
@@ -826,119 +1718,176 @@ GAL_h_polish_wukraine = {
 		color1 = "white"
 		color2 = "yellow"
 		color3 = "white"
-		instance = { scale = { 0.9 0.9 } position = { 0.5 0.51 } }
+		instance = {
+			scale = {
+				0.9
+				0.9
+			}
+			position = {
+				0.5
+				0.51
+			}
+		}
 	}
 }
-GAL_h_we_aukraine = { 	
+
+GAL_h_we_aukraine = {
 	pattern = "pattern_horizontal_split_01.tga"
 	color1 = "blue_light"
 	color2 = "yellow"
-
 	colored_emblem = {
 		texture = "ce_shield_heater.dds"
 		color1 = "blue_light"
 		color2 = "yellow_dark"
 		color3 = "blue"
-		instance = {scale = { 1 1 }  position = { 0.5 0.49 } }
+		instance = {
+			scale = {
+				1
+				1
+			}
+			position = {
+				0.5
+				0.49
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "ce_lion_rampant_crowned.dds"
 		color1 = "yellow_dark"
 		color2 = "yellow"
 		color3 = "blue_light"
-		instance = {scale = { 0.65 0.65 } }
+		instance = {
+			scale = {
+				0.65
+				0.65
+			}
+		}
 	}
 }
-GAL_h_hvp = { 	
+
+GAL_h_hvp = {
 	pattern = "pattern_horizontal_split_01.tga"
 	color1 = "blue_light"
 	color2 = "yellow"
-
 	colored_emblem = {
 		texture = "ce_shield_cross.dds"
 		color1 = "red_faint"
 		color2 = "white"
 		color3 = "white"
-		instance = {scale = { 1 1 }  position = { 0.5 0.49 } }
+		instance = {
+			scale = {
+				1
+				1
+			}
+			position = {
+				0.5
+				0.49
+			}
+		}
 	}
 }
 
-GAL_v = { # Galicia (Halych)	
+GAL_v = {
+	# Galicia (Halych)	
 	pattern = "pattern_solid.tga"
 	color1 = "blue"
-
 	colored_emblem = {
 		texture = "ce_tricolor_horizontal.dds"
 		color1 = "red"
 		color2 = "yellow"
 	}
 }
+
 GAL_v_gssr = {
 	pattern = "pattern_solid.tga"
 	color1 = "red"
 	color2 = "yellow"
 	color3 = "red"
-	
 	colored_emblem = {
 		texture = "ce_bicolor_bottom.dds"
 		color1 = "blue"
 		color2 = "blue"
-        instance = { scale = { 1.0 @[third] } position = { 0.5 @[1-third] }  }
+		instance = {
+			scale = {
+				1
+				@[third]
+			}
+			position = {
+				0.5
+				@[1-third]
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "ce_hammer_sickle_star_ussr.dds"
 		color1 = color2
 		color2 = color2
-		instance = { position = { 0.25 @third } scale = { 0.5 0.5 } }
-	}	
+		instance = {
+			position = {
+				0.25
+				@third
+			}
+			scale = {
+				0.5
+				0.5
+			}
+		}
+	}
 }
-GAL_v_ulegion = { # Galicia (Halych)	
+
+GAL_v_ulegion = {
+	# Galicia (Halych)	
 	pattern = "pattern_solid.tga"
 	color1 = "blue"
-
 	colored_emblem = {
 		texture = "ce_tricolor_horizontal.dds"
 		color1 = "red"
 		color2 = "yellow"
 	}
 }
+
 GAL_v_ulegion = {
 	pattern = "pattern_horizontal_split_01.tga"
 	color1 = "blue"
 	color2 = "yellow"
-
 	colored_emblem = {
 		texture = "uss.dds"
 		color1 = "yellow"
 		color2 = "yellow_dark"
 		color3 = "blue_light"
-		instance = {scale = { 0.4875 0.75 } }
+		instance = {
+			scale = {
+				0.4875
+				0.75
+			}
+		}
 	}
 }
-GAL_v_brest = { # Galicia (Halych)	
+
+GAL_v_brest = {
+	# Galicia (Halych)	
 	pattern = "pattern_solid.tga"
 	color1 = "blue_light"
-
 	colored_emblem = {
 		texture = "ce_tricolor_horizontal.dds"
 		color1 = "yellow"
 		color2 = "green_light"
 	}
 }
-GAL_v_austrian_wukraine = { 	
+
+GAL_v_austrian_wukraine = {
 	pattern = "pattern_solid.tga"
 	color1 = "blue"
-
 	colored_emblem = {
 		texture = "ce_bicolor_bottom.dds"
 		color1 = "red"
 		color2 = "red"
 	}
 }
-GAL_v_zapadorossia = { 
+
+GAL_v_zapadorossia = {
 	pattern = "pattern_solid.tga"
 	color1 = "blue"
-
 	colored_emblem = {
 		texture = "ce_tricolor_horizontal.dds"
 		color1 = "red"
@@ -949,20 +1898,34 @@ GAL_v_zapadorossia = {
 		color1 = "black"
 		color2 = "yellow"
 		color3 = "black"
-		instance = { scale = { 0.9 0.9 } position = { 0.5 0.51 } }
+		instance = {
+			scale = {
+				0.9
+				0.9
+			}
+			position = {
+				0.5
+				0.51
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "ce_shield_cross.dds"
 		color1 = "red_faint"
 		color2 = "white"
 		color3 = "white"
-		instance = { scale = { 0.225 0.2295} }
+		instance = {
+			scale = {
+				0.225
+				0.2295
+			}
+		}
 	}
 }
-GAL_v_polish_wukraine = { 	
+
+GAL_v_polish_wukraine = {
 	pattern = "pattern_solid.tga"
 	color1 = "blue"
-
 	colored_emblem = {
 		texture = "ce_bicolor_bottom.dds"
 		color1 = "red"
@@ -973,118 +1936,176 @@ GAL_v_polish_wukraine = {
 		color1 = "white"
 		color2 = "yellow"
 		color3 = "white"
-		instance = { scale = { 0.9 0.9 } position = { 0.5 0.51 } }
+		instance = {
+			scale = {
+				0.9
+				0.9
+			}
+			position = {
+				0.5
+				0.51
+			}
+		}
 	}
 }
-GAL_v_we_aukraine = { 	
+
+GAL_v_we_aukraine = {
 	pattern = "pattern_horizontal_split_01.tga"
 	color1 = "blue_light"
 	color2 = "yellow"
-
 	colored_emblem = {
 		texture = "ce_shield_heater.dds"
 		color1 = "blue_light"
 		color2 = "yellow_dark"
 		color3 = "blue"
-		instance = {scale = { 1 1 }  position = { 0.5 0.49 } }
+		instance = {
+			scale = {
+				1
+				1
+			}
+			position = {
+				0.5
+				0.49
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "ce_lion_rampant_crowned.dds"
 		color1 = "yellow_dark"
 		color2 = "yellow"
 		color3 = "blue_light"
-		instance = {scale = { 0.65 0.65 } }
+		instance = {
+			scale = {
+				0.65
+				0.65
+			}
+		}
 	}
 }
-GAL_v_hvp = { 	
+
+GAL_v_hvp = {
 	pattern = "pattern_horizontal_split_01.tga"
 	color1 = "blue_light"
 	color2 = "yellow"
-
 	colored_emblem = {
 		texture = "ce_shield_cross.dds"
 		color1 = "red_faint"
 		color2 = "white"
 		color3 = "white"
-		instance = {scale = { 1 1 }  position = { 0.5 0.49 } }
+		instance = {
+			scale = {
+				1
+				1
+			}
+			position = {
+				0.5
+				0.49
+			}
+		}
 	}
 }
-GAL_hv = { # Galicia (Halych)	
+
+GAL_hv = {
+	# Galicia (Halych)	
 	pattern = "pattern_solid.tga"
 	color1 = "blue"
-
 	colored_emblem = {
 		texture = "ce_tricolor_horizontal.dds"
 		color1 = "red"
 		color2 = "yellow"
 	}
 }
+
 GAL_hv_gssr = {
 	pattern = "pattern_solid.tga"
 	color1 = "red"
 	color2 = "yellow"
 	color3 = "red"
-	
 	colored_emblem = {
 		texture = "ce_bicolor_bottom.dds"
 		color1 = "blue"
 		color2 = "blue"
-        instance = { scale = { 1.0 @[third] } position = { 0.5 @[1-third] }  }
+		instance = {
+			scale = {
+				1
+				@[third]
+			}
+			position = {
+				0.5
+				@[1-third]
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "ce_hammer_sickle_star_ussr.dds"
 		color1 = color2
 		color2 = color2
-		instance = { position = { 0.25 @third } scale = { 0.5 0.5 } }
-	}	
+		instance = {
+			position = {
+				0.25
+				@third
+			}
+			scale = {
+				0.5
+				0.5
+			}
+		}
+	}
 }
-GAL_hv_ulegion = { # Galicia (Halych)	
+
+GAL_hv_ulegion = {
+	# Galicia (Halych)	
 	pattern = "pattern_solid.tga"
 	color1 = "blue"
-
 	colored_emblem = {
 		texture = "ce_tricolor_horizontal.dds"
 		color1 = "red"
 		color2 = "yellow"
 	}
 }
+
 GAL_hv_ulegion = {
 	pattern = "pattern_horizontal_split_01.tga"
 	color1 = "blue"
 	color2 = "yellow"
-
 	colored_emblem = {
 		texture = "uss.dds"
 		color1 = "yellow"
 		color2 = "yellow_dark"
 		color3 = "blue_light"
-		instance = {scale = { 0.4875 0.75 } }
+		instance = {
+			scale = {
+				0.4875
+				0.75
+			}
+		}
 	}
 }
-GAL_hv_brest = { # Galicia (Halych)	
+
+GAL_hv_brest = {
+	# Galicia (Halych)	
 	pattern = "pattern_solid.tga"
 	color1 = "blue_light"
-
 	colored_emblem = {
 		texture = "ce_tricolor_horizontal.dds"
 		color1 = "yellow"
 		color2 = "green_light"
 	}
 }
-GAL_hv_austrian_wukraine = { 	
+
+GAL_hv_austrian_wukraine = {
 	pattern = "pattern_solid.tga"
 	color1 = "blue"
-
 	colored_emblem = {
 		texture = "ce_bicolor_bottom.dds"
 		color1 = "red"
 		color2 = "red"
 	}
 }
-GAL_hv_zapadorossia = { 
+
+GAL_hv_zapadorossia = {
 	pattern = "pattern_solid.tga"
 	color1 = "blue"
-
 	colored_emblem = {
 		texture = "ce_tricolor_horizontal.dds"
 		color1 = "red"
@@ -1095,20 +2116,34 @@ GAL_hv_zapadorossia = {
 		color1 = "black"
 		color2 = "yellow"
 		color3 = "black"
-		instance = { scale = { 0.9 0.9 } position = { 0.5 0.51 } }
+		instance = {
+			scale = {
+				0.9
+				0.9
+			}
+			position = {
+				0.5
+				0.51
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "ce_shield_cross.dds"
 		color1 = "red_faint"
 		color2 = "white"
 		color3 = "white"
-		instance = { scale = { 0.225 0.2295} }
+		instance = {
+			scale = {
+				0.225
+				0.2295
+			}
+		}
 	}
 }
-GAL_hv_polish_wukraine = { 	
+
+GAL_hv_polish_wukraine = {
 	pattern = "pattern_solid.tga"
 	color1 = "blue"
-
 	colored_emblem = {
 		texture = "ce_bicolor_bottom.dds"
 		color1 = "red"
@@ -1119,46 +2154,78 @@ GAL_hv_polish_wukraine = {
 		color1 = "white"
 		color2 = "yellow"
 		color3 = "white"
-		instance = { scale = { 0.9 0.9 } position = { 0.5 0.51 } }
+		instance = {
+			scale = {
+				0.9
+				0.9
+			}
+			position = {
+				0.5
+				0.51
+			}
+		}
 	}
 }
-GAL_hv_we_aukraine = { 	
+
+GAL_hv_we_aukraine = {
 	pattern = "pattern_horizontal_split_01.tga"
 	color1 = "blue_light"
 	color2 = "yellow"
-
 	colored_emblem = {
 		texture = "ce_shield_heater.dds"
 		color1 = "blue_light"
 		color2 = "yellow_dark"
 		color3 = "blue"
-		instance = {scale = { 1 1 }  position = { 0.5 0.49 } }
+		instance = {
+			scale = {
+				1
+				1
+			}
+			position = {
+				0.5
+				0.49
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "ce_lion_rampant_crowned.dds"
 		color1 = "yellow_dark"
 		color2 = "yellow"
 		color3 = "blue_light"
-		instance = {scale = { 0.65 0.65 } }
+		instance = {
+			scale = {
+				0.65
+				0.65
+			}
+		}
 	}
 }
-GAL_hv_hvp = { 	
+
+GAL_hv_hvp = {
 	pattern = "pattern_horizontal_split_01.tga"
 	color1 = "blue_light"
 	color2 = "yellow"
-
 	colored_emblem = {
 		texture = "ce_shield_cross.dds"
 		color1 = "red_faint"
 		color2 = "white"
 		color3 = "white"
-		instance = {scale = { 1 1 }  position = { 0.5 0.49 } }
+		instance = {
+			scale = {
+				1
+				1
+			}
+			position = {
+				0.5
+				0.49
+			}
+		}
 	}
 }
+
 RUT_WUA_absolute = {
 	pattern = "pattern_solid.tga"
 	color1 = "blue"
-
 	colored_emblem = {
 		texture = "ce_bicolor_bottom.dds"
 		color1 = "yellow"
@@ -1174,79 +2241,128 @@ RUT_WUA_absolute = {
 		color1 = "yellow"
 		color2 = "yellow"
 		color3 = "white"
-		instance = { scale = { 0.7 0.7 } }		
+		instance = {
+			scale = {
+				0.7
+				0.7
+			}
+		}
 	}
 }
+
 RUT_WUA_sub_pol = {
 	pattern = "pattern_solid.tga"
 	color1 = "blue_light"
-
 	colored_emblem = {
 		texture = "ce_lion_rampant_crowned.dds"
 		color1 = "yellow"
 		color2 = "yellow"
-		color3 = "white"	
+		color3 = "white"
 	}
 }
 
-CRI_crimean_imamate = { 	
+CRI_crimean_imamate = {
 	pattern = "pattern_solid.tga"
 	color1 = "green"
-
 	colored_emblem = {
 		texture = "tamga3.dds"
 		color1 = "blue_light"
 		color2 = "yellow"
-		instance = {scale = { 0.3775 0.755 }  position = { 0.5 0.51 } }
+		instance = {
+			scale = {
+				0.3775
+				0.755
+			}
+			position = {
+				0.5
+				0.51
+			}
+		}
 	}
 }
-CRI_cdr = { 	
+
+CRI_cdr = {
 	pattern = "pattern_solid.tga"
 	color1 = blue_light
 	color2 = yellow
-
 	colored_emblem = {
 		texture = "ce_tricolor_horizontal_fifth.dds"
 		color1 = color2
 		color2 = color1
-		instance = {scale = { 1 0.75 }  position = { 0.5 0.51 } }
+		instance = {
+			scale = {
+				1
+				0.75
+			}
+			position = {
+				0.5
+				0.51
+			}
+		}
 	}
 }
-CRI_ssrt = { 	
+
+CRI_ssrt = {
 	pattern = "pattern_solid.tga"
 	color1 = "red"
 	color2 = "yellow"
-
 	colored_emblem = {
 		texture = "ce_hammer_sickle_star_ussr.dds"
 		color1 = color2
 		color2 = color2
-        instance = { scale = { 0.45 0.45 } position = { 0.20 0.25 }  }
+		instance = {
+			scale = {
+				0.45
+				0.45
+			}
+			position = {
+				0.2
+				0.25
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "ce_waves_latvia.dds"
 		color1 = "blue_light"
 		color2 = "red"
-        instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 }  }
-	}	
+		instance = {
+			scale = {
+				1
+				1
+			}
+			position = {
+				0.5
+				0.5
+			}
+		}
+	}
 }
-CRI_pontic_step = { 	
+
+CRI_pontic_step = {
 	pattern = "pattern_solid.tga"
 	color1 = "yellow_dark"
 	color2 = "black"
-
 	colored_emblem = {
 		texture = "ce_eagle_albania.dds"
 		color1 = "black"
 		color2 = "black"
 		color3 = "black"
-		instance = {scale = { 1 1 }  position = { 0.5 0.49 } }
+		instance = {
+			scale = {
+				1
+				1
+			}
+			position = {
+				0.5
+				0.49
+			}
+		}
 	}
 }
-CRI_taurid = { 	
+
+CRI_taurid = {
 	pattern = "pattern_solid.tga"
 	color1 = "white"
-
 	colored_emblem = {
 		texture = "ped_rus_cross.dds"
 		color1 = "red"
@@ -1263,66 +2379,138 @@ CRI_taurid = {
 		color3 = "yellow"
 	}
 }
-CRI_beylik_qirim = { 	
+
+CRI_beylik_qirim = {
 	pattern = "pattern_solid.tga"
 	color1 = "yellow"
-
 	colored_emblem = {
 		texture = "griff.dds"
 		color1 = "black"
-		instance = {scale = { 0.33 0.33 }  position = { 0.66 0.66 } }
+		instance = {
+			scale = {
+				0.33
+				0.33
+			}
+			position = {
+				0.66
+				0.66
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "griff.dds"
 		color1 = "black"
-		instance = {scale = { 0.33 0.33 }  position = { 0.34 0.66 } }
+		instance = {
+			scale = {
+				0.33
+				0.33
+			}
+			position = {
+				0.34
+				0.66
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "griff.dds"
 		color1 = "black"
-		instance = {scale = { 0.33 0.33 }  position = { 0.5 0.34 } }
+		instance = {
+			scale = {
+				0.33
+				0.33
+			}
+			position = {
+				0.5
+				0.34
+			}
+		}
 	}
 }
-CRI_bosporus = { 	
+
+CRI_bosporus = {
 	pattern = "pattern_solid.tga"
 	color1 = "red_light"
-
 	colored_emblem = {
 		texture = "ce_aurochs_head.dds"
 		color1 = "white"
 		color2 = "yellow_dark"
-		instance = {scale = { 1 1 }  position = { 0.5 0.49 } }
+		instance = {
+			scale = {
+				1
+				1
+			}
+			position = {
+				0.5
+				0.49
+			}
+		}
 	}
 }
-CRI_crimean_metropolis = { 	
+
+CRI_crimean_metropolis = {
 	pattern = "pattern_solid.tga"
 	color1 = "green"
-
 	colored_emblem = {
 		texture = "pattern_solid.tga"
 		color1 = "blue"
-		instance = {scale = { 0.15 1 }  position = { 0.5 0.15 } }
+		instance = {
+			scale = {
+				0.15
+				1
+			}
+			position = {
+				0.5
+				0.15
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "pattern_solid.tga"
 		color1 = "yellow"
-		instance = {scale = { 0.15 1 }  position = { 0.5 0.85 } }
+		instance = {
+			scale = {
+				0.15
+				1
+			}
+			position = {
+				0.5
+				0.85
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "tanga.tga"
 		color1 = "yellow"
-		instance = {scale = { 0.5 0.5 }  position = { 0.5 0.66 } }
+		instance = {
+			scale = {
+				0.5
+				0.5
+			}
+			position = {
+				0.5
+				0.66
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "orthodox_cross.tga"
 		color1 = "yellow"
-		instance = {scale = { 0.15 1 }  position = { 0.5 0.34 } }
+		instance = {
+			scale = {
+				0.15
+				1
+			}
+			position = {
+				0.5
+				0.34
+			}
+		}
 	}
 }
-CRI_crimean_principality = { 	
+
+CRI_crimean_principality = {
 	pattern = "pattern_solid.tga"
 	color1 = "red"
-
 	colored_emblem = {
 		texture = "ce_cross_england_fimbriated.dds"
 		color1 = "white"
@@ -1333,87 +2521,434 @@ CRI_crimean_principality = {
 		color1 = "yellow_dark"
 		color2 = "blue_light"
 		color3 = "yellow"
-		instance = {scale = { 0.33 0.33 }   }
+		instance = {
+			scale = {
+				0.33
+				0.33
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "ce_cross_patty.dds"
 		color1 = "yellow_dark"
-		instance = {scale = { 0.25 0.25 }  position = { 0.25 0.25 } }
-		instance = {scale = { 0.25 0.25 }  position = { 0.25 0.75 } }
-		instance = {scale = { 0.25 0.25 }  position = { 0.75 0.25 } }
-		instance = {scale = { 0.25 0.25 }  position = { 0.75 0.75 } }
+		instance = {
+			scale = {
+				0.25
+				0.25
+			}
+			position = {
+				0.25
+				0.25
+			}
+		}
+		instance = {
+			scale = {
+				0.25
+				0.25
+			}
+			position = {
+				0.25
+				0.75
+			}
+		}
+		instance = {
+			scale = {
+				0.25
+				0.25
+			}
+			position = {
+				0.75
+				0.25
+			}
+		}
+		instance = {
+			scale = {
+				0.25
+				0.25
+			}
+			position = {
+				0.75
+				0.75
+			}
+		}
 	}
 }
-CRI_arc = { 	
+
+CRI_arc = {
 	pattern = "pattern_solid.tga"
 	color1 = "blue_light"
-
 	colored_emblem = {
 		texture = "tamga2.dds"
 		color1 = "yellow"
 		color2 = "yellow"
 		color3 = "blue_light"
-		instance = {scale = { 0.5 0.75 }  position = { 0.5 0.51 } }
+		instance = {
+			scale = {
+				0.5
+				0.75
+			}
+			position = {
+				0.5
+				0.51
+			}
+		}
 	}
 }
-CRI_cassr = { 	
+
+CRI_cassr = {
 	pattern = "pattern_solid.tga"
 	color1 = "red"
 	color2 = "yellow"
 	color3 = "blue_light"
-	
 	colored_emblem = {
 		texture = "ce_solid.dds"
 		color1 = color3
 		color2 = color3
-        instance = { scale = { @third 1.0  } position = { @[1-third/2] 0.5  }  }	
+		instance = {
+			scale = {
+				@third
+				1
+			}
+			position = {
+				@[1-third/2]
+				0.5
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "ce_hammer_sickle_star_ussr.dds"
 		color1 = color2
 		color2 = color2
-		instance = { position = { 0.25 @third } scale = { 0.5 0.5 } }
+		instance = {
+			position = {
+				0.25
+				@third
+			}
+			scale = {
+				0.5
+				0.5
+			}
+		}
 	}
 }
+
 DON = {
 	pattern = "pattern_solid.tga"
 	color1 = "blue"
-
 	colored_emblem = {
 		texture = "ce_tricolor_horizontal.dds"
 		color1 = "yellow"
 		color2 = "red"
 	}
 }
+
 DON_theocracy = {
 	pattern = "pattern_solid.tga"
-	color1 = "blue"
-
+	color1 = "red_dark"
+	#colored_emblem = {
+	#	texture = "ce_tricolor_horizontal.dds"
+	#	color1 = "yellow"
+	#	color2 = "red"
+	#}	
 	colored_emblem = {
-		texture = "ce_tricolor_horizontal.dds"
+		texture = "zaz.dds"
 		color1 = "yellow"
-		color2 = "red"
+		color2 = "black"
+		color3 = "yellow"
+		instance = {
+			scale = {
+				0.5
+				0.5
+			}
+			position = {
+				0.5
+				0.5
+			}
+		}
 	}
 	colored_emblem = {
-		texture = "ce_cross_wheel.dds"
+		texture = "orthodox_cross.dds"
+		color1 = "yellow"
+		instance = {
+			scale = {
+				0.375
+				0.375
+			}
+			position = {
+				0.5
+				0.3
+			}
+		}
+	}
+	colored_emblem = {
+		texture = "S_cyrillic.dds"
 		color1 = "black"
-		instance = { position = { 0.5 0.5 } scale = { 0.625 0.625 } }
+		instance = {
+			scale = {
+				0.12
+				0.12
+			}
+			position = {
+				0.19
+				0.85
+			}
+		}
 	}
-}
-DON_monarchy = {
-	pattern = "pattern_solid.tga"
-	color1 = "blue"
-
 	colored_emblem = {
-		texture = "ce_tricolor_horizontal.dds"
-		color1 = "yellow"
-		color2 = "red"
+		texture = "P_cyrillic.dds"
+		color1 = "black"
+		instance = {
+			scale = {
+				0.12
+				0.12
+			}
+			position = {
+				0.23
+				0.85
+			}
+		}
+	}
+	colored_emblem = {
+		texture = "A_cyrillic.dds"
+		color1 = "black"
+		instance = {
+			scale = {
+				0.12
+				0.12
+			}
+			position = {
+				0.28
+				0.85
+			}
+		}
+	}
+	colored_emblem = {
+		texture = "S_cyrillic.dds"
+		color1 = "black"
+		instance = {
+			scale = {
+				0.12
+				0.12
+			}
+			position = {
+				0.33
+				0.85
+			}
+		}
+	}
+	colored_emblem = {
+		texture = "Y_cyrillic.dds"
+		color1 = "black"
+		instance = {
+			scale = {
+				0.12
+				0.12
+			}
+			position = {
+				0.38
+				0.85
+			}
+		}
+	}
+	colored_emblem = {
+		texture = "Y_cyrillic.dds"
+		color1 = "black"
+		instance = {
+			scale = {
+				0.12
+				0.12
+			}
+			position = {
+				0.47
+				0.85
+			}
+		}
+	}
+	colored_emblem = {
+		texture = "S_cyrillic.dds"
+		color1 = "black"
+		instance = {
+			scale = {
+				0.12
+				0.12
+			}
+			position = {
+				0.57
+				0.85
+			}
+		}
+	}
+	colored_emblem = {
+		texture = "O_cyrillic.dds"
+		color1 = "black"
+		instance = {
+			scale = {
+				0.12
+				0.12
+			}
+			position = {
+				0.61
+				0.85
+			}
+		}
+	}
+	colored_emblem = {
+		texture = "Kh_cyrillic.dds"
+		color1 = "black"
+		instance = {
+			scale = {
+				0.12
+				0.12
+			}
+			position = {
+				0.66
+				0.85
+			}
+		}
+	}
+	colored_emblem = {
+		texture = "R_cyrillic.dds"
+		color1 = "black"
+		instance = {
+			scale = {
+				0.12
+				0.12
+			}
+			position = {
+				0.69
+				0.85
+			}
+		}
+	}
+	colored_emblem = {
+		texture = "A_cyrillic.dds"
+		color1 = "black"
+		instance = {
+			scale = {
+				0.12
+				0.12
+			}
+			position = {
+				0.71
+				0.85
+			}
+		}
+	}
+	colored_emblem = {
+		texture = "N_cyrillic.dds"
+		color1 = "black"
+		instance = {
+			scale = {
+				0.12
+				0.12
+			}
+			position = {
+				0.76
+				0.85
+			}
+		}
+	}
+	colored_emblem = {
+		texture = "Y_cyrillic.dds"
+		color1 = "black"
+		instance = {
+			scale = {
+				0.12
+				0.12
+			}
+			position = {
+				0.8
+				0.85
+			}
+		}
 	}
 }
+
+DON_monarchy = {
+	pattern = "pattern_horizontal_split_01.tga"
+	color1 = "white"
+	color2 = "white"
+	colored_emblem = {
+		texture = "ce_saltire_fimbriated.dds"
+		color1 = "blue"
+		color2 = color1
+		instance = {
+			scale = {
+				1
+				1
+			}
+			position = {
+				0.5
+				0.5
+			}
+		}
+	}
+	colored_emblem = {
+		texture = "shield_hetman.dds"
+		color1 = "white"
+		color2 = "blue"
+		color3 = "yellow_dark"
+		instance = {
+			scale = {
+				0.625
+				0.475
+			}
+		}
+	}
+	colored_emblem = {
+		texture = "cossack.dds"
+		color1 = "white"
+		color2 = "blue"
+		color3 = "gold"
+		instance = {
+			scale = {
+				0.625
+				0.625
+			}
+		}
+	}
+}
+
 DON_dictatorship_military = {
+	pattern = "pattern_horizontal_split_01.tga"
+	color1 = "red"
+	color2 = "blue"
+	colored_emblem = {
+		texture = "ce_solid.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+		instance = {
+			scale = {
+				@third
+				1
+			}
+			position = {
+				0.175
+				0.5
+			}
+		}
+	}
+	colored_emblem = {
+		texture = "don.dds"
+		color1 = "blue"
+		color2 = "yellow"
+		color3 = "white"
+		instance = {
+			position = {
+				0.175
+				0.49
+			}
+			scale = {
+				0.55
+				0.5
+			}
+		}
+	}
+}
+
+DON_republic = {
 	pattern = "pattern_solid.tga"
 	color1 = "blue"
-
 	colored_emblem = {
 		texture = "ce_tricolor_horizontal.dds"
 		color1 = "yellow"
@@ -1421,97 +2956,193 @@ DON_dictatorship_military = {
 	}
 	colored_emblem = {
 		texture = "don.dds"
-		color1 = "blue"
+		color1 = color1
 		color2 = "yellow"
 		color3 = "white"
-		instance = { position = { 0.5 0.5 } scale = { 0.25 0.375 } }
+		instance = {
+			position = {
+				0.25
+				@third
+			}
+			scale = {
+				0.5
+				0.5
+			}
+		}
 	}
 }
-DON_republic = {
-	pattern = "pattern_cross.tga"
-	color1 = "blue"
-	color2 = "yellow"
-	color3 = "red"
-}
+
 DON_communist = {
 	pattern = "pattern_solid.tga"
 	color1 = "red"
-	color2 = "yellow"
-	color3 = "red"
-	
+	color2 = "blue"
+	color3 = "yellow_dark"
 	colored_emblem = {
-		texture = "ce_bicolor_bottom.dds"
-		color1 = "yellow"
-		color2 = "yellow"
-        instance = { scale = { 1.0 @[third] } position = { 0.5 @[1-third] }  }
+		texture = "ce_solid.dds"
+		color1 = color3
+		color2 = color3
+		instance = {
+			scale = {
+				1
+				0.5
+			}
+			position = {
+				0.5
+				0.75
+			}
+		}
 	}
 	colored_emblem = {
-		texture = "ce_bicolor_bottom.dds"
-		color1 = "blue"
-		color2 = "blue"
-        instance = { scale = { 1.0 @[third] } position = { 0.5 @[1-third+0.167] }  }
+		texture = "ce_rhombus.dds"
+		color1 = color2
+		color2 = color2
+		instance = {
+			scale = {
+				1
+				1
+			}
+			position = {
+				0
+				0.5
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "ce_hammer_sickle_star_ussr.dds"
-		color1 = color2
-		color2 = color2
-		instance = { position = { 0.25 @third } scale = { 0.5 0.5 } }
-	}	
+		color1 = color3
+		color2 = color3
+		instance = {
+			position = {
+				0.1875
+				0.5
+			}
+			scale = {
+				0.5
+				0.5
+			}
+		}
+	}
 }
+
 DON_fascist = {
 	pattern = "pattern_solid.tga"
 	color1 = "red"
-	color2 = "yellow"
-	color3 = "red"
-	
 	colored_emblem = {
 		texture = "ce_bicolor_bottom.dds"
-		color1 = "yellow"
-		color2 = "yellow"
-        instance = { scale = { 1.0 @[third] } position = { 0.5 @[1-third] }  }
+		color1 = "white"
+		color2 = "white"
 	}
 	colored_emblem = {
-		texture = "ce_bicolor_bottom.dds"
-		color1 = "blue"
-		color2 = "blue"
-        instance = { scale = { 1.0 @[third] } position = { 0.5 @[1-third+0.167] }  }
+		texture = "ce_circle.dds"
+		color1 = "red"
+		instance = {
+			position = {
+				0.5
+				0.48
+			}
+			scale = {
+				0.75
+				0.75
+			}
+		}
 	}
 	colored_emblem = {
-		texture = "ce_hammer_sickle_star_ussr.dds"
-		color1 = color2
-		color2 = color2
-		instance = { position = { 0.25 @third } scale = { 0.5 0.5 } }
-	}	
+		texture = "cossack_sabre_don.dds"
+		color1 = "white"
+		color2 = "white"
+		color3 = "red_dark"
+		instance = {
+			position = {
+				0.5
+				0.48
+			}
+			scale = {
+				-0.5
+				0.5
+			}
+		}
+	}
+	colored_emblem = {
+		texture = "cossack_sabre_don.dds"
+		color1 = "white"
+		color2 = "white"
+		color3 = "red_dark"
+		instance = {
+			position = {
+				0.5
+				0.48
+			}
+			scale = {
+				0.5
+				0.5
+			}
+		}
+	}
 }
+
 DON_anarchy = {
 	pattern = "pattern_solid.tga"
 	color1 = "blue"
-
 	colored_emblem = {
 		texture = "ce_tricolor_horizontal.dds"
 		color1 = "yellow"
 		color2 = "red"
 	}
-    sub = {
-        parent = "sub_bssr" 
-        instance = { scale = { 0.45 0.45 } offset = { 0.09 0.28 } }
-    }
+	sub = {
+		parent = "sub_bssr"
+		instance = {
+			scale = {
+				0.45
+				0.45
+			}
+			offset = {
+				0.09
+				0.28
+			}
+		}
+	}
 }
+
 DON_ukraine = {
-	pattern = "pattern_solid.tga"
-	color1 = "yellow_dark"
+	pattern = "pattern_horizontal_split_01.tga"
+	color1 = "blue_light"
+	color2 = "yellow"
+	colored_emblem = {
+		texture = "ce_rhombus.dds"
+		color1 = "red"
+		color2 = "red"
+		instance = {
+			scale = {
+				1
+				1
+			}
+			position = {
+				0
+				0.5
+			}
+		}
+	}
 	colored_emblem = {
 		texture = "tryzub.dds"
 		color1 = "yellow_dark"
 		color2 = "black"
 		color3 = "yellow_dark"
-		instance = { scale = { 0.5 0.5 } position = { 0.5 0.5 } }	
+		instance = {
+			scale = {
+				0.5
+				0.5
+			}
+			position = {
+				0.333
+				0.5
+			}
+		}
 	}
 }
+
 DON_russian = {
 	pattern = "pattern_solid.tga"
 	color1 = "white"
-
 	colored_emblem = {
 		texture = "ce_tricolor_horizontal.dds"
 		color1 = "blue"
@@ -1521,347 +3152,1361 @@ DON_russian = {
 		texture = "ce_solid.dds"
 		color1 = "white"
 		color2 = "white"
-		instance = { scale = { @[third*2] @[third*2] } position = { @[third/2] @third } }			
-	}	
+		instance = {
+			scale = {
+				@[third*2]
+				@[third*2]
+			}
+			position = {
+				@[third/2]
+				@third
+			}
+		}
+	}
 	colored_emblem = {
 		texture = "ce_solid.dds"
 		color1 = "white"
 		color2 = "white"
-		instance = { scale = { 0.25 0.25 } position = { 0.25 0.25 } }			
-	}	
+		instance = {
+			scale = {
+				0.25
+				0.25
+			}
+			position = {
+				0.25
+				0.25
+			}
+		}
+	}
 	colored_emblem = {
 		texture = "ce_saltire_fimbriated.dds"
 		color1 = "blue"
 		color2 = "blue"
-		instance = { scale = { 0.5 0.67 } position = { 0.25 0.34 } }	
+		instance = {
+			scale = {
+				0.5
+				0.67
+			}
+			position = {
+				0.25
+				0.34
+			}
+		}
 	}
 }
+
 DON_italian = {
 	pattern = "pattern_solid.tga"
-	color1 = "blue_light"
-
+	color1 = "red"
 	colored_emblem = {
-		texture = "ce_tricolor_vertical.dds"
-		color1 = "yellow"
-		color2 = "red_dark"
+		texture = "ce_circle.dds"
+		color1 = "white"
+		instance = {
+			position = {
+				0.5
+				0.5
+			}
+			scale = {
+				0.4
+				0.4
+			}
+		}
+	}
+	colored_emblem = {
+		texture = "ce_eagle_italy_fascist.dds"
+		color1 = "yellow_dark"
+		instance = {
+			position = {
+				0.5
+				0.35
+			}
+			scale = {
+				0.25
+				0.25
+			}
+		}
+	}
+	textured_emblem = {
+		texture = "te_coa_italia.dds"
+		instance = {
+			scale = {
+				0.25
+				0.25
+			}
+			position = {
+				0.5
+				0.5
+			}
+		}
 	}
 }
+
 DON_polish = {
 	pattern = "pattern_solid.tga"
-	color1 = "yellow_dark"
+	color1 = "black"
 	colored_emblem = {
 		texture = "tryzub.dds"
-		color1 = "yellow_dark"
-		color2 = "black"
-		color3 = "yellow_dark"
-		instance = { scale = { 0.5 0.5 } position = { 0.5 0.5 } }	
+		color1 = "white"
+		color2 = "white"
+		color3 = "white"
+		instance = {
+			position = {
+				0.5
+				0.5
+			}
+			scale = {
+				0.6
+				0.6
+			}
+		}
 	}
-}
-DON_dk_dk = {
-	pattern = "pattern_solid.tga"
-	color1 = "pink"
-
 	colored_emblem = {
 		texture = "ce_bicolor_bottom.dds"
-		color1 = "blue_light"
-		color2 = "blue_light"
-        instance = { scale = { 1.0 0.5 } position = { 0.5 0 }  }
+		color1 = "red"
+		color2 = "red"
+		instance = {
+			position = {
+				0.5
+				0.5
+			}
+			scale = {
+				0.9
+				0.9
+			}
+		}
 	}
 	colored_emblem = {
-		texture = "ce_bicolor_top.dds"
-		color1 = "green_light"
-		color2 = "green_light"
-        instance = { scale = { 1.0 0.5 } position = { 0.5 1 }  }
+		texture = "ce_circle.dds"
+		color1 = "blue"
+		instance = {
+			position = {
+				0.5
+				0.5
+			}
+			scale = {
+				0.4
+				0.4
+			}
+		}
 	}
 }
-DON_dk_kbssr = {
-	pattern = "pattern_solid.tga"
-	color1 = "red"
-	color2 = "yellow"
-	color3 = "pink"
-	
-	colored_emblem = {
-		texture = "ce_solid.dds"
-		color1 = color3
-		color2 = color3
-        instance = { scale = { 1.0 @third } position = { 0.5 @[1-third/2] }  }	
-	}
-	colored_emblem = {
-		texture = "ce_hammer_sickle_star_ussr.dds"
-		color1 = color2
-		color2 = color2
-		instance = { position = { 0.25 @third } scale = { 0.5 0.5 } }
-	}	
-}
-DON_dk_dkch = {
+
+DKU = {
 	pattern = "pattern_solid.tga"
 	color1 = "blue"
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "red"
+		color2 = "yellow"
+	}
+}
 
+DKU_theocracy = {
+	pattern = "pattern_vertical_split_01.tga"
+	color1 = "blue_light"
+	color2 = "red_dark"
+	colored_emblem = {
+		texture = "tryzub3.dds"
+		color1 = "black"
+		color2 = "black"
+		color3 = "black"
+		instance = {
+			scale = {
+				0.75
+				0.75
+			}
+			position = {
+				0.75
+				0.6
+			}
+		}
+	}
 	colored_emblem = {
 		texture = "ce_tricolor_horizontal.dds"
 		color1 = "yellow"
 		color2 = "red"
+	}
+	colored_emblem = {
+		texture = "orthodox_cross.dds"
+		color1 = "yellow"
+		instance = {
+			scale = {
+				0.375
+				0.375
+			}
+			position = {
+				0.25
+				0.25
+			}
+		}
+	}
+}
+
+DKU_monarchy = {
+	pattern = "pattern_solid.tga"
+	color1 = "pink"
+	color2 = "white"
+	colored_emblem = {
+		texture = "ce_bicolor_bottom.dds"
+		color1 = "blue_light"
+		color2 = "blue_light"
+		instance = {
+			scale = {
+				1
+				0.5
+			}
+			position = {
+				0.5
+				0
+			}
+		}
+	}
+	colored_emblem = {
+		texture = "ce_bicolor_bottom.dds"
+		color1 = "green_light"
+		color2 = "green_light"
+		instance = {
+			scale = {
+				1
+				0.5
+			}
+			position = {
+				0.5
+				0.75
+			}
+		}
+	}
+	colored_emblem = {
+		texture = "chr_eagle.dds"
+		color1 = "black"
+		color2 = "white"
+		color3 = "black"
+		instance = {
+			scale = {
+				0.5
+				0.5
+			}
+			position = {
+				0.5
+				0.45
+			}
+		}
+	}
+	colored_emblem = {
+		texture = "ce_saltire_fimbriated.dds"
+		color1 = "white"
+		color2 = "blue"
+		instance = {
+			scale = {
+				1
+				1
+			}
+			position = {
+				0.5
+				0.5
+			}
+		}
+	}
+	colored_emblem = {
+		texture = "shield_hetman.dds"
+		color1 = "white"
+		color2 = "blue"
+		color3 = "yellow_dark"
+		instance = {
+			scale = {
+				0.625
+				0.475
+			}
+		}
+	}
+	colored_emblem = {
+		texture = "cossack.dds"
+		color1 = "white"
+		color2 = "blue"
+		color3 = "gold"
+		instance = {
+			scale = {
+				0.625
+				0.625
+			}
+		}
+	}
+}
+
+DKU_dictatorship_military = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "pink"
+		color2 = "green"
 	}
 	colored_emblem = {
 		texture = "don.dds"
 		color1 = "blue"
 		color2 = "yellow"
 		color3 = "white"
-		instance = { position = { 0.25 0.5 } scale = { 0.25 0.375 } }
+		instance = {
+			position = {
+				0.25
+				0.5
+			}
+			scale = {
+				0.25
+				0.375
+			}
+		}
 	}
 	colored_emblem = {
-		texture = "zaz.dds"
+		texture = "kuban_cossack.dds"
 		color1 = "white"
 		color2 = "yellow"
 		color3 = "blue_light"
-		instance = { position = { 0.75 0.47 } scale = { 0.5 0.5 } }
+		instance = {
+			position = {
+				0.75
+				0.47
+			}
+			scale = {
+				0.5
+				0.5
+			}
+		}
 	}
 }
-DON_dk_hdto = {
-	pattern = "pattern_vertical_split_01.tga"
-	color1 = "yellow"
-	color2 = "white"
-	colored_emblem = {
-		texture = "ce_rhombus.dds"
-		color1 = "blue_light"
-		instance = { scale = { 0.375 0.75 } position = { 0.5 0.49 } }
-	}	
-	colored_emblem = {
-		texture = "ce_cross_order_christ.dds"
-		color1 = "red"
-		instance = { scale = { 0.375 0.75 } position = { 0.5 0.49 } }
-	}	
-}
-DON_dk_eupr = {
+
+DKU_republic = {
 	pattern = "pattern_solid.tga"
 	color1 = "red"
-
 	colored_emblem = {
 		texture = "ce_bicolor_bottom.dds"
 		color1 = "blue_light"
 		color2 = "yellow"
-		instance = { scale = { 0.333 0.333 } position = { 0.333 0.333 } }
+		instance = {
+			scale = {
+				1
+				0.333
+			}
+			position = {
+				0.5
+				0.5
+			}
+		}
 	}
 }
-DON_dk_adh = {
-	pattern = "pattern_solid.tga"
-	color1 = "blue"
 
+DKU_communist = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+	colored_emblem = {
+		texture = "ce_solid.dds"
+		color1 = "pink"
+		color2 = "pink"
+		instance = {
+			scale = {
+				1
+				@third
+			}
+			position = {
+				0.25
+				@[1-third/2]
+			}
+		}
+	}
+	colored_emblem = {
+		texture = "ce_solid.dds"
+		color1 = "black"
+		color2 = "black"
+		instance = {
+			scale = {
+				1
+				@third
+			}
+			position = {
+				0.25
+				@[1-third]
+			}
+		}
+	}
+	colored_emblem = {
+		texture = "ce_solid.dds"
+		color1 = "yellow_dark"
+		color2 = "yellow_dark"
+		instance = {
+			scale = {
+				1
+				0.5
+			}
+			position = {
+				0.75
+				0.75
+			}
+		}
+	}
+	colored_emblem = {
+		texture = "ce_hammer_sickle_star_ussr.dds"
+		color1 = "yellow_dark"
+		color2 = "yellow_dark"
+		instance = {
+			position = {
+				0.1875
+				0.5
+			}
+			scale = {
+				0.75
+				0.5
+			}
+		}
+	}
+}
+
+DKU_anarchy = {
+	pattern = "pattern_horizontal_split_01.tga"
+	color1 = "black"
+	colored_emblem = {
+		texture = "kuban_cossack.dds"
+		color1 = "black"
+		color2 = "white"
+		color3 = "white"
+		instance = {
+			position = {
+				0.5
+				0.25
+			}
+			scale = {
+				0.5
+				0.5
+			}
+		}
+	}
+	colored_emblem = {
+		texture = "A_cyrillic.dds"
+		color1 = "white"
+		instance = {
+			scale = {
+				0.13
+				0.13
+			}
+			position = {
+				0.2
+				0.75
+			}
+		}
+	}
+	colored_emblem = {
+		texture = "N_cyrillic.dds"
+		color1 = "white"
+		instance = {
+			scale = {
+				0.13
+				0.13
+			}
+			position = {
+				0.285
+				0.75
+			}
+		}
+	}
+	colored_emblem = {
+		texture = "A_cyrillic.dds"
+		color1 = "white"
+		instance = {
+			scale = {
+				0.13
+				0.13
+			}
+			position = {
+				0.37
+				0.75
+			}
+		}
+	}
+	colored_emblem = {
+		texture = "R_cyrillic.dds"
+		color1 = "white"
+		instance = {
+			scale = {
+				0.13
+				0.13
+			}
+			position = {
+				0.455
+				0.75
+			}
+		}
+	}
+	colored_emblem = {
+		texture = "Kh_cyrillic.dds"
+		color1 = "white"
+		instance = {
+			scale = {
+				0.13
+				0.13
+			}
+			position = {
+				0.54
+				0.75
+			}
+		}
+	}
+	colored_emblem = {
+		texture = "I_cyrillic.dds"
+		color1 = "white"
+		instance = {
+			scale = {
+				0.13
+				0.13
+			}
+			position = {
+				0.625
+				0.75
+			}
+		}
+	}
+	colored_emblem = {
+		texture = "A_cyrillic.dds"
+		color1 = "white"
+		instance = {
+			scale = {
+				0.13
+				0.13
+			}
+			position = {
+				0.725
+				0.75
+			}
+		}
+	}
 	colored_emblem = {
 		texture = "ce_tricolor_horizontal.dds"
 		color1 = "yellow"
 		color2 = "red"
+		instance = {
+			position = {
+				0.5
+				0.75
+			}
+			scale = {
+				0.5
+				0.5
+			}
+		}
 	}
-	colored_emblem = {
-		texture = "ce_rhombus.dds"
+	sub = {
+		parent = "sub_bssr"
 		color1 = "white"
-		color2 = "white"
-		instance = { position = { 0 0.5 } }
+		color2 = "blue"
+		instance = {
+			scale = {
+				0.45
+				0.45
+			}
+			offset = {
+				0.09
+				0.28
+			}
+		}
 	}
 }
-DON_dk_ea_aukraine = {
+
+DKU_fascist = {
 	pattern = "pattern_solid.tga"
 	color1 = "red"
+	colored_emblem = {
+		texture = "ce_shield_accolade.dds"
+		color1 = "black"
+		instance = {
+			position = {
+				0.5
+				0.48
+			}
+			scale = {
+				0.75
+				0.75
+			}
+		}
+	}
+	colored_emblem = {
+		texture = "cossack_sabre_don.dds"
+		color1 = "yellow"
+		color2 = "yellow_dark"
+		color3 = "yellow_dark"
+		instance = {
+			position = {
+				0.5
+				0.48
+			}
+			scale = {
+				-0.5
+				0.5
+			}
+		}
+	}
+	colored_emblem = {
+		texture = "cossack_sabre_don.dds"
+		color1 = "yellow"
+		color2 = "yellow_dark"
+		color3 = "yellow_dark"
+		instance = {
+			position = {
+				0.5
+				0.48
+			}
+			scale = {
+				0.5
+				0.5
+			}
+		}
+	}
+	colored_emblem = {
+		texture = "mace.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+		color3 = "yellow_dark"
+		instance = {
+			position = {
+				0.5
+				0.48
+			}
+			scale = {
+				0.5
+				0.5
+			}
+		}
+	}
+}
 
+DKU_ukraine = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
 	colored_emblem = {
 		texture = "ce_bicolor_bottom.dds"
 		color1 = "blue_light"
 		color2 = "blue_light"
-		instance = { scale = { 0.333 0.333 } position = { 0.1666 0 } }
+		instance = {
+			scale = {
+				0.333
+				0.333
+			}
+			position = {
+				0.1666
+				0
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "ce_bicolor_bottom.dds"
 		color1 = "yellow_light"
 		color2 = "yellow_light"
-		instance = { scale = { 0.333 0.333 } position = { 0.1666 0.1666 } }
+		instance = {
+			scale = {
+				0.333
+				0.333
+			}
+			position = {
+				0.1666
+				0.1666
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "tryzub2.dds"
 		color1 = "yellow_light"
 		color2 = "yellow_light"
 		color3 = "blue_light"
-		instance = { scale = { 0.333 0.5 } position = { 0.7 0.6 } }
+		instance = {
+			scale = {
+				0.5
+				0.5
+			}
+			position = {
+				0.7
+				0.6
+			}
+		}
 	}
 }
-DON_dk_east_sich = {
-	pattern = "pattern_border_of_3.dds"
-	color1 = "red"
-	color2 = "yellow"
 
-	colored_emblem = {
-		texture = "archangel.dds"
-		color1 = "yellow"
-		color2 = "yellow"
-		color3 = "blue"
-		instance = { scale = { 0.4885 0.75 } position = { 0.5 0.5 } }
-	}
-}
-DON_dk_east_terriytory = {
-	pattern = "pattern_solid.tga"
-	color1 = "black"
-	colored_emblem = {
-		texture = "tryzub.dds"
-		color1 = "blue_light"
-		color2 = "yellow_dark"
-		color3 = "blue_light"
-		instance = { scale = { 0.5 0.5 } position = { 0.5 0.5 } }	
-	}
-}
-DON_dk_dkuc = {
-	pattern = "pattern_solid.tga"
+DKU_russian = {
+	pattern = "pattern_vertical_split_01.tga"
 	color1 = "blue"
-
+	color2 = "red"
 	colored_emblem = {
-		texture = "ce_bicolor_bottom.dds"
-		color1 = "yellow"
+		texture = "ped_rus_cross.dds"
+		color1 = "white"
+		color2 = "black"
+	}
+	colored_emblem = {
+		texture = "ce_eagle_doubleheaded_base.dds"
+		color1 = "black"
 		color2 = "yellow"
+		color3 = "white"
+		instance = {
+			scale = {
+				0.75
+				0.75
+			}
+			position = {
+				0.5
+				0.5
+			}
+		}
 	}
-	colored_emblem = {
-		texture = "ce_tricolor_vertical.dds"
-		color1 = "red"
-		color2 = "green"
-	}
-}  
-DON_dk_tana = {
+}
+
+DKU_polish = {
 	pattern = "pattern_solid.tga"
 	color1 = "blue_light"
+	colored_emblem = {
+		texture = "ce_bicolor_bottom.dds"
+		color1 = "red"
+		instance = {
+			position = {
+				0.5
+				0.5
+			}
+			scale = {
+				0.9
+				0.9
+			}
+		}
+	}
+	colored_emblem = {
+		texture = "ce_eagle_crown.dds"
+		color1 = "white"
+		color2 = "yellow"
+		color3 = "white"
+		instance = {
+			position = {
+				0.5
+				0.5
+			}
+			scale = {
+				0.9
+				0.9
+			}
+		}
+	}
+	colored_emblem = {
+		texture = "ce_circle.dds"
+		color1 = "blue"
+		instance = {
+			position = {
+				0.5
+				0.5
+			}
+			scale = {
+				0.5
+				0.5
+			}
+		}
+	}
+	colored_emblem = {
+		texture = "tryzub.dds"
+		color1 = "white"
+		color2 = "white"
+		color3 = "white"
+		instance = {
+			position = {
+				0.5
+				0.5
+			}
+			scale = {
+				0.5
+				0.5
+			}
+		}
+	}
+}
 
+DKU_italian = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+	colored_emblem = {
+		texture = "ce_circle.dds"
+		color1 = "white"
+		instance = {
+			position = {
+				0.5
+				0.5
+			}
+			scale = {
+				0.4
+				0.4
+			}
+		}
+	}
+	colored_emblem = {
+		texture = "ce_eagle_italy_fascist.dds"
+		color1 = "yellow_dark"
+		instance = {
+			position = {
+				0.5
+				0.35
+			}
+			scale = {
+				0.25
+				0.25
+			}
+		}
+	}
+	textured_emblem = {
+		texture = "te_coa_italia.dds"
+		instance = {
+			scale = {
+				0.25
+				0.25
+			}
+			position = {
+				0.5
+				0.5
+			}
+		}
+	}
+	colored_emblem = {
+		texture = "ce_crown.dds"
+		color1 = "yellow_dark"
+		instance = {
+			position = {
+				0.5
+				0.3
+			}
+			scale = {
+				0.25
+				0.25
+			}
+		}
+	}
+}
+
+DKU_greek = {
+	pattern = "pattern_horizontal_split_02.tga"
+	color1 = "purple"
+	color2 = "gold"
+	colored_emblem = {
+		texture = "ce_eagle_roman.dds"
+		color1 = "white"
+		color2 = "red"
+		color3 = "gold"
+		instance = {
+			position = {
+				0.5
+				0.5
+			}
+			scale = {
+				0.6
+				0.6
+			}
+		}
+	}
+	colored_emblem = {
+		texture = "ce_laurel_wreath.dds"
+		color1 = "gold"
+		instance = {
+			position = {
+				0.5
+				0.5
+			}
+			scale = {
+				0.7
+				0.7
+			}
+		}
+	}
+	textured_emblem = {
+		texture = "te_coa_rome.dds"
+		instance = {
+			scale = {
+				0.3
+				0.3
+			}
+			position = {
+				0.5
+				0.5
+			}
+		}
+	}
+}
+
+DKU_crimea = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
 	colored_emblem = {
 		texture = "ce_tricolor_vertical.dds"
-		color1 = "yellow"
-		color2 = "red_dark"
+		color1 = "blue"
+		color2 = "purple"
 	}
-} 
-DON_dk_hermonassa = {
+	colored_emblem = {
+		texture = "ce_tamga_tatar.dds"
+		color1 = "yellow_dark"
+		color2 = "yellow_dark"
+		instance = {
+			scale = {
+				0.75
+				0.75
+			}
+			position = {
+				0.5
+				0.25
+			}
+		}
+	}
+	colored_emblem = {
+		texture = "ce_tamga_tatar.dds"
+		color1 = "yellow_dark"
+		color2 = "yellow_dark"
+		instance = {
+			scale = {
+				0.75
+				0.75
+			}
+			position = {
+				0.5
+				0.75
+			}
+		}
+	}
+}
+
+DKU_italian = {
 	pattern = "pattern_horizontal_split_01.tga"
 	color1 = "blue_light"
 	color2 = "green_light"
-
 	colored_emblem = {
 		texture = "ce_aurochs_head.dds"
 		color1 = "red_faint"
 		color2 = "yellow"
-		instance = {scale = { 1 1 }  position = { 0.5 0.49 } }
+		instance = {
+			scale = {
+				1
+				1
+			}
+			position = {
+				0.5
+				0.49
+			}
+		}
 	}
-} 
-DON_dk_tamantarkhan = {
-	pattern = "pattern_solid.tga"
-	color1 = "blue_light"
-
-	colored_emblem = {
-		texture = "tamga2.dds"
-		color1 = "pink"
-		color2 = "pink"
-		color3 = "green_light"
-		instance = {scale = { 0.5 0.75 }  position = { 0.5 0.51 } }
-	}
-} 
+}
 
 KUB = {
 	pattern = "pattern_solid.tga"
 	color1 = "pink"
-
 	colored_emblem = {
 		texture = "ce_bicolor_bottom.dds"
 		color1 = "blue_light"
 		color2 = "blue_light"
-        instance = { scale = { 1.0 0.5 } position = { 0.5 0 }  }
+		instance = {
+			scale = {
+				1
+				0.5
+			}
+			position = {
+				0.5
+				0
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "ce_bicolor_top.dds"
 		color1 = "green_light"
 		color2 = "green_light"
-        instance = { scale = { 1.0 0.5 } position = { 0.5 1 }  }
+		instance = {
+			scale = {
+				1
+				0.5
+			}
+			position = {
+				0.5
+				1
+			}
+		}
 	}
 }
-KUB_k_ksr = {
-	pattern = "pattern_solid.tga"
-	color1 = "red"
-	color2 = "yellow"
-	color3 = "pink"
-	
-	colored_emblem = {
-		texture = "ce_solid.dds"
-		color1 = color3
-		color2 = color3
-        instance = { scale = { 1.0 @third } position = { 0.5 @[1-third/2] }  }	
-	}
-	colored_emblem = {
-		texture = "ce_hammer_sickle_star_ussr.dds"
-		color1 = color2
-		color2 = color2
-		instance = { position = { 0.25 @third } scale = { 0.5 0.5 } }
-	}	
-}
-KUB_k_kubam_host = {
-	pattern = "pattern_solid.tga"
-	color1 = "pink"
-	color2 = "blue_light"
-	color3 = "yellow"
-	
-	colored_emblem = {
-		texture = "ce_solid.dds"
-		color1 = color3
-		color2 = color3
-        instance = { scale = { 1.0 @[third] } position = { 0.5 @[1-third/4] }  }	
-	}
-	colored_emblem = {
-		texture = "ce_solid.dds"
-		color1 = color2
-		color2 = color2
-        instance = { scale = { 1.0 @[third] } position = { 0.5 0.05 }  }	
-	}
-	colored_emblem = {
-		texture = "zaz.dds"
-		color1 = "blue_light"
-		color2 = "yellow"
-		color3 = "blue_light"
-		instance = { position = { 0.25 0.5 } scale = { 0.5 0.5 } }
-	}	
-}
-KUB_k_bogodar = {
-	pattern = "pattern_solid.tga"
-	color1 = "pink"
 
+KUB_theocracy = {
+	pattern = "pattern_vertical_split_01.tga"
+	color1 = "blue_light"
+	color2 = "white"
 	colored_emblem = {
-		texture = "ce_bicolor_bottom.dds"
-		color1 = "blue_light"
-		color2 = "blue_light"
-        instance = { scale = { 1.0 0.5 } position = { 0.5 0 }  }
-	}
-	colored_emblem = {
-		texture = "ce_bicolor_top.dds"
-		color1 = "green_light"
-		color2 = "green_light"
-        instance = { scale = { 1.0 0.5 } position = { 0.5 1 }  }
+		texture = "tryzub3.dds"
+		color1 = "black"
+		color2 = "black"
+		color3 = "black"
+		instance = {
+			scale = {
+				0.75
+				0.75
+			}
+			position = {
+				0.5
+				0.6
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "orthodox_cross.dds"
 		color1 = "black"
-		instance = { position = { 0.5 0.5 } scale = { 0.25 0.5 } }
-	}	
+		instance = {
+			scale = {
+				0.325
+				0.325
+			}
+			position = {
+				0.5
+				0.5
+			}
+		}
+	}
 }
-KUB_k_kpr = {
+
+KUB_monarchy = {
 	pattern = "pattern_solid.tga"
 	color1 = "pink"
-
 	colored_emblem = {
 		texture = "ce_bicolor_bottom.dds"
 		color1 = "blue_light"
 		color2 = "blue_light"
-        instance = { scale = { 1.0 0.5 } position = { 0.5 0 }  }
+		instance = {
+			scale = {
+				1
+				0.5
+			}
+			position = {
+				0.5
+				0
+			}
+		}
+	}
+	colored_emblem = {
+		texture = "ce_bicolor_bottom.dds"
+		color1 = "green_light"
+		color2 = "green_light"
+		instance = {
+			scale = {
+				1
+				0.5
+			}
+			position = {
+				0.5
+				0.75
+			}
+		}
+	}
+	colored_emblem = {
+		texture = "chr_eagle.dds"
+		color1 = "black"
+		color2 = "white"
+		color3 = "black"
+		instance = {
+			scale = {
+				0.5
+				0.5
+			}
+			position = {
+				0.5
+				0.45
+			}
+		}
+	}
+}
+
+KUB_dictatorship_military = {
+	pattern = "pattern_solid.tga"
+	color1 = "pink"
+	colored_emblem = {
+		texture = "ce_bicolor_bottom.dds"
+		color1 = "blue_light"
+		color2 = "blue_light"
+		instance = {
+			scale = {
+				1
+				0.5
+			}
+			position = {
+				0.5
+				0
+			}
+		}
+	}
+	colored_emblem = {
+		texture = "ce_bicolor_bottom.dds"
+		color1 = "green_light"
+		color2 = "green_light"
+		instance = {
+			scale = {
+				1
+				0.5
+			}
+			position = {
+				0.5
+				0.75
+			}
+		}
+	}
+	colored_emblem = {
+		texture = "kuban_cossack.dds"
+		color1 = "yellow"
+		color2 = "white"
+		color3 = "red"
+		instance = {
+			position = {
+				0.5
+				0.5
+			}
+			scale = {
+				0.5
+				0.5
+			}
+		}
+	}
+}
+
+KUB_republic = {
+	pattern = "pattern_solid.tga"
+	color1 = "pink"
+	colored_emblem = {
+		texture = "ce_bicolor_bottom.dds"
+		color1 = "blue_light"
+		color2 = "blue_light"
+		instance = {
+			scale = {
+				1
+				0.5
+			}
+			position = {
+				0.5
+				0
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "ce_bicolor_top.dds"
 		color1 = "green_light"
 		color2 = "green_light"
-        instance = { scale = { 1.0 0.5 } position = { 0.5 1 }  }
+		instance = {
+			scale = {
+				1
+				0.5
+			}
+			position = {
+				0.5
+				1
+			}
+		}
 	}
 }
-KUB_k_chornorossia = {
+
+KUB_communist = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+	color2 = "yellow"
+	color3 = "pink"
+	colored_emblem = {
+		texture = "ce_solid.dds"
+		color1 = color3
+		color2 = color3
+		instance = {
+			scale = {
+				1
+				@third
+			}
+			position = {
+				0.5
+				@[1-third/2]
+			}
+		}
+	}
+	colored_emblem = {
+		texture = "ce_hammer_sickle_star_wreath.dds"
+		color1 = "red"
+		instance = {
+			scale = {
+				0.4
+				0.4
+			}
+			position = {
+				0.5
+				0.23
+			}
+		}
+	}
+	colored_emblem = {
+		texture = "ce_solid.dds"
+		color1 = "black"
+		color2 = "black"
+		instance = {
+			scale = {
+				1
+				@third
+			}
+			position = {
+				0.5
+				@[1-third]
+			}
+		}
+	}
+	colored_emblem = {
+		texture = "ce_rhombus.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+		instance = {
+			scale = {
+				1
+				1
+			}
+			position = {
+				0
+				0.5
+			}
+		}
+	}
+}
+
+KUB_anarchy = {
+	pattern = "pattern_horizontal_split_01.tga"
+	color1 = "black"
+	color2 = "black"
+	colored_emblem = {
+		texture = "kuban_cossack.dds"
+		color1 = "black"
+		color2 = "white"
+		color3 = "white"
+		instance = {
+			position = {
+				0.5
+				0.25
+			}
+			scale = {
+				0.5
+				0.5
+			}
+		}
+	}
+	colored_emblem = {
+		texture = "A_cyrillic.dds"
+		color1 = "white"
+		instance = {
+			scale = {
+				0.13
+				0.13
+			}
+			position = {
+				0.2
+				0.75
+			}
+		}
+	}
+	colored_emblem = {
+		texture = "N_cyrillic.dds"
+		color1 = "white"
+		instance = {
+			scale = {
+				0.13
+				0.13
+			}
+			position = {
+				0.285
+				0.75
+			}
+		}
+	}
+	colored_emblem = {
+		texture = "A_cyrillic.dds"
+		color1 = "white"
+		instance = {
+			scale = {
+				0.13
+				0.13
+			}
+			position = {
+				0.37
+				0.75
+			}
+		}
+	}
+	colored_emblem = {
+		texture = "R_cyrillic.dds"
+		color1 = "white"
+		instance = {
+			scale = {
+				0.13
+				0.13
+			}
+			position = {
+				0.455
+				0.75
+			}
+		}
+	}
+	colored_emblem = {
+		texture = "Kh_cyrillic.dds"
+		color1 = "white"
+		instance = {
+			scale = {
+				0.13
+				0.13
+			}
+			position = {
+				0.54
+				0.75
+			}
+		}
+	}
+	colored_emblem = {
+		texture = "I_cyrillic.dds"
+		color1 = "white"
+		instance = {
+			scale = {
+				0.13
+				0.13
+			}
+			position = {
+				0.625
+				0.75
+			}
+		}
+	}
+	colored_emblem = {
+		texture = "A_cyrillic.dds"
+		color1 = "white"
+		instance = {
+			scale = {
+				0.13
+				0.13
+			}
+			position = {
+				0.725
+				0.75
+			}
+		}
+	}
+}
+
+KUB_fascist = {
+	pattern = "pattern_solid.tga"
+	color1 = "black"
+	colored_emblem = {
+		texture = "kuban_cossack.dds"
+		color1 = "black"
+		color2 = "red"
+		color3 = "yellow"
+		instance = {
+			position = {
+				0.5
+				0.48
+			}
+			scale = {
+				0.75
+				0.75
+			}
+		}
+	}
+}
+
+KUB_russian = {
 	pattern = "pattern_solid.tga"
 	color1 = "blue"
-
 	colored_emblem = {
 		texture = "ped_rus_cross.dds"
 		color1 = "white"
@@ -1870,384 +4515,220 @@ KUB_k_chornorossia = {
 	colored_emblem = {
 		texture = "ce_circle.dds"
 		color1 = "red"
-        instance = { scale = { 1.25 1.25 } position = { 0.5 0.5 }  }
+		instance = {
+			scale = {
+				1.25
+				1.25
+			}
+			position = {
+				0.5
+				0.5
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "ce_eagle_doubleheaded_base.dds"
 		color1 = "black"
 		color2 = "yellow"
 		color3 = "white"
-        instance = { scale = { 0.75 0.75 } position = { 0.5 0.5 }  }
+		instance = {
+			scale = {
+				0.75
+				0.75
+			}
+			position = {
+				0.5
+				0.5
+			}
+		}
 	}
 }
-KUB_k_akpr = {
+
+KUB_ukraine = {
 	pattern = "pattern_horizontal_split_01.tga"
 	color1 = "blue_light"
 	color2 = "yellow"
-
 	colored_emblem = {
 		texture = "ce_rhombus.dds"
 		color1 = "pink"
 		color2 = "pink"
-		instance = { position = { 0 0.5 } }
+		instance = {
+			position = {
+				0
+				0.5
+			}
+		}
 	}
 }
-KUB_k_kuban_com = {
-	pattern = "pattern_solid.tga"
-	color1 = "pink"
-	
-	colored_emblem = {
-		texture = "ce_hammer_sickle_star_ussr.dds"
-		color1 = "yellow_light"
-		color2 = "yellow_light"
-		instance = { position = { 0.175 @third } scale = { 0.5 0.5 } }
-	}	
-	colored_emblem = {
-		texture = "ce_tricolor_vertical.dds"
-		color1 = "yellow"
-		color2 = "red"
-	}
-}
-KUB_k_kuban_sich = {
-	pattern = "pattern_solid.tga"
-	color1 = "blue_light"
-	color2 = "pink"
-	color3 = "pink"
-	
-	colored_emblem = {
-		texture = "ce_bicolor_bottom.dds"
-		color1 = "green_light"
-        instance = { scale = { 1.0 @[third] } position = { 0.5 @[1-third/2] }  }	
-	}
-	colored_emblem = {
-		texture = "ce_bicolor_bottom.dds"
-		color1 = "pink"
-        instance = { scale = { 1.0 @[third] } position = { 0.5 @[1-third/1] }  }	
-	}
-	colored_emblem = {
-		texture = "zaz.dds"
-		color1 = "pink"
-		color2 = "yellow"
-		color3 = "blue_light"
-		instance = { position = { 0.25 @third } scale = { 0.5 0.5 } }
-	}
-}
-KUB_k_tmutarakan_metropolia = {
-	pattern = "pattern_solid.tga"
-	color1 = "white"
 
-	colored_emblem = {
-		texture = "ce_tricolor_horizontal.dds"
-		color1 = "blue"
-		color2 = "yellow"
-	}
-	colored_emblem = {
-		texture = "ce_circle.dds"
-		color1 = "blue"
-		color2 = "yellow"
-	}
-	colored_emblem = {
-		texture = "tryzub.dds"
-		color1 = "white"
-		color2 = "yellow_dark"
-		color3 = "yellow"
-		instance = { position = { 0.5 0.5 } scale = { 0.35 0.5 } }
-	}
-}
-KUB_k_kuban_terriytory = {
-	pattern = "pattern_solid.tga"
-	color1 = "pink"
-
-	colored_emblem = {
-		texture = "ce_bicolor_bottom.dds"
-		color1 = "blue_light"
-		color2 = "blue_light"
-        instance = { scale = { 1.0 0.5 } position = { 0.5 0 }  }
-	}
-	colored_emblem = {
-		texture = "ce_bicolor_top.dds"
-		color1 = "green_light"
-		color2 = "green_light"
-        instance = { scale = { 1.0 0.5 } position = { 0.5 1 }  }
-	}
-}
-KUB_k_pt = {
-	pattern = "pattern_horizontal_split_01.tga"
-	color1 = "blue_light"
-	color2 = "yellow"
-
-	colored_emblem = {
-		texture = "ce_shield_cross.dds"
-		color1 = "pink"
-		color2 = "green_light"
-		color3 = "green_light"
-		instance = {scale = { 1 1 }  position = { 0.5 0.49 } }
-	}
-}
-KUB_k_hermonassa = {
-	pattern = "pattern_horizontal_split_01.tga"
-	color1 = "blue_light"
-	color2 = "green_light"
-
-	colored_emblem = {
-		texture = "ce_aurochs_head.dds"
-		color1 = "red_faint"
-		color2 = "yellow"
-		instance = {scale = { 1 1 }  position = { 0.5 0.49 } }
-	}
-}
-KUB_k_tamantarkhan = {
-	pattern = "pattern_solid.tga"
-	color1 = "blue_light"
-
-	colored_emblem = {
-		texture = "tamga2.dds"
-		color1 = "pink"
-		color2 = "pink"
-		color3 = "green_light"
-		instance = {scale = { 0.5 0.75 }  position = { 0.5 0.51 } }
-	}
-}
-KUB_dk_dk = {
-	pattern = "pattern_solid.tga"
-	color1 = "pink"
-
-	colored_emblem = {
-		texture = "ce_bicolor_bottom.dds"
-		color1 = "blue_light"
-		color2 = "blue_light"
-        instance = { scale = { 1.0 0.5 } position = { 0.5 0 }  }
-	}
-	colored_emblem = {
-		texture = "ce_bicolor_top.dds"
-		color1 = "green_light"
-		color2 = "green_light"
-        instance = { scale = { 1.0 0.5 } position = { 0.5 1 }  }
-	}
-}
-KUB_dk_kbssr = {
+KUB_polish = {
 	pattern = "pattern_solid.tga"
 	color1 = "red"
-	color2 = "yellow"
-	color3 = "pink"
-	
 	colored_emblem = {
-		texture = "ce_solid.dds"
-		color1 = color3
-		color2 = color3
-        instance = { scale = { 1.0 @third } position = { 0.5 @[1-third/2] }  }	
-	}
-	colored_emblem = {
-		texture = "ce_hammer_sickle_star_ussr.dds"
-		color1 = color2
-		color2 = color2
-		instance = { position = { 0.25 @third } scale = { 0.5 0.5 } }
-	}	
-}
-KUB_dk_dkch = {
-	pattern = "pattern_solid.tga"
-	color1 = "blue"
-
-	colored_emblem = {
-		texture = "ce_tricolor_horizontal.dds"
-		color1 = "yellow"
-		color2 = "red"
-	}
-	colored_emblem = {
-		texture = "KUB.dds"
-		color1 = "blue"
+		texture = "ce_eagle_crown.dds"
+		color1 = "white"
 		color2 = "yellow"
 		color3 = "white"
-		instance = { position = { 0.25 0.5 } scale = { 0.25 0.375 } }
-	}
-	colored_emblem = {
-		texture = "zaz.dds"
-		color1 = "white"
-		color2 = "yellow"
-		color3 = "blue_light"
-		instance = { position = { 0.75 0.47 } scale = { 0.5 0.5 } }
+		instance = {
+			position = {
+				0.5
+				0.5
+			}
+			scale = {
+				0.9
+				0.9
+			}
+		}
 	}
 }
-KUB_dk_hdto = {
+
+KUB_greek = {
 	pattern = "pattern_vertical_split_01.tga"
-	color1 = "yellow"
-	color2 = "white"
-	colored_emblem = {
-		texture = "ce_rhombus.dds"
-		color1 = "blue_light"
-		instance = { scale = { 0.375 0.75 } position = { 0.5 0.49 } }
-	}	
-	colored_emblem = {
-		texture = "ce_cross_order_christ.dds"
-		color1 = "red"
-		instance = { scale = { 0.375 0.75 } position = { 0.5 0.49 } }
-	}	
-}
-KUB_dk_eupr = {
-	pattern = "pattern_solid.tga"
-	color1 = "red"
-
-	colored_emblem = {
-		texture = "ce_bicolor_bottom.dds"
-		color1 = "blue_light"
-		color2 = "yellow"
-		instance = { scale = { 0.333 0.333 } position = { 0.333 0.333 } }
-	}
-}
-KUB_dk_adh = {
-	pattern = "pattern_solid.tga"
 	color1 = "blue"
-
+	color2 = "yellow_dark"
 	colored_emblem = {
-		texture = "ce_tricolor_horizontal.dds"
-		color1 = "yellow"
-		color2 = "red"
-	}
-	colored_emblem = {
-		texture = "ce_rhombus.dds"
+		texture = "moth.dds"
 		color1 = "white"
-		color2 = "white"
-		instance = { position = { 0 0.5 } }
-	}
-}
-KUB_dk_ea_aukraine = {
-	pattern = "pattern_solid.tga"
-	color1 = "red"
-
-	colored_emblem = {
-		texture = "ce_bicolor_bottom.dds"
-		color1 = "blue_light"
-		color2 = "blue_light"
-		instance = { scale = { 0.333 0.333 } position = { 0.1666 0 } }
-	}
-	colored_emblem = {
-		texture = "ce_bicolor_bottom.dds"
-		color1 = "yellow_light"
-		color2 = "yellow_light"
-		instance = { scale = { 0.333 0.333 } position = { 0.1666 0.1666 } }
-	}
-	colored_emblem = {
-		texture = "tryzub2.dds"
-		color1 = "yellow_light"
-		color2 = "yellow_light"
+		color2 = "blue"
 		color3 = "blue_light"
-		instance = { scale = { 0.333 0.5 } position = { 0.7 0.6 } }
+		instance = {
+			position = {
+				0.5
+				0.48
+			}
+			scale = {
+				0.8
+				0.8
+			}
+		}
 	}
 }
-KUB_dk_east_sich = {
-	pattern = "pattern_border_of_3.dds"
-	color1 = "red"
-	color2 = "yellow"
 
+KUB_crimea = {
+	pattern = "pattern_vertical_split_01.tga"
+	color1 = "purple"
+	color2 = "yellow_dark"
 	colored_emblem = {
-		texture = "archangel.dds"
-		color1 = "yellow"
-		color2 = "yellow"
-		color3 = "blue"
-		instance = { scale = { 0.4885 0.75 } position = { 0.5 0.5 } }
-	}
-}
-KUB_dk_east_terriytory = {
-	pattern = "pattern_solid.tga"
-	color1 = "black"
-	colored_emblem = {
-		texture = "tryzub.dds"
-		color1 = "blue_light"
-		color2 = "yellow_dark"
-		color3 = "blue_light"
-		instance = { scale = { 0.5 0.5 } position = { 0.5 0.5 } }	
-	}
-}
-KUB_dk_dkuc = {
-	pattern = "pattern_solid.tga"
-	color1 = "blue"
-
-	colored_emblem = {
-		texture = "ce_bicolor_bottom.dds"
-		color1 = "yellow"
-		color2 = "yellow"
+		texture = "ce_tamga_tatar.dds"
+		color1 = "blue"
+		color2 = "blue"
+		instance = {
+			scale = {
+				0.75
+				0.75
+			}
+			position = {
+				0.5
+				0.25
+			}
+		}
 	}
 	colored_emblem = {
-		texture = "ce_tricolor_vertical.dds"
-		color1 = "red"
+		texture = "ce_tamga_tatar.dds"
+		color1 = "green"
 		color2 = "green"
+		instance = {
+			scale = {
+				0.75
+				0.75
+			}
+			position = {
+				0.5
+				0.75
+			}
+		}
 	}
-}  
-KUB_dk_tana = {
-	pattern = "pattern_solid.tga"
-	color1 = "blue_light"
-
-	colored_emblem = {
-		texture = "ce_tricolor_vertical.dds"
-		color1 = "yellow"
-		color2 = "red_dark"
-	}
-} 
-KUB_dk_hermonassa = {
-	pattern = "pattern_horizontal_split_01.tga"
-	color1 = "blue_light"
-	color2 = "green_light"
-
-	colored_emblem = {
-		texture = "ce_aurochs_head.dds"
-		color1 = "red_faint"
-		color2 = "yellow"
-		instance = {scale = { 1 1 }  position = { 0.5 0.49 } }
-	}
-} 
-KUB_dk_tamantarkhan = {
-	pattern = "pattern_solid.tga"
-	color1 = "blue_light"
-
-	colored_emblem = {
-		texture = "tamga2.dds"
-		color1 = "pink"
-		color2 = "pink"
-		color3 = "green_light"
-		instance = {scale = { 0.5 0.75 }  position = { 0.5 0.51 } }
-	}
-} 
+}
 
 CSS = {
-	pattern = "pattern_horizontal_split_01.tga"
-	color1 = "purple"
-	color2 = "yellow"
-
-	colored_emblem = {
-		texture = "shield_hetman.dds"
-		color1 = "red"
-		color2 = "yellow"
-		color3 = "purple"
-		instance = {scale = { 0.9 0.9 } }
-	}
-	colored_emblem = {
-		texture = "cossack.dds"
-		color1 = "red"
-		color2 = "yellow"
-		color3 = "purple"
-		instance = {scale = { 0.8 0.8 }  position = { 0.5 0.55 } }
-	}
-}
-CSS_HET = {
 	pattern = "pattern_solid.tga"
-	color1 = "blue_light"
-
-	textured_emblem = {
-		texture = "te_cossack_with_musket_02.dds"
-		instance = { scale = { 0.45 0.45} }		
+	color2 = "yellow"
+	colored_emblem = {
+		texture = "ce_tricolor_fimbriated_thin.dds"
+		color1 = "red"
+		color2 = "blue_light"
+		color3 = "red"
+		instance = {
+			scale = {
+				0.9
+				0.9
+			}
+			position = {
+				0.5
+				0.5
+			}
+		}
+	}
+	colored_emblem = {
+		texture = "ce_shield_accolade.dds"
+		color1 = "blue_light"
+		instance = {
+			scale = {
+				@third
+				@third
+			}
+			position = {
+				@third
+				0.5
+			}
+		}
+	}
+	colored_emblem = {
+		texture = "kurcz.dds"
+		color1 = "blue_light"
+		color1 = "blue_light"
+		color1 = "white"
+		instance = {
+			scale = {
+				@third
+				0@third
+			}
+			position = {
+				@third
+				0.5
+			}
+		}
 	}
 }
+
 CSS_theocracy = {
-	pattern = "pattern_border_of_3.dds"
-	color1 = "red"
-	color2 = "yellow_dark"
-
-	textured_emblem = {
-		texture = "te_CSS_george.dds"
-		instance = { scale = { 0.9 0.9 } }
+	pattern = "pattern_solid.tga"
+	color2 = "yellow"
+	colored_emblem = {
+		texture = "ce_solid.dds"
+		color1 = "blue_light"
+		instance = {
+			scale = {
+				0.5
+				0.2
+			}
+			position = {
+				0.2
+				0.2
+			}
+		}
+	}
+	colored_emblem = {
+		texture = "ce_stripes_05.dds"
+		color1 = "red"
+	}
+	colored_emblem = {
+		texture = "orthodox_cross.dds"
+		color1 = "bkue_light"
+		instance = {
+			scale = {
+				0.8
+				0.8
+			}
+			position = {
+				0.5
+				0.55
+			}
+		}
 	}
 }
-CSS_monarchy = {
+
+CSS_absolute_monarchy = {
 	pattern = "pattern_border_of_3.dds"
 	color1 = "red"
 	color2 = "yellow_dark"
@@ -2256,222 +4737,299 @@ CSS_monarchy = {
 		color1 = "red"
 		color2 = "yellow"
 		color3 = "purple"
-		instance = {scale = { 0.625 0.625 } }
+		instance = {
+			scale = {
+				0.625
+				0.625
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "cossack.dds"
 		color1 = "red"
 		color2 = "yellow"
 		color3 = "purple"
-		instance = {scale = { 0.6 0.6 }  position = { 0.5 0.55 } }
+		instance = {
+			scale = {
+				0.6
+				0.6
+			}
+			position = {
+				0.5
+				0.55
+			}
+		}
 	}
 }
+
+CSS_monarchy = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+	colored_emblem = {
+		texture = "shield_hetman.dds"
+		color1 = "yellow_dark"
+		color2 = "red"
+		color3 = "yellow"
+		instance = {
+			scale = {
+				0.675
+				0.675
+			}
+		}
+	}
+	colored_emblem = {
+		texture = "cossack.dds"
+		color1 = "purple"
+		color2 = "red"
+		color3 = "yellow"
+		instance = {
+			scale = {
+				0.675
+				0.675
+			}
+			position = {
+				0.5
+				0.55
+			}
+		}
+	}
+}
+
 CSS_dictatorship_military = {
 	pattern = "pattern_horizontal_split_01.tga"
 	color1 = "purple"
 	color2 = "yellow"
-	
 	colored_emblem = {
 		texture = "ce_solid.dds"
 		color1 = "red_light"
 		color2 = "red_light"
-        instance = { scale = { @third 1.0  } position = { 0.175 0.5 }  }	
+		instance = {
+			scale = {
+				@third
+				1
+			}
+			position = {
+				0.175
+				0.5
+			}
+		}
 	}
 	colored_emblem = {
-		texture = "CSS_cross.dds"
+		texture = "ZAZ_cross.dds"
 		color1 = "yellow"
 		color2 = "yellow"
 		color3 = "yellow"
-		instance = { position = { 0.175 0.49 } scale = { 0.55 0.5 } }
-	}	
+		instance = {
+			position = {
+				0.175
+				0.49
+			}
+			scale = {
+				0.55
+				0.5
+			}
+		}
+	}
 }
+
 CSS_communist = {
-	pattern = "pattern_border_of_3.dds"
-	color1 = "red"
-	color2 = "red"
+	pattern = "pattern_solid.dds"
+	color1 = "blue"
+	color2 = "yellow"
 	colored_emblem = {
-		texture = "ce_solid.dds"
+		texture = "ce_tricolor_horizontal.dds"
 		color1 = "yellow"
-		instance = {scale = { 0.30 0.90 } position = { 0.5 0.5 }  }
+		color1 = "purple"
 	}
 	colored_emblem = {
-		texture = "ce_solid.dds"
+		texture = "ce_circle.dds"
 		color1 = "red"
-		instance = {scale = { 0.24 0.83 } position = { 0.5 0.5 }  }
+		instance = {
+			scale = {
+				@[2*third*0.9]
+				@[2*third*0.9]
+			}
+			position = {
+				@third
+				@third
+			}
+		}
+	}
+	colored_emblem = {
+		texture = "ce_coa_frame_ddr.dds"
+		color1 = "yellow"
+		color1 = "blue"
+		color1 = "purple"
+		instance = {
+			scale = {
+				@[2*third]
+				@[2*third]
+			}
+			position = {
+				@third
+				@third
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "ce_hammer_sickle_star_wreath.dds"
 		color1 = "yellow"
-		instance = {scale = { 0.34 0.34 } position = { 0.5 0.23 }  }
+		instance = {
+			scale = {
+				@[2*third/2]
+				@[2*third/2]
+			}
+			position = {
+				@[third/2]
+				@[third/2]
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "cossack.dds"
 		color1 = "red"
 		color2 = "yellow"
 		color3 = "yellow_dark"
-		instance = {scale = { 0.83 0.83 }  position = { 0.5 0.6 } }
+		instance = {
+			scale = {
+				@[2*third]
+				@[2*third+1]
+			}
+			position = {
+				@third
+				@[third+1]
+			}
+		}
 	}
 }
-CSS_communist = {
-	pattern = "pattern_border_of_3.dds"
-	color1 = "red"
-	color2 = "red"
-	colored_emblem = {
-		texture = "ce_solid.dds"
-		color1 = "yellow"
-		instance = {scale = { 0.30 0.90 } position = { 0.5 0.5 }  }
-	}
-	colored_emblem = {
-		texture = "ce_solid.dds"
-		color1 = "red"
-		instance = {scale = { 0.24 0.83 } position = { 0.5 0.5 }  }
-	}
-	colored_emblem = {
-		texture = "ce_hammer_sickle_star_wreath.dds"
-		color1 = "yellow"
-		instance = {scale = { 0.34 0.34 } position = { 0.5 0.23 }  }
-	}
-	colored_emblem = {
-		texture = "cossack.dds"
-		color1 = "red"
-		color2 = "yellow"
-		color3 = "yellow_dark"
-		instance = {scale = { 0.83 0.83 }  position = { 0.5 0.6 } }
-	}
-}
+
 CSS_anarchy = {
 	pattern = "pattern_solid.tga"
 	color1 = "black"
-
+	colored_emblem = {
+		texture = "ce_fess_fimbriated.dds"
+		color1 = "red"
+		color2 = "red"
+		instance = {
+			position = {
+				0.5
+				0.5
+			}
+		}
+	}
+	colored_emblem = {
+		texture = "ce_fess_fimbriated.dds"
+		color1 = "black"
+		color2 = "red"
+		instance = {
+			scale = {
+				1
+				0.75
+			}
+			position = {
+				0.5
+				0.5
+			}
+		}
+	}
+	colored_emblem = {
+		texture = "ce_star_05.dds"
+		color1 = "red"
+		color2 = "red"
+		instance = {
+			position = {
+				@third
+				0.5
+			}
+		}
+	}
 	colored_emblem = {
 		texture = "skull_n_bones.dds"
 		color1 = "white"
-		instance = { position = { 0.5 0.5 } scale = { 1 1 } }
-	}	
-	colored_emblem = {
-		texture = "S_cyrillic.dds"
-		color1 = "white"
-		instance = {scale = { 0.16 0.16 }  position = { 0.29 0.15 } }
-	}
-	colored_emblem = {
-		texture = "V_cyrillic.dds"
-		color1 = "white"
-		instance = {scale = { 0.16 0.16 }  position = { 0.36 0.15 } }
-	}
-	colored_emblem = {
-		texture = "O_cyrillic.dds"
-		color1 = "white"
-		instance = {scale = { 0.16 0.16 }  position = { 0.43 0.15 } }
-	}
-	colored_emblem = {
-		texture = "B_cyrillic.dds"
-		color1 = "white"
-		instance = {scale = { 0.16 0.16 }  position = { 0.5 0.15 } }
-	}
-	colored_emblem = {
-		texture = "O_cyrillic.dds"
-		color1 = "white"
-		instance = {scale = { 0.16 0.16 }  position = { 0.57 0.15 } }
-	}
-	colored_emblem = {
-		texture = "2D_cyrillic.dds"
-		color1 = "white"
-		instance = {scale = { 0.32 0.32 }  position = { 0.64 0.15 } }
-	}
-	colored_emblem = {
-		texture = "A_cyrillic.dds"
-		color1 = "white"
-		instance = {scale = { 0.16 0.16 }  position = { 0.71 0.15 } }
-	}
-
-	colored_emblem = {
-		texture = "A_cyrillic.dds"
-		color1 = "white"
-		instance = {scale = { 0.13 0.13 }  position = { 0.28 0.65 } }
-	}
-	colored_emblem = {
-		texture = "B_cyrillic.dds"
-		color1 = "white"
-		instance = {scale = { 0.13 0.13 }  position = { 0.34 0.65 } }
-	}
-	colored_emblem = {
-		texture = "O_cyrillic.dds"
-		color1 = "white"
-		instance = {scale = { 0.13 0.13 }  position = { 0.39 0.65 } }
-	}
-	
-	colored_emblem = {
-		texture = "S_cyrillic.dds"
-		color1 = "white"
-		instance = {scale = { 0.13 0.13 }  position = { 0.5 0.65 } }
-	}
-	colored_emblem = {
-		texture = "M_cyrillic.dds"
-		color1 = "white"
-		instance = {scale = { 0.13 0.13 }  position = { 0.55 0.65 } }
-	}
-	colored_emblem = {
-		texture = "E_cyrillic.dds"
-		color1 = "white"
-		instance = {scale = { 0.13 0.13 }  position = { 0.61 0.65 } }
-	}
-	colored_emblem = {
-		texture = "R_cyrillic.dds"
-		color1 = "white"
-		instance = {scale = { 0.13 0.13 }  position = { 0.66 0.65 } }
-	}
-	colored_emblem = {
-		texture = "-j_cyrillic.dds"
-		color1 = "white"
-		instance = {scale = { 0.127 0.127 }  position = { 0.72 0.65 } }
+		color2 = "white"
+		instance = {
+			scale = {
+				0.5
+				0.5
+			}
+			position = {
+				@third
+				0.5
+			}
+		}
 	}
 }
 
 CSS_fascist = {
 	pattern = "pattern_solid.tga"
-	color1 = "purple"
-
+	color1 = "red"
 	colored_emblem = {
-		texture = "ce_bicolor_bottom.dds"
-		color1 = "yellow"
-		color2 = "yellow"
-	}
-	colored_emblem = {
-		texture = "CSS_cross.dds"
+		texture = "ce_per_saltire.dds"
 		color1 = "black"
-		color2 = "yellow_dark"
-		color3 = "yellow"
-		instance = { position = { 0.5 0.48 } scale = { 1 1 } }
-	}	
-	colored_emblem = {
-		texture = "ce_circle.dds"
-		color1 = "purple_light"
-		instance = { position = { 0.5 0.48 } scale = { 0.5 0.5 } }
-	}
-	colored_emblem = {
-		texture = "tryzub.dds"
-		color1 = "yellow"
-		color2 = "yellow"
-		color3 = "yellow"
-		instance = { position = { 0.5 0.48 } scale = { 0.5 0.5 } }
+		instance = {
+			scale = {
+				1
+				1
+			}
+			position = {
+				0.5
+				0.5
+			}
+		}
 	}
 }
-CSS_ukraine = {
-	pattern = "pattern_horizontal_split_01.tga"
-	color1 = "purple_light"
-	color2 = "yellow"
-	colored_emblem = {
-		texture = "ce_rhombus.dds"
-		color1 = "purple"
-		color2 = "purple"
-        instance = { scale = { 1 1.0  } position = { 0.0 0.5 }  }	
-	}
-}		
-CSS_russian = {
-	pattern = "pattern_solid.tga"
-	color1 = "red"
-	color2 = "yellow"
 
+CSS_ukraine = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue_dark"
+	colored_emblem = {
+		texture = "tryzub2.dds"
+		color1 = "yellow"
+		instance = {
+			scale = {
+				0.8
+				0.8
+			}
+			position = {
+				0.5
+				0.5
+			}
+		}
+	}
+	colored_emblem = {
+		texture = "tryzub3.dds"
+		color1 = "blue_light"
+		instance = {
+			scale = {
+				0.6
+				0.6
+			}
+			position = {
+				0.3
+				0.7
+			}
+		}
+	}
+	colored_emblem = {
+		texture = "tryzub3.dds"
+		color1 = "blue_light"
+		instance = {
+			scale = {
+				0.6
+				0.6
+			}
+			position = {
+				0.7
+				0.7
+			}
+		}
+	}
+}
+
+CSS_russian = {
+	pattern = "pattern_per_saltire.tga"
+	color1 = "red"
+	color2 = "blue"
 	colored_emblem = {
 		texture = "ce_saltire_fimbriated.dds"
 		color1 = "white"
@@ -2484,40 +5042,21 @@ CSS_russian = {
 		color3 = "yellow"
 	}
 	colored_emblem = {
-		texture = "CSS.dds"
+		texture = "ce_frame_star.dds"
 		color1 = "red"
 		color2 = "yellow"
 		color3 = "red"
-		instance = { scale = { 0.5 0.5 } }
+		instance = {
+			scale = {
+				0.25
+				0.25
+			}
+		}
 	}
-}		
-CSS_austrian = {
-	pattern = "pattern_solid.tga"
-	color1 = "black"
-
-	colored_emblem = {
-		texture = "ce_cross_england_fimbriated.dds"
-		color1 = "yellow"
-		color2 = "yellow"
-	}
-	colored_emblem = {
-		texture = "ce_eagle_double_headed.dds"
-		color1 = "black"
-		color2 = "yellow_dark"
-		color3 = "yellow"
-	}
-	colored_emblem = {
-		texture = "CSS.dds"
-		color1 = "red"
-		color2 = "yellow"
-		color3 = "purple"
-		instance = { scale = { 0.375 0.375 } }
-	}
-}	
+}
 CSS_polish = {
 	pattern = "pattern_solid.tga"
 	color1 = "purple"
-
 	colored_emblem = {
 		texture = "ce_bicolor_bottom.dds"
 		color1 = "yellow"
@@ -2529,96 +5068,151 @@ CSS_polish = {
 		color2 = "yellow"
 	}
 	colored_emblem = {
-		texture = "CSS_cross.dds"
+		texture = "ce_cross_patty.dds"
 		color1 = "black"
 		color2 = "yellow_dark"
 		color3 = "yellow"
-		instance = { position = { 0.5 0.48 } scale = { 1 1 } }
-	}	
+		instance = {
+			position = {
+				0.5
+				0.48
+			}
+			scale = {
+				1
+				1
+			}
+		}
+	}
 	colored_emblem = {
 		texture = "ce_shield_accolade.dds"
 		color1 = "red"
 		color2 = "red"
-		instance = { scale = { 0.62 0.58 } position = { 0.5 0.48 } }		
-	}	
+		instance = {
+			scale = {
+				0.62
+				0.58
+			}
+			position = {
+				0.5
+				0.48
+			}
+		}
+	}
 	colored_emblem = {
 		texture = "ce_eagle_crown.dds"
 		color1 = "white"
 		color2 = "yellow"
 		color3 = "white"
-		instance = { scale = { 0.5 0.5 } position = { 0.5 0.48 } }
+		instance = {
+			scale = {
+				0.5
+				0.5
+			}
+			position = {
+				0.5
+				0.48
+			}
+		}
 	}
-}	
+}
+
 TCA_UKR = {
 	pattern = "pattern_solid.tga"
 	color1 = "blue"
-
 	colored_emblem = {
 		texture = "ce_bicolor_bottom.dds"
 		color1 = "yellow"
 		color2 = "yellow"
 	}
 }
+
 TCA = {
 	pattern = "pattern_solid.tga"
 	color1 = "white"
-	
 	colored_emblem = {
 		texture = "ce_stripes_07.dds"
 		color1 = "yellow"
-		instance = { position = { 0 0.36 } }
+		instance = {
+			position = {
+				0
+				0.36
+			}
+		}
 	}
-	
 	colored_emblem = {
 		texture = "ce_stripes_07.dds"
 		color1 = "blue_light"
-		instance = { position = { 0 0.5 } }
+		instance = {
+			position = {
+				0
+				0.5
+			}
+		}
 	}
 	colored_emblem = {
 		texture = "ce_bear_california.dds"
 		color1 = "red"
 		color2 = "red"
 		color3 = "white"
-		instance = { scale = { 0.65 0.65 } position = { 0.75 0.45 } }			
+		instance = {
+			scale = {
+				0.65
+				0.65
+			}
+			position = {
+				0.75
+				0.45
+			}
+		}
 	}
-	
 }
-TCA_monarchy ={
+
+TCA_monarchy = {
 	pattern = "pattern_solid.tga"
 	color1 = "red"
 	colored_emblem = {
 		texture = "ce_tricolor_horizontal_thick.dds"
 		color1 = "blue"
 		color2 = "white"
-		instance = { position = { 0.5 0.25} }		
+		instance = {
+			position = {
+				0.5
+				0.25
+			}
+		}
 	}
 	textured_emblem = {
 		texture = "te_carpathia.dds"
-		instance = { scale = { 0.45 0.45} }		
+		instance = {
+			scale = {
+				0.45
+				0.45
+			}
+		}
 	}
 }
-BKV_UKR = {	
+
+BKV_UKR = {
 	pattern = "pattern_solid.tga"
 	color1 = "blue_light"
-
 	colored_emblem = {
 		texture = "ce_tricolor_vertical.dds"
 		color1 = "yellow"
 		color2 = "red"
 	}
 }
+
 BKV = {
 	pattern = "pattern_solid.tga"
 	color1 = "blue"
-
 	colored_emblem = {
 		texture = "ce_bicolor_bottom.dds"
 		color1 = "red"
 		color2 = "red"
 	}
-	
 }
-BKV_C ={
+
+BKV_C = {
 	pattern = "pattern_solid.tga"
 	color1 = "blue"
 	colored_emblem = {
@@ -2626,77 +5220,115 @@ BKV_C ={
 		color1 = "red"
 	}
 }
-ITM = {
+
+PLR = {
 	pattern = "pattern_solid.tga"
 	color1 = "red"
-
-
 	textured_emblem = {
 		texture = "itm_emblem_mon.dds"
-        instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }
+		instance = {
+			position = {
+				0.5
+				0.5
+			}
+			scale = {
+				1
+				1
+			}
+		}
 	}
-
 }
-ITM_monarchy = {
+
+PLR_monarchy = {
 	pattern = "pattern_solid.tga"
 	color1 = "red"
-
 	colored_emblem = {
 		texture = "ce_tricolor_horizontal.dds"
 		color1 = "white"
 		color2 = "red"
 	}
-
 	textured_emblem = {
 		texture = "itm_emblem_mon.dds"
-        instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }
+		instance = {
+			position = {
+				0.5
+				0.5
+			}
+			scale = {
+				1
+				1
+			}
+		}
 	}
 }
-ITM_republic = {
+
+PLR_republic = {
 	pattern = "pattern_solid.tga"
 	color1 = "blue"
-
 	colored_emblem = {
 		texture = "ce_tricolor_horizontal.dds"
 		color1 = "white"
 		color2 = "red"
 	}
-	
 	textured_emblem = {
 		texture = "itm_emblem_rep.dds"
-        instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }
+		instance = {
+			position = {
+				0.5
+				0.5
+			}
+			scale = {
+				1
+				1
+			}
+		}
 	}
-	
 }
-ITM_communist = {
+
+PLR_communist = {
 	pattern = "pattern_solid.tga"
 	color1 = "white"
-
 	colored_emblem = {
 		texture = "ce_tricolor_horizontal.dds"
 		color1 = "red"
 		color2 = "blue_light"
 	}
-	
 	textured_emblem = {
 		texture = "itm_emblem_com.dds"
-        instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }
+		instance = {
+			position = {
+				0.5
+				0.5
+			}
+			scale = {
+				1
+				1
+			}
+		}
 	}
-	
 }
-ITM_fascist = {
+
+PLR_fascist = {
 	pattern = "pattern_solid.tga"
 	color1 = "black"
-	
 	textured_emblem = {
 		texture = "itm_emblem_fac.dds"
-        instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }
+		instance = {
+			position = {
+				0.5
+				0.5
+			}
+			scale = {
+				1
+				1
+			}
+		}
 	}
 }
-ITM_free_state = {
+
+PLR_free_state = {
 	pattern = "pattern_solid.tga"
 	color1 = "black"
-
 	colored_emblem = {
 		texture = "ce_saltire.dds"
 		color1 = "red"

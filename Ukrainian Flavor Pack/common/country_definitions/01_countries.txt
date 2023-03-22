@@ -1,105 +1,188 @@
-
-
 UKR = {
-	color = { 222 189 67 }
-	
+	color = {
+		222
+		189
+		67
+	}
 	country_type = recognized
-
 	tier = empire
-	
-	cultures = { ukrainian }
+	cultures = {
+		ukrainian
+	}
 	capital = STATE_KIEV
 }
+
 ZAZ = {
-	color = { 146 146 176 }
+	color = {
+		146
+		146
+		176
+	}
 	country_type = recognized
 	tier = principality
-	cultures = { ukrainian }
+	cultures = {
+		ukrainian
+	}
 	capital = STATE_CHERSON
 }
+
 GAL = {
-	color = { 13  81  130 }
+	color = {
+		13
+		81
+		130
+	}
 	country_type = recognized
 	tier = principality
-	cultures = { ukrainian polish }
+	cultures = {
+		ukrainian
+		polish
+	}
 	capital = STATE_EAST_GALICIA
 }
+
 VOL = {
-	color = { 53  91  140 }
+	color = {
+		53
+		91
+		140
+	}
 	country_type = recognized
 	tier = principality
-	cultures = { ukrainian }
+	cultures = {
+		ukrainian
+	}
 	capital = STATE_VOLHYNIA
 }
+
 RUT = {
-	color = { 33  86  135 }
+	color = {
+		33
+		86
+		135
+	}
 	country_type = recognized
 	tier = grand_principality
-	cultures = { ukrainian }
+	cultures = {
+		ukrainian
+	}
 	capital = STATE_EAST_GALICIA
 }
+
 DON = {
-	color = { 275 221 42 }
+	color = {
+		275
+		221
+		42
+	}
 	country_type = recognized
 	tier = principality
-	cultures = { ukrainian russian }
+	cultures = {
+		ukrainian
+		russian
+	}
 	capital = STATE_ROSTOV
 }
+
 CRI = {
-	color = { 200  202  85 }
+	color = {
+		200
+		202
+		85
+	}
 	country_type = recognized
 	tier = principality
-	cultures = { tatar }
+	cultures = {
+		tatar
+	}
 	capital = STATE_CRIMEA
 }
+
 KUB = {
-	color = { 220  202  95 }
+	color = {
+		220
+		202
+		95
+	}
 	country_type = recognized
 	tier = principality
-	cultures = { ukrainian }
+	cultures = {
+		ukrainian
+	}
 	capital = STATE_KUBAN
 }
-DKB = {
-	color = { 253  222  68 }
+
+DKU = {
+	color = {
+		253
+		222
+		68
+	}
 	country_type = recognized
 	tier = grand_principality
-	cultures = { ukrainian }
+	cultures = {
+		ukrainian
+	}
 	capital = STATE_KUBAN
 }
+
 CSS = {
-	color = { 205  184  132 }
+	color = {
+		205
+		184
+		132
+	}
 	country_type = recognized
 	tier = kingdom
-	cultures = { ukrainian }
+	cultures = {
+		ukrainian
+	}
 	capital = STATE_CHERSON
 }
-TCA = {
-	color = { 154 151 163 }
-	
-	country_type = recognized
 
+TCA = {
+	color = {
+		154
+		151
+		163
+	}
+	country_type = recognized
 	tier = principality
-	
-	cultures = { ukrainian hungarian }
+	cultures = {
+		ukrainian
+		hungarian
+	}
 	capital = STATE_EAST_SLOVAKIA
 }
-BKV = {
-	color = { 187 160 74 }
-	
-	country_type = recognized
 
+BKV = {
+	color = {
+		187
+		160
+		74
+	}
+	country_type = recognized
 	tier = principality
-	
-	cultures = { ukrainian romanian }
+	cultures = {
+		ukrainian
+		romanian
+	}
 	capital = STATE_MOLDAVIA
 }
-ITM = {
-	color = { 180 80 120 }
-	
-	country_type = recognized
 
+PLR = {
+	color = {
+		180
+		80
+		120
+	}
+	country_type = recognized
 	tier = empire
-	
-	cultures = { ukrainian polish byelorussian latvian estonian lithuanian}
+	cultures = {
+		ukrainian
+		polish
+		lithuanian
+		byelorussian
+	}
 	capital = STATE_BREST
 }

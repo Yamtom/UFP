@@ -6,6 +6,13 @@ free_trade_party = {
 	name = {
 		first_valid = {
 			triggered_desc = {
+				desc = party_ZAZ_free
+				trigger = {
+					exists = c:ZAZ
+					THIS = c:ZAZ
+				}
+			}
+			triggered_desc = {
 				desc = party_GAL_free
 				trigger = {
 					exists = c:GAL

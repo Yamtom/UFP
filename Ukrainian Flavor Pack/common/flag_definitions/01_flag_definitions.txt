@@ -1,10 +1,10 @@
-﻿
-UKR = { # Ukraine
+﻿UKR = {
+	# Ukraine
 	flag_definition = {
 		coa = UKR_theocracy
 		priority = 1500
 		trigger = {
-			OR ={
+			OR = {
 				coa_def_theocracy_flag_trigger = yes
 			}
 		}
@@ -25,9 +25,9 @@ UKR = { # Ukraine
 		coa = UKR_absolute_monarchy
 		priority = 1500
 		trigger = {
-			OR ={
+			OR = {
 				coa_def_absolute_monarchy_flag_trigger = yes
-				AND ={
+				AND = {
 					has_law = law_type:law_monarchy
 					has_law = law_type:law_autocracy
 				}
@@ -38,7 +38,7 @@ UKR = { # Ukraine
 		coa = UKR_monarchy
 		priority = 1500
 		trigger = {
-			OR ={
+			OR = {
 				coa_def_monarchy_flag_trigger = yes
 			}
 		}
@@ -47,7 +47,7 @@ UKR = { # Ukraine
 		coa = UKR_dictatorship_military
 		priority = 1500
 		trigger = {
-			OR ={
+			OR = {
 				coa_def_dictatorship_flag_trigger = yes
 				coa_def_military_flag_trigger = yes
 			}
@@ -57,7 +57,7 @@ UKR = { # Ukraine
 		coa = UKR_republic
 		priority = 1500
 		trigger = {
-			OR ={
+			OR = {
 				coa_def_republic_flag_trigger = yes
 			}
 		}
@@ -65,13 +65,13 @@ UKR = { # Ukraine
 	flag_definition = {
 		coa = UKR_communist
 		priority = 1600
-		trigger = { 
+		trigger = {
 			OR = {
 				has_law = law_type:law_council_republic
 				has_law = law_type:law_elder_council
 			}
 		}
-	}	
+	}
 	flag_definition = {
 		coa = UKR_anarchy
 		priority = 1700
@@ -85,7 +85,7 @@ UKR = { # Ukraine
 	flag_definition = {
 		coa = UKR_fascist
 		priority = 1700
-		trigger = { 
+		trigger = {
 			coa_def_fascist_flag_trigger = yes
 		}
 	}
@@ -93,7 +93,7 @@ UKR = { # Ukraine
 		coa = UKR_russian
 		priority = 1550
 		trigger = {
-			OR ={
+			OR = {
 				coa_def_russian_ensign_trigger = yes
 			}
 		}
@@ -102,7 +102,7 @@ UKR = { # Ukraine
 		coa = UKR_austrian
 		priority = 1600
 		trigger = {
-			OR ={
+			OR = {
 				coa_def_austrian_ensign_trigger = yes
 			}
 		}
@@ -111,7 +111,7 @@ UKR = { # Ukraine
 		coa = UKR_polish
 		priority = 1600
 		trigger = {
-			OR ={
+			OR = {
 				coa_def_polish_ensign_trigger = yes
 			}
 		}
@@ -124,12 +124,14 @@ UKR = { # Ukraine
 	flag_definition = {
 		coa = UKR_kukurudza
 		priority = 2000
-		trigger = { 
+		trigger = {
 			coa_kukurudza_trigger = yes
 		}
 	}
 }
-ZAZ = { # Zaz
+
+ZAZ = {
+	# Zaporozhia
 	flag_definition = {
 		coa = ZAZ
 		priority = 1000
@@ -141,7 +143,7 @@ ZAZ = { # Zaz
 		coa = ZAZ_theocracy
 		priority = 1500
 		trigger = {
-			OR ={
+			OR = {
 				coa_def_theocracy_flag_trigger = yes
 			}
 		}
@@ -150,7 +152,7 @@ ZAZ = { # Zaz
 		coa = ZAZ_monarchy
 		priority = 1500
 		trigger = {
-			OR ={
+			OR = {
 				coa_def_absolute_monarchy_flag_trigger = yes
 				coa_def_monarchy_flag_trigger = yes
 			}
@@ -160,7 +162,7 @@ ZAZ = { # Zaz
 		coa = ZAZ_dictatorship_military
 		priority = 1500
 		trigger = {
-			OR ={
+			OR = {
 				coa_def_dictatorship_flag_trigger = yes
 				coa_def_military_flag_trigger = yes
 			}
@@ -170,7 +172,7 @@ ZAZ = { # Zaz
 		coa = ZAZ_communist
 		priority = 1600
 		trigger = {
-			OR ={
+			OR = {
 				coa_def_communist_flag_trigger = yes
 			}
 		}
@@ -188,7 +190,7 @@ ZAZ = { # Zaz
 	flag_definition = {
 		coa = ZAZ_fascist
 		priority = 1700
-		trigger = { 
+		trigger = {
 			coa_def_fascist_flag_trigger = yes
 		}
 	}
@@ -205,7 +207,7 @@ ZAZ = { # Zaz
 		coa = ZAZ_russian
 		priority = 1550
 		trigger = {
-			OR ={
+			OR = {
 				coa_def_russian_ensign_trigger = yes
 			}
 		}
@@ -214,10 +216,10 @@ ZAZ = { # Zaz
 		coa = ZAZ_theocracy_monarchy_RUS
 		priority = 1550
 		trigger = {
-			OR ={
+			OR = {
 				coa_def_russian_ensign_trigger = yes
 			}
-			OR ={
+			OR = {
 				coa_def_theocracy_flag_trigger = yes
 				coa_def_absolute_monarchy_flag_trigger = yes
 				coa_def_monarchy_flag_trigger = yes
@@ -228,7 +230,7 @@ ZAZ = { # Zaz
 		coa = ZAZ_austrian
 		priority = 1600
 		trigger = {
-			OR ={
+			OR = {
 				coa_def_austrian_ensign_trigger = yes
 			}
 		}
@@ -237,29 +239,30 @@ ZAZ = { # Zaz
 		coa = ZAZ_polish
 		priority = 1600
 		trigger = {
-			OR ={
+			OR = {
 				coa_def_polish_ensign_trigger = yes
 			}
 		}
 	}
 }
-CRI = { #Qirim
+
+CRI = {
+	# Qırım
 	flag_definition = {
 		coa = CRI_crimean_imamate
 		priority = 1500
 		trigger = {
-			OR ={
+			OR = {
 				coa_def_theocracy_flag_trigger = yes
 			}
 		}
-	}	
+	}
 	flag_definition = {
 		coa = CRI_cdr
 		priority = 1500
-
 		trigger = {
-			AND ={
-				OR={
+			AND = {
+				OR = {
 					coa_def_multicultural_flag_trigger = yes
 					coa_def_republic_flag_trigger = yes
 				}
@@ -269,15 +272,13 @@ CRI = { #Qirim
 	flag_definition = {
 		coa = CRI_ssrt
 		priority = 1600
-
-		trigger = { 
+		trigger = {
 			coa_def_communist_flag_trigger = yes
 		}
 	}
 	flag_definition = {
 		coa = CRI_pontic_step
 		priority = 1600
-
 		trigger = {
 			exists = scope:actor
 			scope:actor = {
@@ -285,11 +286,10 @@ CRI = { #Qirim
 				has_law = law_type:law_anarchy
 			}
 		}
-	}	
+	}
 	flag_definition = {
 		coa = CRI_taurid
 		priority = 1650
-
 		trigger = {
 			exists = scope:actor
 			coa_def_russian_ensign_trigger = yes
@@ -298,7 +298,6 @@ CRI = { #Qirim
 	flag_definition = {
 		coa = CRI_beylik_qirim
 		priority = 1700
-
 		trigger = {
 			exists = scope:actor
 			coa_def_turkish_ensign_trigger = yes
@@ -307,7 +306,6 @@ CRI = { #Qirim
 	flag_definition = {
 		coa = CRI_bosporus
 		priority = 1700
-
 		trigger = {
 			exists = scope:actor
 			OR = {
@@ -320,20 +318,19 @@ CRI = { #Qirim
 	flag_definition = {
 		coa = CRI_crimean_metropolis
 		priority = 1700
-
 		trigger = {
 			coa_def_ukrainian_ensign_trigger = yes
-			OR ={
+			OR = {
 				coa_def_theocracy_flag_trigger = yes
 			}
 		}
-	}	
+	}
 	flag_definition = {
 		coa = CRI_crimean_principality
 		priority = 1700
 		trigger = {
 			coa_def_ukrainian_ensign_trigger = yes
-			OR ={
+			OR = {
 				coa_def_monarchy_flag_trigger = yes
 				coa_def_absolute_monarchy_flag_trigger = yes
 				coa_def_military_flag_trigger = yes
@@ -343,11 +340,10 @@ CRI = { #Qirim
 	flag_definition = {
 		coa = CRI_arc
 		priority = 1700
-
 		trigger = {
-			AND ={
+			AND = {
 				coa_def_ukrainian_ensign_trigger = yes
-				OR={
+				OR = {
 					coa_def_multicultural_flag_trigger = yes
 					coa_def_republic_flag_trigger = yes
 				}
@@ -357,11 +353,10 @@ CRI = { #Qirim
 	flag_definition = {
 		coa = CRI_cassr
 		priority = 1750
-
-		trigger = { 
+		trigger = {
 			OR = {
-			coa_def_ukrainian_ensign_trigger = yes
-			coa_def_russian_ensign_trigger = yes
+				coa_def_ukrainian_ensign_trigger = yes
+				coa_def_russian_ensign_trigger = yes
 			}
 			coa_def_communist_flag_trigger = yes
 		}
@@ -369,7 +364,6 @@ CRI = { #Qirim
 	flag_definition = {
 		coa = CRI_free_peninsula
 		priority = 1700
-
 		trigger = {
 			coa_def_ukrainian_ensign_trigger = yes
 			exists = scope:actor
@@ -378,9 +372,11 @@ CRI = { #Qirim
 				has_law = law_type:law_anarchy
 			}
 		}
-	}	
+	}
 }
-DON = { # DON
+
+DON = {
+	# Don
 	flag_definition = {
 		coa = DON
 		priority = 1000
@@ -392,7 +388,7 @@ DON = { # DON
 		coa = DON_theocracy
 		priority = 1500
 		trigger = {
-			OR ={
+			OR = {
 				coa_def_theocracy_flag_trigger = yes
 			}
 		}
@@ -401,7 +397,7 @@ DON = { # DON
 		coa = DON_monarchy
 		priority = 1500
 		trigger = {
-			OR ={
+			OR = {
 				coa_def_absolute_monarchy_flag_trigger = yes
 				coa_def_monarchy_flag_trigger = yes
 			}
@@ -411,7 +407,7 @@ DON = { # DON
 		coa = DON_dictatorship_military
 		priority = 1500
 		trigger = {
-			OR ={
+			OR = {
 				coa_def_dictatorship_flag_trigger = yes
 				coa_def_military_flag_trigger = yes
 			}
@@ -421,7 +417,7 @@ DON = { # DON
 		coa = DON_republic
 		priority = 1500
 		trigger = {
-			OR ={
+			OR = {
 				coa_def_republic_flag_trigger = yes
 			}
 		}
@@ -430,7 +426,7 @@ DON = { # DON
 		coa = DON_communist
 		priority = 1600
 		trigger = {
-			OR ={
+			OR = {
 				coa_def_communist_flag_trigger = yes
 			}
 		}
@@ -448,7 +444,7 @@ DON = { # DON
 	flag_definition = {
 		coa = DON_fascist
 		priority = 1700
-		trigger = { 
+		trigger = {
 			coa_def_fascist_flag_trigger = yes
 		}
 	}
@@ -465,7 +461,7 @@ DON = { # DON
 		coa = DON_russian
 		priority = 1550
 		trigger = {
-			OR ={
+			OR = {
 				coa_def_russian_ensign_trigger = yes
 			}
 		}
@@ -474,8 +470,8 @@ DON = { # DON
 		coa = DON_italian
 		priority = 1600
 		trigger = {
-			OR ={
-                coa_def_italian_ensign_trigger = yes
+			OR = {
+				coa_def_italian_ensign_trigger = yes
 			}
 		}
 	}
@@ -483,13 +479,15 @@ DON = { # DON
 		coa = DON_polish
 		priority = 1600
 		trigger = {
-			OR ={
+			OR = {
 				coa_def_polish_ensign_trigger = yes
 			}
 		}
 	}
 }
-KUB = { # KUB
+
+KUB = {
+	# Kuban
 	flag_definition = {
 		coa = KUB
 		priority = 1000
@@ -501,7 +499,7 @@ KUB = { # KUB
 		coa = KUB_theocracy
 		priority = 1500
 		trigger = {
-			OR ={
+			OR = {
 				coa_def_theocracy_flag_trigger = yes
 			}
 		}
@@ -510,7 +508,7 @@ KUB = { # KUB
 		coa = KUB_monarchy
 		priority = 1500
 		trigger = {
-			OR ={
+			OR = {
 				coa_def_absolute_monarchy_flag_trigger = yes
 				coa_def_monarchy_flag_trigger = yes
 			}
@@ -520,7 +518,7 @@ KUB = { # KUB
 		coa = KUB_dictatorship_military
 		priority = 1500
 		trigger = {
-			OR ={
+			OR = {
 				coa_def_dictatorship_flag_trigger = yes
 				coa_def_military_flag_trigger = yes
 			}
@@ -530,7 +528,7 @@ KUB = { # KUB
 		coa = KUB_republic
 		priority = 1500
 		trigger = {
-			OR ={
+			OR = {
 				coa_def_republic_flag_trigger = yes
 			}
 		}
@@ -539,7 +537,7 @@ KUB = { # KUB
 		coa = KUB_communist
 		priority = 1600
 		trigger = {
-			OR ={
+			OR = {
 				coa_def_communist_flag_trigger = yes
 			}
 		}
@@ -557,7 +555,7 @@ KUB = { # KUB
 	flag_definition = {
 		coa = KUB_fascist
 		priority = 1700
-		trigger = { 
+		trigger = {
 			coa_def_fascist_flag_trigger = yes
 		}
 	}
@@ -574,87 +572,98 @@ KUB = { # KUB
 		coa = KUB_russian
 		priority = 1550
 		trigger = {
-			OR ={
+			OR = {
 				coa_def_russian_ensign_trigger = yes
 			}
 		}
 	}
 	flag_definition = {
-		coa = KUB_italian
+		coa = DON_polish
 		priority = 1600
 		trigger = {
-			OR ={
-                coa_def_italian_ensign_trigger = yes
-			}
-		}
-	}
-	flag_definition = {
-		coa = KUB_polish
-		priority = 1600
-		trigger = {
-			OR ={
+			OR = {
 				coa_def_polish_ensign_trigger = yes
 			}
 		}
 	}
-}
-DKB = { # DKB
 	flag_definition = {
-		coa = DKB
+		coa = KUB_greek
+		priority = 1600
+		trigger = {
+			OR = {
+				coa_def_greek_ensign_trigger = yes
+			}
+		}
+	}
+	flag_definition = {
+		coa = KUB_crimea
+		priority = 1600
+		trigger = {
+			OR = {
+				coa_def_crimea_ensign_trigger = yes
+			}
+		}
+	}
+}
+
+DKU = {
+	# Don-Kuban_Union
+	flag_definition = {
+		coa = DKU
 		priority = 1000
 		trigger = {
 			exists = scope:actor
 		}
 	}
 	flag_definition = {
-		coa = DKB_theocracy
+		coa = DKU_theocracy
 		priority = 1500
 		trigger = {
-			OR ={
+			OR = {
 				coa_def_theocracy_flag_trigger = yes
 			}
 		}
 	}
 	flag_definition = {
-		coa = DKB_monarchy
+		coa = DKU_monarchy
 		priority = 1500
 		trigger = {
-			OR ={
+			OR = {
 				coa_def_absolute_monarchy_flag_trigger = yes
 				coa_def_monarchy_flag_trigger = yes
 			}
 		}
 	}
 	flag_definition = {
-		coa = DKB_dictatorship_military
+		coa = DKU_dictatorship_military
 		priority = 1500
 		trigger = {
-			OR ={
+			OR = {
 				coa_def_dictatorship_flag_trigger = yes
 				coa_def_military_flag_trigger = yes
 			}
 		}
 	}
 	flag_definition = {
-		coa = DKB_republic
+		coa = DKU_republic
 		priority = 1500
 		trigger = {
-			OR ={
+			OR = {
 				coa_def_republic_flag_trigger = yes
 			}
 		}
 	}
 	flag_definition = {
-		coa = DKB_communist
+		coa = DKU_communist
 		priority = 1600
 		trigger = {
-			OR ={
+			OR = {
 				coa_def_communist_flag_trigger = yes
 			}
 		}
 	}
 	flag_definition = {
-		coa = DKB_anarchy
+		coa = DKU_anarchy
 		priority = 1700
 		trigger = {
 			exists = scope:actor
@@ -664,14 +673,14 @@ DKB = { # DKB
 		}
 	}
 	flag_definition = {
-		coa = DKB_fascist
+		coa = DKU_fascist
 		priority = 1700
-		trigger = { 
+		trigger = {
 			coa_def_fascist_flag_trigger = yes
 		}
 	}
 	flag_definition = {
-		coa = DKB_ukraine
+		coa = DKU_ukraine
 		priority = 1800
 		trigger = {
 			OR = {
@@ -680,34 +689,54 @@ DKB = { # DKB
 		}
 	}
 	flag_definition = {
-		coa = DKB_russian
+		coa = DKU_russian
 		priority = 1550
 		trigger = {
-			OR ={
+			OR = {
 				coa_def_russian_ensign_trigger = yes
 			}
 		}
 	}
 	flag_definition = {
-		coa = DKB_italian
+		coa = DKU_polish
 		priority = 1600
 		trigger = {
-			OR ={
-                coa_def_italian_ensign_trigger = yes
-			}
-		}
-	}
-	flag_definition = {
-		coa = DKB_polish
-		priority = 1600
-		trigger = {
-			OR ={
+			OR = {
 				coa_def_polish_ensign_trigger = yes
 			}
 		}
 	}
+	flag_definition = {
+		coa = DKU_italian
+		priority = 1600
+		trigger = {
+			OR = {
+				coa_def_italian_ensign_trigger = yes
+			}
+		}
+	}
+	flag_definition = {
+		coa = DKU_greek
+		priority = 1700
+		trigger = {
+			OR = {
+				coa_def_greek_ensign_trigger = yes
+			}
+		}
+	}
+	flag_definition = {
+		coa = DKU_crimea
+		priority = 1600
+		trigger = {
+			OR = {
+				coa_def_crimea_ensign_trigger = yes
+			}
+		}
+	}
 }
-CSS = { # CSS
+
+CSS = {
+	# Cossackia
 	flag_definition = {
 		coa = CSS
 		priority = 1000
@@ -719,17 +748,29 @@ CSS = { # CSS
 		coa = CSS_theocracy
 		priority = 1500
 		trigger = {
-			OR ={
+			OR = {
 				coa_def_theocracy_flag_trigger = yes
 			}
 		}
 	}
 	flag_definition = {
-		coa = CSS_monarchy
+		coa = CSS_absolute_monarchy
 		priority = 1500
 		trigger = {
-			OR ={
+			OR = {
 				coa_def_absolute_monarchy_flag_trigger = yes
+				AND = {
+					has_law = law_type:law_monarchy
+					has_law = law_type:law_autocracy
+				}
+			}
+		}
+	}
+	flag_definition = {
+		coa = UKR_monarchy
+		priority = 1500
+		trigger = {
+			OR = {
 				coa_def_monarchy_flag_trigger = yes
 			}
 		}
@@ -738,7 +779,7 @@ CSS = { # CSS
 		coa = CSS_dictatorship_military
 		priority = 1500
 		trigger = {
-			OR ={
+			OR = {
 				coa_def_dictatorship_flag_trigger = yes
 				coa_def_military_flag_trigger = yes
 			}
@@ -748,7 +789,7 @@ CSS = { # CSS
 		coa = CSS_communist
 		priority = 1600
 		trigger = {
-			OR ={
+			OR = {
 				coa_def_communist_flag_trigger = yes
 			}
 		}
@@ -766,7 +807,7 @@ CSS = { # CSS
 	flag_definition = {
 		coa = CSS_fascist
 		priority = 1700
-		trigger = { 
+		trigger = {
 			coa_def_fascist_flag_trigger = yes
 		}
 	}
@@ -783,7 +824,7 @@ CSS = { # CSS
 		coa = CSS_russian
 		priority = 1550
 		trigger = {
-			OR ={
+			OR = {
 				coa_def_russian_ensign_trigger = yes
 			}
 		}
@@ -792,7 +833,7 @@ CSS = { # CSS
 		coa = CSS_austrian
 		priority = 1600
 		trigger = {
-			OR ={
+			OR = {
 				coa_def_austrian_ensign_trigger = yes
 			}
 		}
@@ -801,13 +842,15 @@ CSS = { # CSS
 		coa = CSS_polish
 		priority = 1600
 		trigger = {
-			OR ={
+			OR = {
 				coa_def_polish_ensign_trigger = yes
 			}
 		}
 	}
 }
-GAL = { # hal-vol
+
+GAL = {
+	# Haluchina
 	#Halych
 	flag_definition = {
 		coa = GAL
@@ -822,7 +865,7 @@ GAL = { # hal-vol
 		priority = 1500
 		trigger = {
 			coa_controls_halych_trigger = yes
-			OR ={
+			OR = {
 				coa_def_communist_flag_trigger = yes
 			}
 		}
@@ -832,7 +875,7 @@ GAL = { # hal-vol
 		priority = 1500
 		trigger = {
 			coa_controls_halych_trigger = yes
-			OR ={
+			OR = {
 				coa_def_dictatorship_flag_trigger = yes
 				coa_def_military_flag_trigger = yes
 			}
@@ -843,7 +886,7 @@ GAL = { # hal-vol
 		priority = 1500
 		trigger = {
 			coa_controls_halych_trigger = yes
-			OR ={
+			OR = {
 				coa_def_theocracy_flag_trigger = yes
 			}
 		}
@@ -853,7 +896,7 @@ GAL = { # hal-vol
 		priority = 1600
 		trigger = {
 			coa_controls_halych_trigger = yes
-			OR ={
+			OR = {
 				coa_def_austrian_ensign_trigger = yes
 			}
 		}
@@ -863,7 +906,7 @@ GAL = { # hal-vol
 		priority = 1600
 		trigger = {
 			coa_controls_halych_trigger = yes
-			OR ={
+			OR = {
 				coa_def_polish_ensign_trigger = yes
 			}
 		}
@@ -873,7 +916,7 @@ GAL = { # hal-vol
 		priority = 1550
 		trigger = {
 			coa_controls_halych_trigger = yes
-			OR ={
+			OR = {
 				coa_def_russian_ensign_trigger = yes
 			}
 		}
@@ -884,12 +927,114 @@ GAL = { # hal-vol
 		trigger = {
 			coa_controls_halych_trigger = yes
 			coa_def_ukrainian_ensign_trigger = yes
-			OR ={
+			OR = {
 				coa_def_monarchy_flag_trigger = yes
 				coa_def_absolute_monarchy_flag_trigger = yes
 			}
 		}
 	}
+	flag_definition = {
+		coa = CSS
+		priority = 1000
+		trigger = {
+			exists = scope:actor
+		}
+	}
+	flag_definition = {
+		coa = CSS_theocracy
+		priority = 1500
+		trigger = {
+			OR = {
+				coa_def_theocracy_flag_trigger = yes
+			}
+		}
+	}
+	flag_definition = {
+		coa = CSS_monarchy
+		priority = 1500
+		trigger = {
+			OR = {
+				coa_def_absolute_monarchy_flag_trigger = yes
+				coa_def_monarchy_flag_trigger = yes
+			}
+		}
+	}
+	flag_definition = {
+		coa = CSS_dictatorship_military
+		priority = 1500
+		trigger = {
+			OR = {
+				coa_def_dictatorship_flag_trigger = yes
+				coa_def_military_flag_trigger = yes
+			}
+		}
+	}
+	flag_definition = {
+		coa = CSS_communist
+		priority = 1600
+		trigger = {
+			OR = {
+				coa_def_communist_flag_trigger = yes
+			}
+		}
+	}
+	flag_definition = {
+		coa = CSS_anarchy
+		priority = 1700
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				has_law = law_type:law_anarchy
+			}
+		}
+	}
+	flag_definition = {
+		coa = CSS_fascist
+		priority = 1700
+		trigger = {
+			coa_def_fascist_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = CSS_ukraine
+		priority = 1800
+		trigger = {
+			OR = {
+				coa_def_ukrainian_ensign_trigger = yes
+			}
+		}
+	}
+	flag_definition = {
+		coa = CSS_russian
+		priority = 1550
+		trigger = {
+			OR = {
+				coa_def_russian_ensign_trigger = yes
+			}
+		}
+	}
+	flag_definition = {
+		coa = CSS_austrian
+		priority = 1600
+		trigger = {
+			OR = {
+				coa_def_austrian_ensign_trigger = yes
+			}
+		}
+	}
+	flag_definition = {
+		coa = CSS_polish
+		priority = 1600
+		trigger = {
+			OR = {
+				coa_def_polish_ensign_trigger = yes
+			}
+		}
+	}
+}
+
+VOL = {
+	# Volyn
 	#Volhyn
 	flag_definition = {
 		coa = VOL
@@ -904,7 +1049,7 @@ GAL = { # hal-vol
 		priority = 1500
 		trigger = {
 			coa_controls_volhyn_trigger = yes
-			OR ={
+			OR = {
 				coa_def_communist_flag_trigger = yes
 			}
 		}
@@ -914,7 +1059,7 @@ GAL = { # hal-vol
 		priority = 1500
 		trigger = {
 			coa_controls_volhyn_trigger = yes
-			OR ={
+			OR = {
 				coa_def_dictatorship_flag_trigger = yes
 				coa_def_military_flag_trigger = yes
 			}
@@ -925,7 +1070,7 @@ GAL = { # hal-vol
 		priority = 1500
 		trigger = {
 			coa_controls_volhyn_trigger = yes
-			OR ={
+			OR = {
 				coa_def_theocracy_flag_trigger = yes
 			}
 		}
@@ -935,7 +1080,7 @@ GAL = { # hal-vol
 		priority = 1600
 		trigger = {
 			coa_controls_volhyn_trigger = yes
-			OR ={
+			OR = {
 				coa_def_austrian_ensign_trigger = yes
 			}
 		}
@@ -945,7 +1090,7 @@ GAL = { # hal-vol
 		priority = 1600
 		trigger = {
 			coa_controls_volhyn_trigger = yes
-			OR ={
+			OR = {
 				coa_def_polish_ensign_trigger = yes
 			}
 		}
@@ -955,7 +1100,7 @@ GAL = { # hal-vol
 		priority = 1550
 		trigger = {
 			coa_controls_volhyn_trigger = yes
-			OR ={
+			OR = {
 				coa_def_russian_ensign_trigger = yes
 			}
 		}
@@ -966,12 +1111,114 @@ GAL = { # hal-vol
 		trigger = {
 			coa_controls_volhyn_trigger = yes
 			coa_def_ukrainian_ensign_trigger = yes
-			OR ={
+			OR = {
 				coa_def_monarchy_flag_trigger = yes
 				coa_def_absolute_monarchy_flag_trigger = yes
 			}
 		}
 	}
+	flag_definition = {
+		coa = CSS
+		priority = 1000
+		trigger = {
+			exists = scope:actor
+		}
+	}
+	flag_definition = {
+		coa = CSS_theocracy
+		priority = 1500
+		trigger = {
+			OR = {
+				coa_def_theocracy_flag_trigger = yes
+			}
+		}
+	}
+	flag_definition = {
+		coa = CSS_monarchy
+		priority = 1500
+		trigger = {
+			OR = {
+				coa_def_absolute_monarchy_flag_trigger = yes
+				coa_def_monarchy_flag_trigger = yes
+			}
+		}
+	}
+	flag_definition = {
+		coa = CSS_dictatorship_military
+		priority = 1500
+		trigger = {
+			OR = {
+				coa_def_dictatorship_flag_trigger = yes
+				coa_def_military_flag_trigger = yes
+			}
+		}
+	}
+	flag_definition = {
+		coa = CSS_communist
+		priority = 1600
+		trigger = {
+			OR = {
+				coa_def_communist_flag_trigger = yes
+			}
+		}
+	}
+	flag_definition = {
+		coa = CSS_anarchy
+		priority = 1700
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				has_law = law_type:law_anarchy
+			}
+		}
+	}
+	flag_definition = {
+		coa = CSS_fascist
+		priority = 1700
+		trigger = {
+			coa_def_fascist_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = CSS_ukraine
+		priority = 1800
+		trigger = {
+			OR = {
+				coa_def_ukrainian_ensign_trigger = yes
+			}
+		}
+	}
+	flag_definition = {
+		coa = CSS_russian
+		priority = 1550
+		trigger = {
+			OR = {
+				coa_def_russian_ensign_trigger = yes
+			}
+		}
+	}
+	flag_definition = {
+		coa = CSS_austrian
+		priority = 1600
+		trigger = {
+			OR = {
+				coa_def_austrian_ensign_trigger = yes
+			}
+		}
+	}
+	flag_definition = {
+		coa = CSS_polish
+		priority = 1600
+		trigger = {
+			OR = {
+				coa_def_polish_ensign_trigger = yes
+			}
+		}
+	}
+}
+
+RUT = {
+	# Haluch-Volyn
 	#Halych-Volhyn
 	flag_definition = {
 		coa = RUT
@@ -986,7 +1233,7 @@ GAL = { # hal-vol
 		priority = 1500
 		trigger = {
 			coa_controls_volhyn_halych_trigger = yes
-			OR ={
+			OR = {
 				coa_def_communist_flag_trigger = yes
 			}
 		}
@@ -996,7 +1243,7 @@ GAL = { # hal-vol
 		priority = 1500
 		trigger = {
 			coa_controls_volhyn_halych_trigger = yes
-			OR ={
+			OR = {
 				coa_def_dictatorship_flag_trigger = yes
 				coa_def_military_flag_trigger = yes
 			}
@@ -1007,7 +1254,7 @@ GAL = { # hal-vol
 		priority = 1500
 		trigger = {
 			coa_controls_volhyn_halych_trigger = yes
-			OR ={
+			OR = {
 				coa_def_theocracy_flag_trigger = yes
 			}
 		}
@@ -1017,7 +1264,7 @@ GAL = { # hal-vol
 		priority = 1600
 		trigger = {
 			coa_controls_volhyn_halych_trigger = yes
-			OR ={
+			OR = {
 				coa_def_austrian_ensign_trigger = yes
 			}
 		}
@@ -1027,7 +1274,7 @@ GAL = { # hal-vol
 		priority = 1600
 		trigger = {
 			coa_controls_volhyn_halych_trigger = yes
-			OR ={
+			OR = {
 				coa_def_polish_ensign_trigger = yes
 			}
 		}
@@ -1037,7 +1284,7 @@ GAL = { # hal-vol
 		priority = 1550
 		trigger = {
 			coa_controls_volhyn_halych_trigger = yes
-			OR ={
+			OR = {
 				coa_def_russian_ensign_trigger = yes
 			}
 		}
@@ -1048,43 +1295,44 @@ GAL = { # hal-vol
 		trigger = {
 			coa_controls_volhyn_halych_trigger = yes
 			coa_def_ukrainian_ensign_trigger = yes
-			OR ={
+			OR = {
 				coa_def_monarchy_flag_trigger = yes
 				coa_def_absolute_monarchy_flag_trigger = yes
 			}
 		}
 	}
 }
-ITM = { # Intermarum
+
+PLR = {
+	# Polish–Lithuanian–Ruthenian
 	flag_definition = {
-		coa = ITM
-		allow_overlord_canton = yes		
-		subject_canton = ITM
-		
+		coa = PLR
+		allow_overlord_canton = yes
+		subject_canton = PLR
 	}
 	flag_definition = {
-		coa = ITM_monarchy
+		coa = PLR_monarchy
 		priority = 1000
-		trigger = { 
+		trigger = {
 			coa_def_monarchy_flag_trigger = yes
 		}
 	}
 	flag_definition = {
-		coa = ITM_republic
+		coa = PLR_republic
 		priority = 1000
-		trigger = { 
+		trigger = {
 			coa_def_republic_flag_trigger = yes
 		}
 	}
 	flag_definition = {
-		coa = ITM_communist
+		coa = PLR_communist
 		priority = 1500
-		trigger = { 
+		trigger = {
 			coa_def_communist_flag_trigger = yes
 		}
-	}	
+	}
 	flag_definition = {
-		coa = ITM_free_state
+		coa = PLR_free_state
 		priority = 1600
 		trigger = {
 			exists = scope:actor
@@ -1094,9 +1342,9 @@ ITM = { # Intermarum
 		}
 	}
 	flag_definition = {
-		coa = ITM_fascist
+		coa = PLR_fascist
 		priority = 1500
-		trigger = { 
+		trigger = {
 			coa_def_fascist_flag_trigger = yes
 		}
 	}

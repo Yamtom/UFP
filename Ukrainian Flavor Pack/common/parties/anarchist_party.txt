@@ -2,8 +2,22 @@
 
 anarchist_party = {
 	color = { 0 0 0 }
-	name = {
+	name = { 
 		first_valid = {
+			triggered_desc = {
+				desc = party_ZAZ_anarchist
+				trigger = {
+					exists = c:ZAZ
+					THIS = c:ZAZ
+				}
+			}
+			triggered_desc = {
+				desc = party_UKR_anarchist
+				trigger = {
+					exists = c:UKR
+					THIS = c:UKR
+				}
+			}
 			triggered_desc = {
 				desc = party_cnt
 				trigger = {

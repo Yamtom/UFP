@@ -6,7 +6,14 @@ military_party = {
 		first_valid = {
 
 			triggered_desc = {
-				desc = party_UKR_reactionary
+				desc = party_ZAZ_military
+				trigger = {
+					exists = c:ZAZ
+					THIS = c:ZAZ
+				}
+			}
+			triggered_desc = {
+				desc = party_UKR_military
 				trigger = {
 					OR = {
 						AND ={

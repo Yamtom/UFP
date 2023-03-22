@@ -1,18 +1,14 @@
-
-DKB = {
+DKU = {
 	states = {
 		STATE_KUBAN
 		STATE_ROSTOV
 	}
-	
-	
 	unification_play = dp_unify_don_kuban
 	leadership_play = dp_leadership_don_kuban
-
 	required_states_fraction = 0.75
-	
-	ai_will_do = { always = yes }
-
+	ai_will_do = {
+		always = yes
+	}
 	possible = {
 		OR = {
 			tag = DON
@@ -21,20 +17,18 @@ DKB = {
 		has_technology_researched = nationalism
 	}
 }
+
 RUT = {
 	states = {
-		STATE_EAST_GALICIA 
+		STATE_EAST_GALICIA
 		STATE_VOLHYNIA
 	}
-	
-	
 	unification_play = dp_unify_don_kuban
 	leadership_play = dp_leadership_don_kuban
-
 	required_states_fraction = 0.75
-	
-	ai_will_do = { always = yes }
-
+	ai_will_do = {
+		always = yes
+	}
 	possible = {
 		OR = {
 			tag = GAL

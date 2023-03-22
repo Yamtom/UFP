@@ -6,6 +6,13 @@ liberal_party = {
 	name = {
 		first_valid = {
 			triggered_desc = {
+				desc = party_ZAZ_liberal
+				trigger = {
+					exists = c:ZAZ
+					THIS = c:ZAZ
+				}
+			}
+			triggered_desc = {
 				desc = party_GAL_liberal
 				trigger = {
 					exists = c:GAL

@@ -7,6 +7,13 @@ religious_party = {
 		first_valid = {
 
 			triggered_desc = {
+				desc = party_UKR_religious
+				trigger = {
+					exists = c:UKR
+					THIS = c:UKR
+				}
+			}
+			triggered_desc = {
 				desc = party_catholic_peoples_party
 				trigger = {
 					exists = c:AUS

@@ -8,6 +8,13 @@ agrarian_party = {
 		first_valid = {
 
 			triggered_desc = {
+				desc = party_ZAZ_agrarian
+				trigger = {
+					exists = c:ZAZ
+					THIS = c:ZAZ
+				}
+			}
+			triggered_desc = {
 				desc = party_irish_national_land_league
 				trigger = {
 					exists = c:IRE
