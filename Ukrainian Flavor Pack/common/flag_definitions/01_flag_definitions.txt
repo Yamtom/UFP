@@ -930,7 +930,7 @@ GAL = {
 				coa_def_russian_ensign_trigger = yes
 			}
 		}
-	} 
+	}
 	flag_definition = {
 		coa = GAL_austrian
 		priority = 1600
@@ -1032,7 +1032,7 @@ VOL = {
 				coa_def_russian_ensign_trigger = yes
 			}
 		}
-	} 
+	}
 	flag_definition = {
 		coa = VOL_austrian
 		priority = 1600
@@ -1076,7 +1076,7 @@ RUT = {
 		priority = 1500
 		trigger = {
 			OR = {
-				coa_def_absolute_monarchy_flag_trigger = yes 
+				coa_def_absolute_monarchy_flag_trigger = yes
 			}
 		}
 	}
@@ -1084,7 +1084,7 @@ RUT = {
 		coa = RUT_monarchy
 		priority = 1500
 		trigger = {
-			OR = { 
+			OR = {
 				coa_def_monarchy_flag_trigger = yes
 			}
 		}
@@ -1267,7 +1267,7 @@ TCA = {
 				coa_def_russian_ensign_trigger = yes
 			}
 		}
-	} 
+	}
 	flag_definition = {
 		coa = TCA_austrian
 		priority = 1600
@@ -1283,6 +1283,15 @@ TCA = {
 		trigger = {
 			OR = {
 				coa_def_polish_ensign_trigger = yes
+			}
+		}
+	}
+	flag_definition = {
+		coa = TCA_hungary
+		priority = 1600
+		trigger = {
+			OR = {
+				coa_def_magyar_ensign_trigger = yes
 			}
 		}
 	}
@@ -1369,7 +1378,7 @@ BKV = {
 				coa_def_russian_ensign_trigger = yes
 			}
 		}
-	} 
+	}
 	flag_definition = {
 		coa = BKV_austrian
 		priority = 1600
@@ -1388,10 +1397,18 @@ BKV = {
 			}
 		}
 	}
+	flag_definition = {
+		coa = BKV_romanian
+		priority = 1600
+		trigger = {
+			OR = {
+				coa_def_romanian_ensign_trigger = yes
+			}
+		}
+	}
 }
 
-PLR = {
-	# Zaporozhia
+PLR = { 
 	flag_definition = {
 		coa = PLR
 		priority = 1000

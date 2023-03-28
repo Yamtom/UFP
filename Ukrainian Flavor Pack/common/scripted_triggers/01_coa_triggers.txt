@@ -1,7 +1,8 @@
-
 coa_def_ukrainian_ensign_trigger = {
 	exists = c:UKR
-	c:UKR = { save_temporary_scope_as = custom_overlord }
+	c:UKR = {
+		save_temporary_scope_as = custom_overlord
+	}
 	coa_def_ensign_trigger = yes
 }
 
@@ -9,19 +10,26 @@ coa_def_polish_ensign_trigger = {
 	OR = {
 		AND = {
 			exists = c:PLC
-			c:PLC = { save_temporary_scope_as = custom_overlord }
+			c:PLC = {
+				save_temporary_scope_as = custom_overlord
+			}
 			coa_def_ensign_trigger = yes
 		}
 		AND = {
 			exists = c:POL
-			c:POL = { save_temporary_scope_as = custom_overlord }
+			c:POL = {
+				save_temporary_scope_as = custom_overlord
+			}
 			coa_def_ensign_trigger = yes
 		}
 	}
 }
+
 coa_def_pope_ensign_trigger = {
 	exists = c:PAP
-	c:PAP = { save_temporary_scope_as = custom_overlord }
+	c:PAP = {
+		save_temporary_scope_as = custom_overlord
+	}
 	coa_def_ensign_trigger = yes
 }
 
@@ -29,45 +37,102 @@ coa_def_italian_ensign_trigger = {
 	OR = {
 		AND = {
 			exists = c:ITA
-			c:ITA = { save_temporary_scope_as = custom_overlord }
+			c:ITA = {
+				save_temporary_scope_as = custom_overlord
+			}
 			coa_def_ensign_trigger = yes
 		}
 		AND = {
 			exists = c:SIC
-			c:SIC = { save_temporary_scope_as = custom_overlord }
+			c:SIC = {
+				save_temporary_scope_as = custom_overlord
+			}
 			coa_def_ensign_trigger = yes
 		}
 		AND = {
 			exists = c:TUS
-			c:TUS = { save_temporary_scope_as = custom_overlord }
+			c:TUS = {
+				save_temporary_scope_as = custom_overlord
+			}
 			coa_def_ensign_trigger = yes
 		}
 		AND = {
 			exists = c:SAR
-			c:SAR = { save_temporary_scope_as = custom_overlord }
+			c:SAR = {
+				save_temporary_scope_as = custom_overlord
+			}
 			coa_def_ensign_trigger = yes
 		}
 	}
 }
+coa_def_romanian_ensign_trigger = {
+	OR = {
+		AND = {
+			exists = c:TRS
+			c:TRS = {
+				save_temporary_scope_as = custom_overlord
+			}
+			coa_def_ensign_trigger = yes
+		}
+		AND = {
+			exists = c:ROM
+			c:ROM = {
+				save_temporary_scope_as = custom_overlord
+			}
+			coa_def_ensign_trigger = yes
+		}
+		AND = {
+			exists = c:WAL
+			c:TUS = {
+				save_temporary_scope_as = custom_overlord
+			}
+			coa_def_ensign_trigger = yes
+		}
+		AND = {
+			exists = c:MOL
+			c:MOL = {
+				save_temporary_scope_as = custom_overlord
+			}
+			coa_def_ensign_trigger = yes
+		}
+	}
+}
+
 coa_def_greek_ensign_trigger = {
 	OR = {
 		AND = {
 			exists = c:GRE
-			c:GRE = { save_temporary_scope_as = custom_overlord }
+			c:GRE = {
+				save_temporary_scope_as = custom_overlord
+			}
 			coa_def_ensign_trigger = yes
 		}
 		AND = {
 			exists = c:BYZ
-			c:BYZ = { save_temporary_scope_as = custom_overlord }
+			c:BYZ = {
+				save_temporary_scope_as = custom_overlord
+			}
 			coa_def_ensign_trigger = yes
 		}
 	}
 }
+
 coa_def_crimea_ensign_trigger = {
 	exists = c:CRI
-	c:CRI = { save_temporary_scope_as = custom_overlord }
+	c:CRI = {
+		save_temporary_scope_as = custom_overlord
+	}
 	coa_def_ensign_trigger = yes
 }
+
+coa_def_magyar_ensign_trigger = {
+	exists = c:HUN
+	c:HUN = {
+		save_temporary_scope_as = custom_overlord
+	}
+	coa_def_ensign_trigger = yes
+}
+
 coa_controls_halych_trigger = {
 	exists = scope:actor
 	AND = {
@@ -89,6 +154,7 @@ coa_controls_halych_trigger = {
 		}
 	}
 }
+
 coa_controls_volhyn_trigger = {
 	exists = scope:actor
 	AND = {
@@ -110,6 +176,7 @@ coa_controls_volhyn_trigger = {
 		}
 	}
 }
+
 coa_controls_volhyn_halych_trigger = {
 	exists = scope:actor
 	AND = {
@@ -129,6 +196,7 @@ coa_controls_volhyn_halych_trigger = {
 		}
 	}
 }
+
 coa_controls_don_trigger = {
 	exists = scope:actor
 	AND = {
@@ -150,6 +218,7 @@ coa_controls_don_trigger = {
 		}
 	}
 }
+
 coa_controls_kuban_trigger = {
 	exists = scope:actor
 	AND = {
@@ -169,8 +238,9 @@ coa_controls_kuban_trigger = {
 				}
 			}
 		}
-	}	
+	}
 }
+
 coa_controls_don_kuban_trigger = {
 	exists = scope:actor
 	AND = {
@@ -190,6 +260,7 @@ coa_controls_don_kuban_trigger = {
 		}
 	}
 }
+
 coa_kukurudza_trigger = {
 	any_scope_character = {
 		is_ruler = yes
