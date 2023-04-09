@@ -260,7 +260,6 @@
 				size = 7996
 			}
 		}
-
 		region_state:KAZ = {
 			create_pop = {
 				culture = kazak
@@ -691,7 +690,7 @@
 				size = 1820000
 			}
 			create_pop = {
-				culture = han # nanfaren
+				culture = han				# nanfaren
 				religion = animist
 				size = 100000
 			}
@@ -708,7 +707,7 @@
 				size = 824000
 			}
 			create_pop = {
-				culture = han # nanfaren
+				culture = han				# nanfaren
 				religion = animist
 				size = 42000
 			}

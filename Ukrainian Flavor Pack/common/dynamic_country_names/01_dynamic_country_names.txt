@@ -944,12 +944,20 @@ RUT = {
 	}
 }
 
-CRI = {
+TCA = {
+	# TCA	
 	dynamic_country_name = {
-		name = dyn_c_crimean_imamate
-		adjective = dyn_c_crimean_imamate_adj
-		is_main_tag_only = yes
-		priority = 1
+		name = dyn_c_TCA
+		adjective = dyn_c_TCA_adj
+		priority = 10
+		trigger = {
+			exists = scope:actor
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_TCA_theocracy
+		adjective = dyn_c_TCA_theocracy_adj
+		priority = 15
 		trigger = {
 			OR = {
 				coa_def_theocracy_flag_trigger = yes
@@ -957,153 +965,661 @@ CRI = {
 		}
 	}
 	dynamic_country_name = {
-		name = dyn_c_crimean_khanate
-		adjective = dyn_c_crimean_khanate_adj
-		is_main_tag_only = yes
-		priority = 1
+		name = dyn_c_TCA_monarchy
+		adjective = dyn_c_TCA_monarchy_adj
+		priority = 15
 		trigger = {
 			OR = {
-				coa_def_monarchy_flag_trigger = yes
 				coa_def_absolute_monarchy_flag_trigger = yes
+				coa_def_monarchy_flag_trigger = yes
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_TCA_dictatorship_military
+		adjective = dyn_c_TCA_dictatorship_military_adj
+		priority = 15
+		trigger = {
+			OR = {
+				coa_def_dictatorship_flag_trigger = yes
 				coa_def_military_flag_trigger = yes
 			}
 		}
 	}
 	dynamic_country_name = {
-		name = dyn_c_cdr
-		adjective = dyn_c_cdr_adj
-		is_main_tag_only = yes
-		priority = 1
+		name = dyn_c_TCA_republic
+		adjective = dyn_c_TCA_republic_adj
+		priority = 15
 		trigger = {
-			AND = {
-				OR = {
-					coa_def_multicultural_flag_trigger = yes
-					coa_def_republic_flag_trigger = yes
-				}
+			OR = {
+				coa_def_republic_flag_trigger = yes
 			}
 		}
 	}
 	dynamic_country_name = {
-		name = dyn_c_ssrt
-		adjective = dyn_c_ssrt_adj
-		is_main_tag_only = yes
-		priority = 2
+		name = dyn_c_TCA_communist
+		adjective = dyn_c_TCA_communist_adj
+		priority = 16
 		trigger = {
-			coa_def_communist_flag_trigger = yes
+			OR = {
+				coa_def_communist_flag_trigger = yes
+			}
 		}
 	}
 	dynamic_country_name = {
-		name = dyn_c_pontic_step
-		adjective = dyn_c_pontic_step_adj
-		is_main_tag_only = yes
-		priority = 2
+		name = dyn_c_TCA_fascist
+		adjective = dyn_c_TCA_fascist_adj
+		priority = 17
+		trigger = {
+			coa_def_fascist_flag_trigger = yes
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_TCA_anarchy
+		name = dyn_c_TCA_anarchy_adj
+		priority = 17
 		trigger = {
 			exists = scope:actor
 			scope:actor = {
-				has_law = law_type:law_council_republic
 				has_law = law_type:law_anarchy
 			}
 		}
 	}
 	dynamic_country_name = {
-		name = dyn_c_taurid
-		adjective = dyn_c_taurid_adj
-		is_main_tag_only = yes
-		priority = 2
+		name = dyn_c_TCA_ukraine
+		adjective = dyn_c_TCA_ukraine_adj
+		priority = 18
 		trigger = {
-			exists = scope:actor
-			coa_def_russian_ensign_trigger = yes
-		}
-	}
-	dynamic_country_name = {
-		name = dyn_c_beylik_qirim
-		adjective = dyn_c_beylik_qirim_adj
-		is_main_tag_only = yes
-		priority = 3
-		trigger = {
-			exists = scope:actor
-			coa_def_turkish_ensign_trigger = yes
-		}
-	}
-	dynamic_country_name = {
-		name = dyn_c_bosporus
-		adjective = dyn_c_bosporus_adj
-		is_main_tag_only = yes
-		priority = 3
-		trigger = {
-			exists = scope:actor
 			OR = {
-				coa_def_italian_ensign_trigger = yes
-				coa_def_pope_ensign_trigger = yes
+				coa_def_ukrainian_ensign_trigger = yes
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_TCA_theocracy_UKR
+		adjective = dyn_c_TCA_theocracy_UKR_adj
+		priority = 15
+		trigger = {
+			coa_def_ukrainian_ensign_trigger = yes
+			OR = {
+				coa_def_theocracy_flag_trigger = yes
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_TCA_monarchy_UKR
+		adjective = dyn_c_TCA_monarchy_UKR_adj
+		priority = 15
+		trigger = {
+			coa_def_ukrainian_ensign_trigger = yes
+			OR = {
+				coa_def_absolute_monarchy_flag_trigger = yes
+				coa_def_monarchy_flag_trigger = yes
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_TCA_dictatorship_military_UKR
+		adjective = dyn_c_TCA_dictatorship_military_UKR_adj
+		priority = 15
+		trigger = {
+			coa_def_ukrainian_ensign_trigger = yes
+			OR = {
+				coa_def_republic_flag_trigger = yes
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_TCA_republic_UKR
+		adjective = dyn_c_TCA_republic_UKR_adj
+		priority = 15
+		trigger = {
+			coa_def_ukrainian_ensign_trigger = yes
+			coa_def_ukrainian_ensign_trigger = yes
+			OR = {
+				coa_def_dictatorship_flag_trigger = yes
+				coa_def_military_flag_trigger = yes
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_TCA_communist_UKR
+		adjective = dyn_c_TCA_communist_UKR_adj
+		priority = 16
+		trigger = {
+			coa_def_ukrainian_ensign_trigger = yes
+			OR = {
+				coa_def_communist_flag_trigger = yes
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_TCA_anarchy_UKR
+		adjective = dyn_c_TCA_anarchy_UKR_adj
+		priority = 17
+		trigger = {
+			coa_def_ukrainian_ensign_trigger = yes
+			exists = scope:actor
+			scope:actor = {
+				has_law = law_type:law_anarchy
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_TCA_fascist_UKR
+		adjective = dyn_c_TCA_fascist_UKR_adj
+		priority = 17
+		trigger = {
+			coa_def_ukrainian_ensign_trigger = yes
+			coa_def_fascist_flag_trigger = yes
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_TCA_russian
+		adjective = dyn_c_TCA_russian_adj
+		priority = 1550
+		trigger = {
+			OR = {
+				coa_def_russian_ensign_trigger = yes
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_TCA_austrian
+		adjective = dyn_c_TCA_austrian_adj
+		priority = 16
+		trigger = {
+			OR = {
+				coa_def_austrian_ensign_trigger = yes
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_TCA_polish
+		adjective = dyn_c_TCA_polish_adj
+		priority = 16
+		trigger = {
+			OR = {
+				coa_def_polish_ensign_trigger = yes
+			}
+		}
+	}
+}
+
+BKV = {
+	# BKV	
+	dynamic_country_name = {
+		name = dyn_c_BKV
+		adjective = dyn_c_BKV_adj
+		priority = 10
+		trigger = {
+			exists = scope:actor
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_BKV_theocracy
+		adjective = dyn_c_BKV_theocracy_adj
+		priority = 15
+		trigger = {
+			OR = {
+				coa_def_theocracy_flag_trigger = yes
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_BKV_monarchy
+		adjective = dyn_c_BKV_monarchy_adj
+		priority = 15
+		trigger = {
+			OR = {
+				coa_def_absolute_monarchy_flag_trigger = yes
+				coa_def_monarchy_flag_trigger = yes
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_BKV_dictatorship_military
+		adjective = dyn_c_BKV_dictatorship_military_adj
+		priority = 15
+		trigger = {
+			OR = {
+				coa_def_dictatorship_flag_trigger = yes
+				coa_def_military_flag_trigger = yes
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_BKV_republic
+		adjective = dyn_c_BKV_republic_adj
+		priority = 15
+		trigger = {
+			OR = {
+				coa_def_republic_flag_trigger = yes
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_BKV_communist
+		adjective = dyn_c_BKV_communist_adj
+		priority = 16
+		trigger = {
+			OR = {
+				coa_def_communist_flag_trigger = yes
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_BKV_fascist
+		adjective = dyn_c_BKV_fascist_adj
+		priority = 17
+		trigger = {
+			coa_def_fascist_flag_trigger = yes
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_BKV_anarchy
+		name = dyn_c_BKV_anarchy_adj
+		priority = 17
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				has_law = law_type:law_anarchy
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_BKV_ukraine
+		adjective = dyn_c_BKV_ukraine_adj
+		priority = 18
+		trigger = {
+			OR = {
+				coa_def_ukrainian_ensign_trigger = yes
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_BKV_theocracy_UKR
+		adjective = dyn_c_BKV_theocracy_UKR_adj
+		priority = 15
+		trigger = {
+			coa_def_ukrainian_ensign_trigger = yes
+			OR = {
+				coa_def_theocracy_flag_trigger = yes
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_BKV_monarchy_UKR
+		adjective = dyn_c_BKV_monarchy_UKR_adj
+		priority = 15
+		trigger = {
+			coa_def_ukrainian_ensign_trigger = yes
+			OR = {
+				coa_def_absolute_monarchy_flag_trigger = yes
+				coa_def_monarchy_flag_trigger = yes
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_BKV_dictatorship_military_UKR
+		adjective = dyn_c_BKV_dictatorship_military_UKR_adj
+		priority = 15
+		trigger = {
+			coa_def_ukrainian_ensign_trigger = yes
+			OR = {
+				coa_def_republic_flag_trigger = yes
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_BKV_republic_UKR
+		adjective = dyn_c_BKV_republic_UKR_adj
+		priority = 15
+		trigger = {
+			coa_def_ukrainian_ensign_trigger = yes
+			coa_def_ukrainian_ensign_trigger = yes
+			OR = {
+				coa_def_dictatorship_flag_trigger = yes
+				coa_def_military_flag_trigger = yes
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_BKV_communist_UKR
+		adjective = dyn_c_BKV_communist_UKR_adj
+		priority = 16
+		trigger = {
+			coa_def_ukrainian_ensign_trigger = yes
+			OR = {
+				coa_def_communist_flag_trigger = yes
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_BKV_anarchy_UKR
+		adjective = dyn_c_BKV_anarchy_UKR_adj
+		priority = 17
+		trigger = {
+			coa_def_ukrainian_ensign_trigger = yes
+			exists = scope:actor
+			scope:actor = {
+				has_law = law_type:law_anarchy
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_BKV_fascist_UKR
+		adjective = dyn_c_BKV_fascist_UKR_adj
+		priority = 17
+		trigger = {
+			coa_def_ukrainian_ensign_trigger = yes
+			coa_def_fascist_flag_trigger = yes
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_BKV_russian
+		adjective = dyn_c_BKV_russian_adj
+		priority = 1550
+		trigger = {
+			OR = {
+				coa_def_russian_ensign_trigger = yes
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_BKV_austrian
+		adjective = dyn_c_BKV_austrian_adj
+		priority = 16
+		trigger = {
+			OR = {
+				coa_def_austrian_ensign_trigger = yes
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_BKV_polish
+		adjective = dyn_c_BKV_polish_adj
+		priority = 16
+		trigger = {
+			OR = {
+				coa_def_polish_ensign_trigger = yes
+			}
+		}
+	}
+}
+
+PLR = {
+	# PLR	
+	dynamic_country_name = {
+		name = dyn_c_PLR
+		adjective = dyn_c_PLR_adj
+		priority = 10
+		trigger = {
+			exists = scope:actor
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_PLR_theocracy
+		adjective = dyn_c_PLR_theocracy_adj
+		priority = 15
+		trigger = {
+			OR = {
+				coa_def_theocracy_flag_trigger = yes
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_PLR_monarchy
+		adjective = dyn_c_PLR_monarchy_adj
+		priority = 15
+		trigger = {
+			OR = {
+				coa_def_absolute_monarchy_flag_trigger = yes
+				coa_def_monarchy_flag_trigger = yes
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_PLR_dictatorship_military
+		adjective = dyn_c_PLR_dictatorship_military_adj
+		priority = 15
+		trigger = {
+			OR = {
+				coa_def_dictatorship_flag_trigger = yes
+				coa_def_military_flag_trigger = yes
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_PLR_republic
+		adjective = dyn_c_PLR_republic_adj
+		priority = 15
+		trigger = {
+			OR = {
+				coa_def_republic_flag_trigger = yes
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_PLR_communist
+		adjective = dyn_c_PLR_communist_adj
+		priority = 16
+		trigger = {
+			OR = {
+				coa_def_communist_flag_trigger = yes
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_PLR_fascist
+		adjective = dyn_c_PLR_fascist_adj
+		priority = 17
+		trigger = {
+			coa_def_fascist_flag_trigger = yes
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_PLR_anarchy
+		name = dyn_c_PLR_anarchy_adj
+		priority = 17
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				has_law = law_type:law_anarchy
+			}
+		}
+	}
+}
+
+CRI = {
+	# CRI	 
+	dynamic_country_name = {
+		name = dyn_c_CRI_theocracy
+		adjective = dyn_c_CRI_theocracy_adj
+		priority = 15
+		trigger = {
+			OR = {
+				coa_def_theocracy_flag_trigger = yes
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_CRI_monarchy
+		adjective = dyn_c_CRI_monarchy_adj
+		priority = 15
+		trigger = {
+			OR = {
+				coa_def_absolute_monarchy_flag_trigger = yes
+				coa_def_monarchy_flag_trigger = yes
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_CRI_dictatorship_military
+		adjective = dyn_c_CRI_dictatorship_military_adj
+		priority = 15
+		trigger = {
+			OR = {
+				coa_def_dictatorship_flag_trigger = yes
+				coa_def_military_flag_trigger = yes
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_CRI_republic
+		adjective = dyn_c_CRI_republic_adj
+		priority = 15
+		trigger = {
+			OR = {
+				coa_def_republic_flag_trigger = yes
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_CRI_communist
+		adjective = dyn_c_CRI_communist_adj
+		priority = 16
+		trigger = {
+			OR = {
+				coa_def_communist_flag_trigger = yes
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_CRI_fascist
+		adjective = dyn_c_CRI_fascist_adj
+		priority = 17
+		trigger = {
+			coa_def_fascist_flag_trigger = yes
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_CRI_anarchy
+		name = dyn_c_CRI_anarchy_adj
+		priority = 17
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				has_law = law_type:law_anarchy
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_CRI_ukraine
+		adjective = dyn_c_CRI_ukraine_adj
+		priority = 18
+		trigger = {
+			OR = {
+				coa_def_ukrainian_ensign_trigger = yes
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_CRI_theocracy_UKR
+		adjective = dyn_c_CRI_theocracy_UKR_adj
+		priority = 15
+		trigger = {
+			coa_def_ukrainian_ensign_trigger = yes
+			OR = {
+				coa_def_theocracy_flag_trigger = yes
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_CRI_monarchy_UKR
+		adjective = dyn_c_CRI_monarchy_UKR_adj
+		priority = 15
+		trigger = {
+			coa_def_ukrainian_ensign_trigger = yes
+			OR = {
+				coa_def_absolute_monarchy_flag_trigger = yes
+				coa_def_monarchy_flag_trigger = yes
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_CRI_dictatorship_military_UKR
+		adjective = dyn_c_CRI_dictatorship_military_UKR_adj
+		priority = 15
+		trigger = {
+			coa_def_ukrainian_ensign_trigger = yes
+			OR = {
+				coa_def_republic_flag_trigger = yes
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_CRI_republic_UKR
+		adjective = dyn_c_CRI_republic_UKR_adj
+		priority = 15
+		trigger = {
+			coa_def_ukrainian_ensign_trigger = yes
+			coa_def_ukrainian_ensign_trigger = yes
+			OR = {
+				coa_def_dictatorship_flag_trigger = yes
+				coa_def_military_flag_trigger = yes
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_CRI_communist_UKR
+		adjective = dyn_c_CRI_communist_UKR_adj
+		priority = 16
+		trigger = {
+			coa_def_ukrainian_ensign_trigger = yes
+			OR = {
+				coa_def_communist_flag_trigger = yes
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_CRI_anarchy_UKR
+		adjective = dyn_c_CRI_anarchy_UKR_adj
+		priority = 17
+		trigger = {
+			coa_def_ukrainian_ensign_trigger = yes
+			exists = scope:actor
+			scope:actor = {
+				has_law = law_type:law_anarchy
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_CRI_fascist_UKR
+		adjective = dyn_c_CRI_fascist_UKR_adj
+		priority = 17
+		trigger = {
+			coa_def_ukrainian_ensign_trigger = yes
+			coa_def_fascist_flag_trigger = yes
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_CRI_russian
+		adjective = dyn_c_CRI_russian_adj
+		priority = 1550
+		trigger = {
+			OR = {
+				coa_def_russian_ensign_trigger = yes
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_CRI_greek
+		adjective = dyn_c_CRI_greek_adj
+		priority = 1550
+		trigger = {
+			OR = {
 				coa_def_greek_ensign_trigger = yes
 			}
 		}
 	}
 	dynamic_country_name = {
-		name = dyn_c_crimean_metropolis
-		adjective = dyn_c_crimean_metropolis_adj
-		is_main_tag_only = yes
-		priority = 3
-		trigger = {
-			coa_def_ukrainian_ensign_trigger = yes
-			OR = {
-				coa_def_theocracy_flag_trigger = yes
-			}
-		}
-	}
-	dynamic_country_name = {
-		name = dyn_c_crimean_principality
-		adjective = dyn_c_crimean_principality_adj
-		is_main_tag_only = yes
-		priority = 3
-		trigger = {
-			coa_def_ukrainian_ensign_trigger = yes
-			OR = {
-				coa_def_monarchy_flag_trigger = yes
-				coa_def_absolute_monarchy_flag_trigger = yes
-				coa_def_military_flag_trigger = yes
-			}
-		}
-	}
-	dynamic_country_name = {
-		name = dyn_c_arc
-		adjective = dyn_c_arc_adj
-		is_main_tag_only = yes
-		priority = 3
-		trigger = {
-			AND = {
-				coa_def_ukrainian_ensign_trigger = yes
-				OR = {
-					coa_def_multicultural_flag_trigger = yes
-					coa_def_republic_flag_trigger = yes
-				}
-			}
-		}
-	}
-	dynamic_country_name = {
-		name = dyn_c_cassr
-		adjective = dyn_c_cassr_adj
-		is_main_tag_only = yes
-		priority = 3
+		name = dyn_c_CRI_turkey
+		adjective = dyn_c_CRI_turkey_adj
+		priority = 1550
 		trigger = {
 			OR = {
-				coa_def_ukrainian_ensign_trigger = yes
-				coa_def_russian_ensign_trigger = yes
-			}
-			coa_def_communist_flag_trigger = yes
-		}
-	}
-	dynamic_country_name = {
-		name = dyn_c_free_peninsula
-		adjective = dyn_c_free_peninsula_adj
-		is_main_tag_only = yes
-		priority = 3
-		trigger = {
-			coa_def_ukrainian_ensign_trigger = yes
-			exists = scope:actor
-			scope:actor = {
-				has_law = law_type:law_council_republic
-				has_law = law_type:law_anarchy
+				coa_def_turkey_ensign_trigger = yes
 			}
 		}
 	}

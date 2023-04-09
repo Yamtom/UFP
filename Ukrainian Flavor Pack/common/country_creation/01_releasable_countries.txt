@@ -3,6 +3,9 @@ ZAZ = {
 		STATE_CHERSON
 		STATE_LUHANSK
 	}
+	NOT = {
+		exist = CSS
+	}
 }
 
 GAL = {
@@ -12,12 +15,18 @@ GAL = {
 		STATE_VOLHYNIA
 		STATE_BREST
 	}
+	NOT = {
+		exist = RUT
+	}
 }
 
 VOL = {
 	states = {
 		STATE_VOLHYNIA
 		STATE_BREST
+	}
+	NOT = {
+		exist = RUT
 	}
 }
 
@@ -36,11 +45,17 @@ DON = {
 	states = {
 		STATE_ROSTOV
 	}
+	NOT = {
+		exist = DKU
+	}
 }
 
 KUB = {
 	states = {
 		STATE_KUBAN
+	}
+	NOT = {
+		exist = DKU
 	}
 }
 
@@ -51,6 +66,9 @@ DKU = {
 	}
 	possible = {
 		has_technology_researched = nationalism
+	}
+	NOT = {
+		exist = CSS
 	}
 }
 

@@ -1,5 +1,4 @@
 ﻿namespace = debug
-
 debug.1 = {
 	type = country_event
 	hidden = yes
@@ -8,6 +7,7 @@ debug.1 = {
 		activate_law = law_type:law_theocracy
 	}
 }
+
 debug.2 = {
 	type = country_event
 	hidden = yes
@@ -16,6 +16,7 @@ debug.2 = {
 		activate_law = law_type:law_autocracy
 	}
 }
+
 debug.3 = {
 	type = country_event
 	hidden = yes
@@ -24,6 +25,7 @@ debug.3 = {
 		activate_law = law_type:law_wealth_voting
 	}
 }
+
 debug.4 = {
 	type = country_event
 	hidden = yes
@@ -32,6 +34,7 @@ debug.4 = {
 		activate_law = law_type:law_autocracy
 	}
 }
+
 debug.5 = {
 	type = country_event
 	hidden = yes
@@ -40,6 +43,7 @@ debug.5 = {
 		activate_law = law_type:law_oligarchy
 	}
 }
+
 debug.6 = {
 	type = country_event
 	hidden = yes
@@ -49,6 +53,7 @@ debug.6 = {
 		activate_law = law_type:law_multicultural
 	}
 }
+
 debug.7 = {
 	type = country_event
 	hidden = yes
@@ -56,6 +61,7 @@ debug.7 = {
 		activate_law = law_type:law_council_republic
 	}
 }
+
 debug.8 = {
 	type = country_event
 	hidden = yes
@@ -63,6 +69,7 @@ debug.8 = {
 		activate_law = law_type:law_anarchy
 	}
 }
+
 debug.9 = {
 	type = country_event
 	hidden = yes
@@ -73,25 +80,20 @@ debug.9 = {
 	}
 }
 
-debug.10 = { #fascist ideology spread
+debug.10 = {
+	#fascist ideology spread
 	type = country_event
 	placement = root
-
 	title = debug.10.t
 	desc = debug.10.d
 	flavor = debug.10.f
-
 	duration = 3
-
 	event_image = {
 		video = "gfx/event_pictures/europenorthamerica_political_extremism.bk2"
 	}
-
 	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
-
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
 	on_opened_soundeffect = "event:/SFX/Events/europenorthamerica/political_extremism"
-
 	trigger = {
 		#triggered by JE
 		NOT = {
@@ -105,7 +107,6 @@ debug.10 = { #fascist ideology spread
 			}
 		}
 	}
-
 	immediate = {
 		every_interest_group = {
 			limit = {
@@ -118,7 +119,9 @@ debug.10 = { #fascist ideology spread
 			save_scope_as = new_fascist_ig
 		}
 		every_interest_group = {
-			limit = { has_variable = og_fascist_ig }
+			limit = {
+				has_variable = og_fascist_ig
+			}
 			save_scope_as = fascist_ig
 		}
 		create_character = {
@@ -132,12 +135,16 @@ debug.10 = { #fascist ideology spread
 			}
 		}
 		every_scope_character = {
-			limit = { has_variable = new_fascist_leader_var }
+			limit = {
+				has_variable = new_fascist_leader_var
+			}
 			save_scope_as = new_fascist_leader
 			remove_variable = new_fascist_leader_var
 		}
 		if = {
-			limit = { exists = var:fascist_spread_var }
+			limit = {
+				exists = var:fascist_spread_var
+			}
 			change_variable = {
 				name = fascist_spread_var
 				add = 1
@@ -150,8 +157,8 @@ debug.10 = { #fascist ideology spread
 			}
 		}
 	}
-
-	option = { #only fascist leaders
+	option = {
+		#only fascist leaders
 		name = debug.10.a
 		default_option = yes
 		custom_tooltip = fascism_leaders.tt
@@ -163,7 +170,9 @@ debug.10 = { #fascist ideology spread
 		if = {
 			limit = {
 				scope:new_fascist_leader = {
-					NOT = { has_ideology = ideology_fascist }
+					NOT = {
+						has_ideology = ideology_fascist
+					}
 				}
 			}
 			scope:new_fascist_leader = {
@@ -171,8 +180,8 @@ debug.10 = { #fascist ideology spread
 			}
 		}
 	}
-
-	option = { #any conservative leader
+	option = {
+		#any conservative leader
 		name = debug.10.b
 		custom_tooltip = conservative_leaders.tt
 		scope:new_fascist_ig = {

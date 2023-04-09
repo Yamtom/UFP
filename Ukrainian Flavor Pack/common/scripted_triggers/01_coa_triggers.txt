@@ -65,12 +65,13 @@ coa_def_italian_ensign_trigger = {
 		}
 	}
 }
+
 coa_def_romanian_ensign_trigger = {
 	OR = {
 		AND = {
 			exists = c:TRS
 			c:TRS = {
-				save_temporary_scope_as = custom_overlord
+				save_temporary_scope_as = cusßtom_overlord
 			}
 			coa_def_ensign_trigger = yes
 		}
