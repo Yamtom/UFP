@@ -2842,7 +2842,7 @@ CRI_monarchy = {
 CRI_dictatorship_military = {
 	pattern = "pattern_solid.tga"
 	,
-	color1 = "blue_light"
+	color1 = "red"
 	,
 	color2 = "yellow"
 	,
@@ -2854,8 +2854,7 @@ CRI_dictatorship_military = {
 			scale = {
 				1
 				0.75
-			}
-			,
+			} 
 			position = {
 				0.5
 				0.51

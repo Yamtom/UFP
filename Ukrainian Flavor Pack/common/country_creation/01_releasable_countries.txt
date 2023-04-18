@@ -58,19 +58,7 @@ KUB = {
 		exist = DKU
 	}
 }
-
-DKU = {
-	states = {
-		STATE_KUBAN
-		STATE_ROSTOV
-	}
-	possible = {
-		has_technology_researched = nationalism
-	}
-	NOT = {
-		exist = CSS
-	}
-}
+ 
 
 TCA = {
 	provinces = {

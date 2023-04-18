@@ -11,12 +11,60 @@ UKR = {
 		always = yes
 	}
 	possible = {
-		OR = {
-			country_has_primary_culture = cu:ukrainian
-		}
+		country_has_primary_culture = cu:ukrainian
 		any_country = {
 			country_has_primary_culture = cu:ukrainian
 		}
+	}
+}
+
+RUT = {
+	states = {
+		STATE_EAST_GALICIA
+		STATE_VOLHYNIA
+	}
+	required_states_fraction = 0.85
+	ai_will_do = {
+		always = yes
+	}
+	possible = {  
+		OR = {
+			AND = {
+				exists = c:VOL
+				THIS = c:VOL
+			}
+			AND = {
+				exists = c:GAL
+				THIS = c:GAL
+			} 
+		}
+		has_technology_researched = nationalism
+	}
+}
+
+DKU = {
+	states = {
+		STATE_KUBAN
+		STATE_ROSTOV
+	}
+	unification_play = dp_unify_ukraine
+	leadership_play = dp_leadership_ukraine
+	required_states_fraction = 0.85
+	ai_will_do = {
+		always = yes
+	} 
+	possible = {
+		OR = {
+			AND = {
+				exists = c:DON
+				THIS = c:DON
+			}
+			AND = {
+				exists = c:KUB
+				THIS = c:KUB
+			} 
+		}
+		has_technology_researched = nationalism
 	}
 }
 
@@ -31,29 +79,34 @@ CSS = {
 	unification_play = dp_unify_cossackia
 	leadership_play = dp_leadership_cossackia
 	required_states_fraction = 0.75
-	NOT = {
-		exist = UKR
-	}
 	ai_will_do = {
 		always = yes
 	}
 	possible = {
+		country_has_primary_culture = cu:ukrainian
 		OR = {
-			tag = DON
-			tag = KUB
-			tag = DKU
-		}
-		any_country = {
-			OR = {
-				OR = {
-					tag = DON
-					tag = KUB
-					tag = DKU
-				}
-				has_technology_researched = pan-nationalism
-				has_law = law_type:law_multicultural
+			AND = {
+				exists = c:DON
+				THIS = c:DON
 			}
+			AND = {
+				exists = c:KUB
+				THIS = c:KUB
+			} 
+			AND = {
+				exists = c:DKU
+				THIS = c:DKU
+			} 
+			AND = {
+				exists = c:ZAZ
+				THIS = c:ZAZ
+			} 
+		} 
+		NOT = {
+			exist = UKR
 		}
+		has_technology_researched = pan-nationalism
+		has_law = law_type:law_multicultural
 	}
 }
 
