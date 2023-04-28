@@ -27,7 +27,7 @@ RUT = {
 	ai_will_do = {
 		always = yes
 	}
-	possible = {  
+	possible = {
 		OR = {
 			AND = {
 				exists = c:VOL
@@ -36,7 +36,7 @@ RUT = {
 			AND = {
 				exists = c:GAL
 				THIS = c:GAL
-			} 
+			}
 		}
 		has_technology_researched = nationalism
 	}
@@ -52,7 +52,7 @@ DKU = {
 	required_states_fraction = 0.85
 	ai_will_do = {
 		always = yes
-	} 
+	}
 	possible = {
 		OR = {
 			AND = {
@@ -62,7 +62,7 @@ DKU = {
 			AND = {
 				exists = c:KUB
 				THIS = c:KUB
-			} 
+			}
 		}
 		has_technology_researched = nationalism
 	}
@@ -92,16 +92,16 @@ CSS = {
 			AND = {
 				exists = c:KUB
 				THIS = c:KUB
-			} 
+			}
 			AND = {
 				exists = c:DKU
 				THIS = c:DKU
-			} 
+			}
 			AND = {
 				exists = c:ZAZ
 				THIS = c:ZAZ
-			} 
-		} 
+			}
+		}
 		NOT = {
 			exist = UKR
 		}

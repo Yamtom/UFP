@@ -66,9 +66,12 @@
 		coa = UKR_communist
 		priority = 1600
 		trigger = {
-			OR = {
-				has_law = law_type:law_council_republic
-				has_law = law_type:law_elder_council
+			exists = scope:actor
+			scope:actor= {
+				OR = {
+					has_law = law_type:law_council_republic
+					has_law = law_type:law_elder_council
+				}
 			}
 		}
 	}

@@ -208,7 +208,7 @@ ZAZ = {
 	}
 	dynamic_country_name = {
 		name = dyn_c_ZAZ_anarchy
-		name = dyn_c_ZAZ_anarchy_adj
+		adjective = dyn_c_ZAZ_anarchy_adj
 		priority = 17
 		trigger = {
 			exists = scope:actor
@@ -410,7 +410,7 @@ GAL = {
 	}
 	dynamic_country_name = {
 		name = dyn_c_GAL_anarchy
-		name = dyn_c_GAL_anarchy_adj
+		adjective = dyn_c_GAL_anarchy_adj
 		priority = 17
 		trigger = {
 			exists = scope:actor
@@ -612,7 +612,7 @@ VOL = {
 	}
 	dynamic_country_name = {
 		name = dyn_c_VOL_anarchy
-		name = dyn_c_VOL_anarchy_adj
+		adjective = dyn_c_VOL_anarchy_adj
 		priority = 17
 		trigger = {
 			exists = scope:actor
@@ -814,7 +814,7 @@ RUT = {
 	}
 	dynamic_country_name = {
 		name = dyn_c_RUT_anarchy
-		name = dyn_c_RUT_anarchy_adj
+		adjective = dyn_c_RUT_anarchy_adj
 		priority = 17
 		trigger = {
 			exists = scope:actor
@@ -1016,7 +1016,7 @@ TCA = {
 	}
 	dynamic_country_name = {
 		name = dyn_c_TCA_anarchy
-		name = dyn_c_TCA_anarchy_adj
+		adjective = dyn_c_TCA_anarchy_adj
 		priority = 17
 		trigger = {
 			exists = scope:actor
@@ -1218,7 +1218,7 @@ BKV = {
 	}
 	dynamic_country_name = {
 		name = dyn_c_BKV_anarchy
-		name = dyn_c_BKV_anarchy_adj
+		adjective = dyn_c_BKV_anarchy_adj
 		priority = 17
 		trigger = {
 			exists = scope:actor
@@ -1420,7 +1420,7 @@ PLR = {
 	}
 	dynamic_country_name = {
 		name = dyn_c_PLR_anarchy
-		name = dyn_c_PLR_anarchy_adj
+		adjective = dyn_c_PLR_anarchy_adj
 		priority = 17
 		trigger = {
 			exists = scope:actor
@@ -1495,7 +1495,7 @@ CRI = {
 	}
 	dynamic_country_name = {
 		name = dyn_c_CRI_anarchy
-		name = dyn_c_CRI_anarchy_adj
+		adjective = dyn_c_CRI_anarchy_adj
 		priority = 17
 		trigger = {
 			exists = scope:actor
@@ -1697,7 +1697,7 @@ DON = {
 	}
 	dynamic_country_name = {
 		name = dyn_c_DON_anarchy
-		name = dyn_c_DON_anarchy_adj
+		adjective = dyn_c_DON_anarchy_adj
 		priority = 17
 		trigger = {
 			exists = scope:actor
@@ -1889,7 +1889,7 @@ KUB = {
 	}
 	dynamic_country_name = {
 		name = dyn_c_KUB_anarchy
-		name = dyn_c_KUB_anarchy_adj
+		adjective = dyn_c_KUB_anarchy_adj
 		priority = 17
 		trigger = {
 			exists = scope:actor
@@ -2095,7 +2095,7 @@ DKU = {
 	}
 	dynamic_country_name = {
 		name = dyn_c_DKU_anarchy
-		name = dyn_c_DKU_anarchy_adj
+		adjective = dyn_c_DKU_anarchy_adj
 		priority = 17
 		trigger = {
 			exists = scope:actor
@@ -2311,7 +2311,7 @@ CSS = {
 	}
 	dynamic_country_name = {
 		name = dyn_c_CSS_anarchy
-		name = dyn_c_CSS_anarchy_adj
+		adjective = dyn_c_CSS_anarchy_adj
 		priority = 17
 		trigger = {
 			exists = scope:actor
