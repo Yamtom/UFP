@@ -52,7 +52,7 @@
  party_UKR_fascist:0 "Social Nationalist Party"
  party_UKR_military:0 "Hetman supporters"
  party_UKR_liberal:0 "Rada supporters"
- party_UKR_socialist:0 "Organization of Ukrainian Nationalists" 
+ party_UKR_socialist:0 "Organization of Ukrainian Nationalists"
  party_UKR_radical:0 "General Ukrainian Democratic Prganization"
  party_UKR_religious:0 "Ukrainian Christian Democratic Party"
 
@@ -330,7 +330,7 @@
  dyn_c_KUB_anarchy_UKR:0 "Kuban Autonomous Region"
  dyn_c_KUB_anarchy_UKR_adj:0 "Kubanian"
  dyn_c_KUB_fascist_UKR:0 "New-Ukraine Oblast"
- dyn_c_KUB_fascist_UKR_adj:0 "Newukrainian"_ukraine
+ dyn_c_KUB_fascist_UKR_adj:0 "Newukrainian"
  dyn_c_KUB_russian:0 "Chornorossia"
  dyn_c_KUB_russian_adj:0 "Rosophilian"
  dyn_c_KUB_greek:0 "Hermonassa"
@@ -377,7 +377,7 @@
  dyn_c_DKU_crimea:0 "Tana-Tamantarkhan Khanate"
  dyn_c_DKU_crimea_adj:0 "Tamantarkhani"
  dyn_c_DKU_italian:0 "Duchy of Tana and Tamanghane"
- dyn_c_DKU_italian_adj:0 "Tanan"    
+ dyn_c_DKU_italian_adj:0 "Tanan"
 
  CSS:0 "Cossackia"
  CSS_ADJ:0 "Cossackian"
@@ -459,8 +459,8 @@
  dyn_c_BCV_polish:0 "Ziemia Ruska Carpatia"
  dyn_c_BCV_polish_adj:0 "Ruski"
  #Transcarpathia
- TCA: "Transcarpathia"
- TCA_ADJ: "Transcarpathian" 
+ TCA:0 "Transcarpathia"
+ TCA_ADJ:0 "Transcarpathian"
  dyn_c_TCA_theocracy:0 "Maramures Eparchy"
  dyn_c_TCA_theocracy_adj:0 "Transcarpathian Uniate"
  dyn_c_TCA_monarchy:0 "Principality of Transcarpathia"
