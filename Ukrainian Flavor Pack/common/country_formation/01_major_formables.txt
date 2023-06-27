@@ -1,72 +1,3 @@
-UKR = {
-	use_culture_states = yes
-	is_major_formation = yes
-	unification_play = dp_unify_ukraine
-	leadership_play = dp_leadership_ukraine
-	required_states_fraction = 0.85
-	NOT = {
-		exist = PLR
-	}
-	ai_will_do = {
-		always = yes
-	}
-	possible = {
-		country_has_primary_culture = cu:ukrainian
-		any_country = {
-			country_has_primary_culture = cu:ukrainian
-		}
-	}
-}
-
-RUT = {
-	states = {
-		STATE_EAST_GALICIA
-		STATE_VOLHYNIA
-	}
-	required_states_fraction = 0.85
-	ai_will_do = {
-		always = yes
-	}
-	possible = {
-		OR = {
-			AND = {
-				exists = c:VOL
-				THIS = c:VOL
-			}
-			AND = {
-				exists = c:GAL
-				THIS = c:GAL
-			}
-		}
-		has_technology_researched = nationalism
-	}
-}
-
-DKU = {
-	states = {
-		STATE_KUBAN
-		STATE_ROSTOV
-	}
-	unification_play = dp_unify_ukraine
-	leadership_play = dp_leadership_ukraine
-	required_states_fraction = 0.85
-	ai_will_do = {
-		always = yes
-	}
-	possible = {
-		OR = {
-			AND = {
-				exists = c:DON
-				THIS = c:DON
-			}
-			AND = {
-				exists = c:KUB
-				THIS = c:KUB
-			}
-		}
-		has_technology_researched = nationalism
-	}
-}
 
 CSS = {
 	states = {
@@ -78,7 +9,7 @@ CSS = {
 	is_major_formation = yes
 	unification_play = dp_unify_cossackia
 	leadership_play = dp_leadership_cossackia
-	required_states_fraction = 0.75
+	required_states_fraction = 0.65
 	ai_will_do = {
 		always = yes
 	}
@@ -103,13 +34,37 @@ CSS = {
 			}
 		}
 		NOT = {
-			exist = UKR
+			AND = {
+				exists = c:UKR
+				THIS = c:UKR
+			}
 		}
 		has_technology_researched = pan-nationalism
 		has_law = law_type:law_multicultural
 	}
 }
-
+UKR = {
+	use_culture_states = yes
+	is_major_formation = yes
+	unification_play = dp_unify_ukraine
+	leadership_play = dp_leadership_ukraine
+	required_states_fraction = 0.55
+	ai_will_do = {
+		always = yes
+	}
+	possible = {
+		country_has_primary_culture = cu:ukrainian
+		any_country = {
+			country_has_primary_culture = cu:ukrainian
+		}
+		NOT = {
+			AND = {
+				exists = c:PLR
+				THIS = c:PLR
+			}
+		}
+	}
+}
 PLR = {
 	use_culture_states = yes
 	is_major_formation = yes

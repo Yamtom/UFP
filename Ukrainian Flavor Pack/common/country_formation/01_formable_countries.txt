@@ -1,1 +1,50 @@
  
+
+RUT = {
+	states = {
+		STATE_EAST_GALICIA
+		STATE_VOLHYNIA
+	}
+	required_states_fraction = 0.85
+	ai_will_do = {
+		always = yes
+	}
+	possible = {
+		OR = {
+			AND = {
+				exists = c:VOL
+				THIS = c:VOL
+			}
+			AND = {
+				exists = c:GAL
+				THIS = c:GAL
+			}
+		}
+		has_technology_researched = nationalism
+	}
+}
+
+DKU = {
+	states = {
+		STATE_KUBAN
+		STATE_ROSTOV
+	}
+	required_states_fraction = 0.85
+	ai_will_do = {
+		always = yes
+	}
+	possible = {
+		OR = {
+			AND = {
+				exists = c:DON
+				THIS = c:DON
+			}
+			AND = {
+				exists = c:KUB
+				THIS = c:KUB
+			}
+		}
+		has_technology_researched = nationalism
+	}
+}
+

@@ -1,4 +1,4 @@
-﻿POPS = {
+POPS = {
 	s:STATE_LOMBARDY = {
 		region_state:AUS = {
 			create_pop = {
@@ -59,14 +59,22 @@
 	}
 	s:STATE_CORSICA = {
 		region_state:FRA = {
-			# est. total 196476
 			create_pop = {
 				culture = corsican
-				size = 159146
+				size = 190540
+			}
+			create_pop = { # Ligurian
+				culture = north_italian
+				size = 502
+			}
+			create_pop = { # Educated guess
+				culture = french
+				size = 16723
 			}
 			create_pop = {
-				culture = french
-				size = 37330				# pls don't ask where this number comes from
+				culture = corsican
+				religion = protestant
+				size = 124
 			}
 		}
 	}
@@ -106,7 +114,11 @@
 		region_state:SAR = {
 			create_pop = {
 				culture = french
-				size = 287600
+				size = 92032
+			}
+			create_pop = {
+				culture = francoprovencal
+				size = 195568
 			}
 			create_pop = {
 				culture = north_italian
@@ -221,7 +233,7 @@
 				culture = basque
 				size = 32000
 			}
-		}
+		}	
 	}
 	s:STATE_CASTILE = {
 		region_state:SPA = {
@@ -377,6 +389,7 @@
 			}
 		}
 	}
+
 	s:STATE_MADEIRA = {
 		region_state:POR = {
 			create_pop = {
@@ -389,6 +402,7 @@
 			}
 		}
 	}
+
 	s:STATE_CANARY_ISLANDS = {
 		region_state:SPA = {
 			create_pop = {
@@ -397,6 +411,7 @@
 			}
 		}
 	}
+
 	s:STATE_AZORES = {
 		region_state:POR = {
 			create_pop = {
@@ -763,6 +778,7 @@
 			}
 		}
 	}
+
 	s:STATE_EAST_AEGEAN_ISLANDS = {
 		region_state:TUR = {
 			create_pop = {
@@ -890,6 +906,7 @@
 				culture = lacustrine_bantu
 				size = 1500
 			}
+
 		}
 	}
 	s:STATE_IONIAN_ISLANDS = {

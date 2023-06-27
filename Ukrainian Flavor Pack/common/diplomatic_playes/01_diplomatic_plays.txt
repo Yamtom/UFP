@@ -1,141 +1,130 @@
 dp_unify_ukraine = {
 	war_goal = unification
-	
 	requires_interest_marker = no
 	blocked_by_diplomatic_status = no
-	
-	texture = "gfx/interface/icons/war_goals/unification.dds"
-	
+	add_infamy_for_starting_initiator_wargoals = no
+	texture = "gfx/interface/icons/war_goals/unify_germany.dds"
 	selectable_in_lens = {
 		always = no
 	}
-	
 	possible = {
-		NOT = { is_country_type = decentralized }
+		NOT = {
+			exists = c:UKR
+		}
+		NOT = {
+			is_country_type = decentralized
+		}
+		has_technology_researched = nationalism
 	}
-	
-	on_weekly_pulse = {}
-	
-	on_war_begins = {}
-
-	on_war_end = {}
+	on_weekly_pulse = {
+	}
+	on_war_begins = {
+	}
+	on_war_end = {
+	}
 }
 
 dp_leadership_ukraine = {
 	war_goal = unification_leadership
-	
 	requires_interest_marker = no
 	mirror_war_goal = yes
-	
-	texture = "gfx/interface/icons/war_goals/unification.dds"
-	
+	texture = "gfx/interface/icons/war_goals/unify_germany.dds"
 	selectable_in_lens = {
 		always = no
-	}	
-	
-	possible = {
-			
 	}
-	
-	on_weekly_pulse = {}
-	
-	on_war_begins = {}
-
-	on_war_end = {}
+	possible = {
+		has_technology_researched = democracy
+	}
+	on_weekly_pulse = {
+	}
+	on_war_begins = {
+	}
+	on_war_end = {
+	}
 }
+
 dp_unify_cossackia = {
 	war_goal = unification
-	
 	requires_interest_marker = no
 	blocked_by_diplomatic_status = no
-	
 	texture = "gfx/interface/icons/war_goals/unification.dds"
-	
 	selectable_in_lens = {
 		always = no
 	}
-	
 	possible = {
-		NOT = { is_country_type = decentralized }
+		NOT = {
+			is_country_type = decentralized
+		}
 		has_technology_researched = pan-nationalism
-		has_law = law_type:law_multicultural 
+		has_law = law_type:law_multicultural
 	}
-	
-	on_weekly_pulse = {}
-	
-	on_war_begins = {}
-
-	on_war_end = {}
+	on_weekly_pulse = {
+	}
+	on_war_begins = {
+	}
+	on_war_end = {
+	}
 }
 
 dp_leadership_cossackia = {
 	war_goal = unification_leadership
-	
 	requires_interest_marker = no
 	mirror_war_goal = yes
-	
 	texture = "gfx/interface/icons/war_goals/unification.dds"
-	
 	selectable_in_lens = {
 		always = no
-	}	
-	
+	}
 	possible = {
 		has_technology_researched = pan-nationalism
-		has_law = law_type:law_multicultural 		
+		has_law = law_type:law_multicultural
 	}
-	
-	on_weekly_pulse = {}
-	
-	on_war_begins = {}
-
-	on_war_end = {}
+	on_weekly_pulse = {
+	}
+	on_war_begins = {
+	}
+	on_war_end = {
+	}
 }
+
 dp_unify_intermarum = {
 	war_goal = unification
-	
 	requires_interest_marker = no
 	blocked_by_diplomatic_status = no
-	
 	texture = "gfx/interface/icons/war_goals/unification.dds"
-	
 	selectable_in_lens = {
 		always = no
 	}
-	
 	possible = {
-		NOT = { is_country_type = decentralized }
+		NOT = {
+			is_country_type = decentralized
+		}
 		has_technology_researched = pan-nationalism
 		has_technology_researched = multilateral_alliances
 	}
-	
-	on_weekly_pulse = {}
-	
-	on_war_begins = {}
-
-	on_war_end = {}
+	on_weekly_pulse = {
+	}
+	on_war_begins = {
+	}
+	on_war_end = {
+	}
 }
 
 dp_leadership_intermarum = {
 	war_goal = unification_leadership
-	
 	requires_interest_marker = no
 	mirror_war_goal = yes
-	
 	texture = "gfx/interface/icons/war_goals/unification.dds"
-	
 	selectable_in_lens = {
 		always = no
-	}	
-	
-	possible = {
-		has_technology_researched = pan-nationalism		
-		has_technology_researched = multilateral_alliances	
 	}
-	
-	on_weekly_pulse = {}
-	
-	on_war_begins = {}
-
-	on_war_end = {}
+	possible = {
+		has_technology_researched = pan-nationalism
+		has_technology_researched = multilateral_alliances
+	}
+	on_weekly_pulse = {
+	}
+	on_war_begins = {
+	}
+	on_war_end = {
+	}
 }

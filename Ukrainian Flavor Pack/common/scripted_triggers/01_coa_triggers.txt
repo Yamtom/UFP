@@ -266,7 +266,10 @@ coa_kukurudza_trigger = {
 	any_scope_character = {
 		is_ruler = yes
 		scope:actor = {
-			has_last_name = Khrushchiv
+			AND = {
+				this = scope:character
+				last_name = Khrushchiv
+			}
 		}
 	}
 }

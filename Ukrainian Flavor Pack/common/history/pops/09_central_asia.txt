@@ -1,4 +1,4 @@
-﻿POPS = {
+POPS = {
 	s:STATE_DAGESTAN = {
 		region_state:RUS = {
 			create_pop = {
@@ -260,10 +260,26 @@
 				size = 7996
 			}
 		}
-		region_state:KAZ = {
+
+		region_state:KZH = {
 			create_pop = {
 				culture = kazak
-				size = 30000
+				size = 31500
+			}
+			create_pop = {
+				culture = uzbek
+				size = 3500
+			}
+		}
+
+		region_state:OZH = {
+			create_pop = {
+				culture = russian
+				size = 1000
+			}
+			create_pop = {
+				culture = kazak
+				size = 4000
 			}
 		}
 	}
@@ -492,18 +508,46 @@
 		}
 	}
 	s:STATE_SEMIRECHE = {
-		region_state:KAZ = {
+		region_state:UZH = {
 			create_pop = {
 				culture = kazak
-				size = 164162
+				size = 114162
 			}
 			create_pop = {
 				culture = uighur
-				size = 11000
+				size = 7000
 			}
 			create_pop = {
 				culture = kirgiz
 				size = 4000
+			}
+		}
+		region_state:OZH = {
+			create_pop = {
+				culture = kazak
+				size = 50000
+			}
+			create_pop = {
+				culture = uighur
+				size = 4000
+			}
+			create_pop = {
+				culture = russian
+				size = 1200
+			}
+		}
+		region_state:RUS = {
+			create_pop = {
+				culture = russian
+				size = 2500
+			}
+			create_pop = {
+				culture = kazak
+				size = 2200
+			}
+			create_pop = {
+				culture = uighur
+				size = 1100
 			}
 		}
 	}
@@ -525,18 +569,38 @@
 		}
 	}
 	s:STATE_AKMOLINSK = {
-		region_state:KAZ = {
+		region_state:OZH = {
 			create_pop = {
 				culture = kazak
-				size = 260000
+				size = 190000
+			}
+			create_pop = {
+				culture = russian
+				size = 2000
+			}
+			create_pop = {
+				culture = uzbek
+				size = 38000
+			}
+		}
+		region_state:RUS = {
+			create_pop = {
+				culture = kazak
+				size = 14500
 			}
 			create_pop = {
 				culture = russian
 				size = 11992
 			}
+		}
+		region_state:KZH = {
+			create_pop = {
+				culture = kazak
+				size = 51500
+			}
 			create_pop = {
 				culture = uzbek
-				size = 56000
+				size = 32000
 			}
 		}
 	}
@@ -690,7 +754,7 @@
 				size = 1820000
 			}
 			create_pop = {
-				culture = han				# nanfaren
+				culture = han # nanfaren
 				religion = animist
 				size = 100000
 			}
@@ -707,7 +771,7 @@
 				size = 824000
 			}
 			create_pop = {
-				culture = han				# nanfaren
+				culture = han # nanfaren
 				religion = animist
 				size = 42000
 			}

@@ -2,6 +2,7 @@ UKR = {
 	ai_will_do = {
 		always = no
 	}
+	use_culture_states = yes
 	states = {
 		STATE_KIEV
 		STATE_CHERSON
@@ -11,350 +12,350 @@ UKR = {
 		STATE_BREST
 		STATE_CRIMEA
 	}
-	provinces = {
-		#Mala
-		x9426E7
-		x61F467
-		x87516C
-		x6B9AB7
-		x1C2E4D
-		x31E0E0
-		x706060
-		xF56D13
-		xB0DFDF
-		x6AC779
-		x905D21
-		x4D686A
-		x6168EB
-		xE2B51B
-		x884128
-		x7161A0
-		x4700D0
-		x9B1B0B
-		xBD8617
-		x33471E
-		xAC3079
-		x8201CF
-		x37A636
-		x71E0A0
-		xE2F553
-		x0EB3C7
-		xAFEBC8
-		xAC6FAE
-		x1A9FFE
-		x80FB0F
-		x862F77
-		x5A26AE
-		xE001E0
-		x364496
-		x01E0E0
-		x022620
-		x0319ED
-		x03D6A7
-		x0708A3
-		x0A69A9
-		x0B484F
-		x1121A0
-		x11F253
-		x1458A6
-		x18E9E1
-		x1C7F2D
-		x1CB8D8
-		x2472F3
-		x270CD8
-		x2C6090
-		x2C6218
-		x2D80BA
-		x2E05DE
-		x31F90F
-		x348364
-		x34B4C6
-		x36D880
-		x387D75
-		x3ACCE8
-		x46B48F
-		x4C92CC
-		x54B5C4
-		x5F64A2
-		x675DF4
-		x7DA787
-		x7DF67D
-		x7EAE07
-		x817D22
-		x82AE2F
-		x83B302
-		x85EECF
-		x8CE323
-		x9723F8
-		x98E808
-		xA12B5A
-		xA8600B
-		xA9FA61
-		xAD965B
-		xBCC260
-		xBDDA3A
-		xC31716
-		xC482AD
-		xCB4129
-		xCD2CE5
-		xCD72A1
-		xD0DA95
-		xD5E7D2
-		xD6537D
-		xD8EA8C
-		xDAAE11
-		xDCE378
-		xDD344F
-		xDD790F
-		xE08061
-		xE682D3
-		xE6AF95
-		xE6CADD
-		xE996D1
-		xEA1E16
-		xF061A0
-		xF0E021
-		xF49A18
-		xFB1DC5
-		xFC92C5
-		xFF7D57
-		x6AC779
-		x905D21
-		x4D686A
-		x6168EB
-		xE2B51B
-		x884128
-		x7161A0
-		x4700D0
-		x9B1B0B
-		xBD8617
-		x33471E
-		xAC3079
-		x8201CF
-		x37A636
-		x71E0A0
-		xE2F553
-		x0EB3C7
-		xAFEBC8
-		xAC6FAE
-		x1A9FFE
-		x80FB0F
-		x862F77
-		x5A26AE
-		xE001E0
-		x364496
-		xA2805F
-		x9D8087
-		xCDD223
-		x11A021
-		xCAE5B0
-		x8F9F20
-		xE369C4
-		xA3CF78
-		xB021A0
-		x053163
-		x4D0305
-		xC1B262
-		xEFE270
-		x489C42
-		x7EDD9E
-		x53932F
-		xC58E1C
-		xD0E061
-		x924D7E
-		x3DA304
-		xB285AE
-		xF60A93
-		x5BE6ED
-		x71E061
-		x58331B
-		xE6C06A
-		x4202ED
-		xB69E4B
-		x580D2A
-		x35FCF1
-		xF06161
-		xA1BAF7
-		x055C67
-		x0EBC1D
-		xB06935
-		xCFBD13
-		x637D8D
-		x04E110
-		x5AB195
-		x71E0E0
-		x76E2A3
-		x87109C
-		x7020DF
-		x386376
-		xAD4F1C
-		xF0E061
-		x500F88
-		x9C070F
-		xA0A57F
-		xF061E0
-		xFA0D5E
-		x4C5706
-		xBBC6BF
-		x14786A
-		x46BD2E
-		x9A1118
-		x5B788C
-		xC262E0
-		x7161E0
-		xBC52ED
-		x628FBE
-		x3C304D
-		x19213B
-		x7141E0
-		x000AE0
-		x0E1864
-		x135B1E
-		x13997A
-		x29EE58
-		x305004
-		x3E5AF0
-		x3E66A1
-		x421B54
-		x4ABD60
-		x652CE8
-		x716121
-		x71E021
-		x726291
-		x73216A
-		x7FC1CF
-		x89CE7C
-		x8A09FD
-		x925815
-		x9E24DE
-		xA669E7
-		xA81C77
-		xB02161
-		xB5123B
-		xCC0D93
-		xD7E3C1
-		xE315A3
-		xE4AA78
-		xF0E0A0
-		xF9066A
-		xFD6659
-		xFDD2CF
-		#Velyka
-		xC85CD0
-		x69BAC7
-		x359378
-		xA0531B
-		xD0E061
-		x7E6263
-		x31A0A0
-		x23621B
-		x5f2259
-		xB0E0A0
-		x6BF7B8
-		x157352
-		xAB3AC5
-		x0087C9
-		xCCD197
-		x18020B
-		xCB21FD
-		xC15AD8
-		x2FD0B1
-		xDE471E
-		xC06121
-		x117AE1
-		x8061E0
-		x79C34B
-		x925213
-		x44E2F9
-		x12AB15
-		x93157C
-		x53EF9C
-		x31B814
-		x2198C8
-		x47C81B
-		x4EB9EA
-		x47C81B
-		xC0E0E0
-		x1A9007
-		xA79E4A
-		x69b611
-		x40DFDF
-		x20C1C2
-		x738BEC
-		x172A98
-		x0CA133
-		xC751A3
-		x9E5DCB
-		x1A7021
-		x9E14B9
-		x828B91
-		xFEDE19
-		x540AA7
-		x877DBA
-		x3B9730
-		xAFC5AE
-		x25A8D9
-		xD9240D
-		x45A839
-		x92D853
-		x191F70
-		x3C9016
-		x76B63F
-		x80D080
-		xF51533
-		xD5648D
-		x9809B7
-		x708C99
-		xD23DA0
-		x56599F
-		x51A0E0
-		xAEB9A5
-		xEB0783
-		x44ACBB
-		xBFDF20
-		x46B850
-		xB491B1
-		x84FE3D
-		xE87D11
-		x80DFDF
-		xBC0441
-		x4EB8EA
-		xF57AA5
-		xC761A3
-		x743EA5
-		x91942B
-		x6BEE31
-		x030048
-		xBA2909
-		xAD54E9
-		x4CD7AF
-		xF552F9
-		x743EA5
-		xA34CA7
-		x805180
-		x0E59B9
-		x92B853
-		xE6667B
-		x33CC4D
-		x89223D
-		x46B950
-		xF553F9
-		xA0A0A0
-		x0E69B9
-		x50F5CB
-		x032751
-		xA5F3BC
-		xA87FC3
-		x607311
-		x857200
-		x0B93F6
-		xA6F3BC
-		x1C692E
-		xB020C6
-		x416161
-		xC7B7B8
-		x90E060
-	}
+	# provinces = {
+	# 	#Mala
+	# 	x9426E7
+	# 	x61F467
+	# 	x87516C
+	# 	x6B9AB7
+	# 	x1C2E4D
+	# 	x31E0E0
+	# 	x706060
+	# 	xF56D13
+	# 	xB0DFDF
+	# 	x6AC779
+	# 	x905D21
+	# 	x4D686A
+	# 	x6168EB
+	# 	xE2B51B
+	# 	x884128
+	# 	x7161A0
+	# 	x4700D0
+	# 	x9B1B0B
+	# 	xBD8617
+	# 	x33471E
+	# 	xAC3079
+	# 	x8201CF
+	# 	x37A636
+	# 	x71E0A0
+	# 	xE2F553
+	# 	x0EB3C7
+	# 	xAFEBC8
+	# 	xAC6FAE
+	# 	x1A9FFE
+	# 	x80FB0F
+	# 	x862F77
+	# 	x5A26AE
+	# 	xE001E0
+	# 	x364496
+	# 	x01E0E0
+	# 	x022620
+	# 	x0319ED
+	# 	x03D6A7
+	# 	x0708A3
+	# 	x0A69A9
+	# 	x0B484F
+	# 	x1121A0
+	# 	x11F253
+	# 	x1458A6
+	# 	x18E9E1
+	# 	x1C7F2D
+	# 	x1CB8D8
+	# 	x2472F3
+	# 	x270CD8
+	# 	x2C6090
+	# 	x2C6218
+	# 	x2D80BA
+	# 	x2E05DE
+	# 	x31F90F
+	# 	x348364
+	# 	x34B4C6
+	# 	x36D880
+	# 	x387D75
+	# 	x3ACCE8
+	# 	x46B48F
+	# 	x4C92CC
+	# 	x54B5C4
+	# 	x5F64A2
+	# 	x675DF4
+	# 	x7DA787
+	# 	x7DF67D
+	# 	x7EAE07
+	# 	x817D22
+	# 	x82AE2F
+	# 	x83B302
+	# 	x85EECF
+	# 	x8CE323
+	# 	x9723F8
+	# 	x98E808
+	# 	xA12B5A
+	# 	xA8600B
+	# 	xA9FA61
+	# 	xAD965B
+	# 	xBCC260
+	# 	xBDDA3A
+	# 	xC31716
+	# 	xC482AD
+	# 	xCB4129
+	# 	xCD2CE5
+	# 	xCD72A1
+	# 	xD0DA95
+	# 	xD5E7D2
+	# 	xD6537D
+	# 	xD8EA8C
+	# 	xDAAE11
+	# 	xDCE378
+	# 	xDD344F
+	# 	xDD790F
+	# 	xE08061
+	# 	xE682D3
+	# 	xE6AF95
+	# 	xE6CADD
+	# 	xE996D1
+	# 	xEA1E16
+	# 	xF061A0
+	# 	xF0E021
+	# 	xF49A18
+	# 	xFB1DC5
+	# 	xFC92C5
+	# 	xFF7D57
+	# 	x6AC779
+	# 	x905D21
+	# 	x4D686A
+	# 	x6168EB
+	# 	xE2B51B
+	# 	x884128
+	# 	x7161A0
+	# 	x4700D0
+	# 	x9B1B0B
+	# 	xBD8617
+	# 	x33471E
+	# 	xAC3079
+	# 	x8201CF
+	# 	x37A636
+	# 	x71E0A0
+	# 	xE2F553
+	# 	x0EB3C7
+	# 	xAFEBC8
+	# 	xAC6FAE
+	# 	x1A9FFE
+	# 	x80FB0F
+	# 	x862F77
+	# 	x5A26AE
+	# 	xE001E0
+	# 	x364496
+	# 	xA2805F
+	# 	x9D8087
+	# 	xCDD223
+	# 	x11A021
+	# 	xCAE5B0
+	# 	x8F9F20
+	# 	xE369C4
+	# 	xA3CF78
+	# 	xB021A0
+	# 	x053163
+	# 	x4D0305
+	# 	xC1B262
+	# 	xEFE270
+	# 	x489C42
+	# 	x7EDD9E
+	# 	x53932F
+	# 	xC58E1C
+	# 	xD0E061
+	# 	x924D7E
+	# 	x3DA304
+	# 	xB285AE
+	# 	xF60A93
+	# 	x5BE6ED
+	# 	x71E061
+	# 	x58331B
+	# 	xE6C06A
+	# 	x4202ED
+	# 	xB69E4B
+	# 	x580D2A
+	# 	x35FCF1
+	# 	xF06161
+	# 	xA1BAF7
+	# 	x055C67
+	# 	x0EBC1D
+	# 	xB06935
+	# 	xCFBD13
+	# 	x637D8D
+	# 	x04E110
+	# 	x5AB195
+	# 	x71E0E0
+	# 	x76E2A3
+	# 	x87109C
+	# 	x7020DF
+	# 	x386376
+	# 	xAD4F1C
+	# 	xF0E061
+	# 	x500F88
+	# 	x9C070F
+	# 	xA0A57F
+	# 	xF061E0
+	# 	xFA0D5E
+	# 	x4C5706
+	# 	xBBC6BF
+	# 	x14786A
+	# 	x46BD2E
+	# 	x9A1118
+	# 	x5B788C
+	# 	xC262E0
+	# 	x7161E0
+	# 	xBC52ED
+	# 	x628FBE
+	# 	x3C304D
+	# 	x19213B
+	# 	x7141E0
+	# 	x000AE0
+	# 	x0E1864
+	# 	x135B1E
+	# 	x13997A
+	# 	x29EE58
+	# 	x305004
+	# 	x3E5AF0
+	# 	x3E66A1
+	# 	x421B54
+	# 	x4ABD60
+	# 	x652CE8
+	# 	x716121
+	# 	x71E021
+	# 	x726291
+	# 	x73216A
+	# 	x7FC1CF
+	# 	x89CE7C
+	# 	x8A09FD
+	# 	x925815
+	# 	x9E24DE
+	# 	xA669E7
+	# 	xA81C77
+	# 	xB02161
+	# 	xB5123B
+	# 	xCC0D93
+	# 	xD7E3C1
+	# 	xE315A3
+	# 	xE4AA78
+	# 	xF0E0A0
+	# 	xF9066A
+	# 	xFD6659
+	# 	xFDD2CF
+	# 	#Velyka
+	# 	xC85CD0
+	# 	x69BAC7
+	# 	x359378
+	# 	xA0531B
+	# 	xD0E061
+	# 	x7E6263
+	# 	x31A0A0
+	# 	x23621B
+	# 	x5f2259
+	# 	xB0E0A0
+	# 	x6BF7B8
+	# 	x157352
+	# 	xAB3AC5
+	# 	x0087C9
+	# 	xCCD197
+	# 	x18020B
+	# 	xCB21FD
+	# 	xC15AD8
+	# 	x2FD0B1
+	# 	xDE471E
+	# 	xC06121
+	# 	x117AE1
+	# 	x8061E0
+	# 	x79C34B
+	# 	x925213
+	# 	x44E2F9
+	# 	x12AB15
+	# 	x93157C
+	# 	x53EF9C
+	# 	x31B814
+	# 	x2198C8
+	# 	x47C81B
+	# 	x4EB9EA
+	# 	x47C81B
+	# 	xC0E0E0
+	# 	x1A9007
+	# 	xA79E4A
+	# 	x69b611
+	# 	x40DFDF
+	# 	x20C1C2
+	# 	x738BEC
+	# 	x172A98
+	# 	x0CA133
+	# 	xC751A3
+	# 	x9E5DCB
+	# 	x1A7021
+	# 	x9E14B9
+	# 	x828B91
+	# 	xFEDE19
+	# 	x540AA7
+	# 	x877DBA
+	# 	x3B9730
+	# 	xAFC5AE
+	# 	x25A8D9
+	# 	xD9240D
+	# 	x45A839
+	# 	x92D853
+	# 	x191F70
+	# 	x3C9016
+	# 	x76B63F
+	# 	x80D080
+	# 	xF51533
+	# 	xD5648D
+	# 	x9809B7
+	# 	x708C99
+	# 	xD23DA0
+	# 	x56599F
+	# 	x51A0E0
+	# 	xAEB9A5
+	# 	xEB0783
+	# 	x44ACBB
+	# 	xBFDF20
+	# 	x46B850
+	# 	xB491B1
+	# 	x84FE3D
+	# 	xE87D11
+	# 	x80DFDF
+	# 	xBC0441
+	# 	x4EB8EA
+	# 	xF57AA5
+	# 	xC761A3
+	# 	x743EA5
+	# 	x91942B
+	# 	x6BEE31
+	# 	x030048
+	# 	xBA2909
+	# 	xAD54E9
+	# 	x4CD7AF
+	# 	xF552F9
+	# 	x743EA5
+	# 	xA34CA7
+	# 	x805180
+	# 	x0E59B9
+	# 	x92B853
+	# 	xE6667B
+	# 	x33CC4D
+	# 	x89223D
+	# 	x46B950
+	# 	xF553F9
+	# 	xA0A0A0
+	# 	x0E69B9
+	# 	x50F5CB
+	# 	x032751
+	# 	xA5F3BC
+	# 	xA87FC3
+	# 	x607311
+	# 	x857200
+	# 	x0B93F6
+	# 	xA6F3BC
+	# 	x1C692E
+	# 	xB020C6
+	# 	x416161
+	# 	xC7B7B8
+	# 	x90E060
+	# }
 }
 
 ZAZ = {
@@ -365,8 +366,13 @@ ZAZ = {
 		STATE_CHERSON
 		STATE_LUHANSK
 	}
-	NOT = {
-		exist = CSS
+	possible = {
+		NOT = {
+			AND = {
+				exists = c:CSS
+				THIS = c:CSS
+			}
+		}
 	}
 }
 
@@ -378,8 +384,13 @@ GAL = {
 		STATE_EAST_GALICIA
 		STATE_WEST_GALICIA
 	}
-	NOT = {
-		exist = RUT
+	possible = {
+		NOT = {
+			AND = {
+				exists = c:RUT
+				THIS = c:RUT
+			}
+		}
 	}
 }
 
@@ -391,8 +402,13 @@ VOL = {
 		STATE_VOLHYNIA
 		STATE_BREST
 	}
-	NOT = {
-		exist = RUT
+	possible = {
+		NOT = {
+			AND = {
+				exists = c:RUT
+				THIS = c:RUT
+			}
+		}
 	}
 }
 
@@ -417,8 +433,13 @@ DON = {
 	states = {
 		STATE_ROSTOV
 	}
-	NOT = {
-		exist = DKU
+	possible = {
+		NOT = {
+			AND = {
+				exists = c:DKU
+				THIS = c:DKU
+			}
+		}
 	}
 }
 
@@ -429,8 +450,13 @@ KUB = {
 	states = {
 		STATE_KUBAN
 	}
-	NOT = {
-		exist = DKU
+	possible = {
+		NOT = {
+			AND = {
+				exists = c:DKU
+				THIS = c:DKU
+			}
+		}
 	}
 }
 

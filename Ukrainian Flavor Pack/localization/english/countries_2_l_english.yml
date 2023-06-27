@@ -143,6 +143,8 @@
  dyn_c_GAL_polish_adj:0 "Ruthenian"
 
  #Volhyn
+ VOL:0 "Volyn"
+ VOL_adj:0 "Volynian"
  dyn_c_VOL:0 "Volyn"
  dyn_c_VOL_adj:0 "Volynian"
  dyn_c_VOL_theocracy:0 "Volynian Eparchy"
@@ -263,6 +265,8 @@
  dyn_c_CRI_fascist_UKR_adj:0 "Sean"
  
  #Don
+ DON:0 "Don"
+ DON_adj:0 "Donian"
  dyn_c_d_don:0 "Don"
  dyn_c_d_don_adj:0 "Donian"
  dyn_c_DON_theocracy:0 "Don Order"
@@ -299,7 +303,7 @@
  dyn_c_DON_russian_adj:0 "Yugorusian"
  dyn_c_DON_italian:0 "Señoria of Tana"
  dyn_c_DON_italian_adj:0 "Tanan"
- #Kuban
+ 
  KUB:0 "Kuban"
  KUB_adj:0 "Kubanian"
  dyn_c_KUB_theocracy:0 "Tamatarcha metropolis"
@@ -338,7 +342,7 @@
  dyn_c_KUB_greek_adj:0 "Hermonassan"
  dyn_c_KUB_crimea:0 "Tamantarkhan"
  dyn_c_KUB_crimea_adj:0 "Tamantarkhani"
- #Don-Kuban
+ 
  DKU:0 "Don-Kuban Union"
  DKU_adj:0 "Don-Kubanian"
  dyn_c_DKU_theocracy:0 "Holy Don-Tamarchan Order"
@@ -379,7 +383,7 @@
  dyn_c_DKU_crimea_adj:0 "Tamantarkhani"
  dyn_c_DKU_italian:0 "Duchy of Tana and Tamanghane"
  dyn_c_DKU_italian_adj:0 "Tanan"
-#Cossackia
+ 
  CSS:0 "Cossackia"
  CSS_ADJ:0 "Cossackian"
  dyn_c_CSS_theocracy:0 "Cossackian Order"
@@ -418,8 +422,7 @@
  dyn_c_CSS_austrian_adj:0 "Black Sea Germanian"
  dyn_c_CSS_polish:0 "Great Sarmatia"
  dyn_c_CSS_polish_adj:0 "Sarmatian"
-
- #Bucovyna
+ 
  BCV:0 "Bucovyna"
  BCV_ADJ:0 "Bucovinian"
  dyn_c_BCV:0 "Bucovyna"
@@ -460,7 +463,7 @@
  dyn_c_BCV_austrian_adj:0 "Buchener"
  dyn_c_BCV_polish:0 "Ziemia Ruska Carpatia"
  dyn_c_BCV_polish_adj:0 "Ruski"
- #Transcarpathia
+ 
  TCA:0 "Transcarpathia"
  TCA_ADJ:0 "Transcarpathian"
  dyn_c_TCA_theocracy:0 "Maramures Eparchy"
@@ -498,10 +501,9 @@
  dyn_c_TCA_austrian:0 "Königreich Transcarpathia"
  dyn_c_TCA_austrian_adj:0 "Transcarpathian"
  dyn_c_TCA_polish:0 "Województwo Przezkarpaty"
- dyn_c_TCA_polish_adj:0 "Ruthenian"
-#Poland-Lithuania-Ruthenia 
- PLR:0 “Intermarium Union” 
- PLR_ADJ:0 “Intermarian” 
+ dyn_c_TCA_polish_adj:0 "Ruthenian" 
+ PLR:1 “Intermarium Union” 
+ PLR_ADJ:1 “Intermarian” 
  dyn_c_PLR:0 “Polish-Lithuanian-Ruthenian Commonwealth” 
  dyn_c_PLR_adj:0 “Commonwealth” 
  dyn_c_PLR_theocracy:0 “Intermarium Ecclesiastical Union” 
@@ -518,5 +520,5 @@
  dyn_c_PLR_fascist_adj:0 “National State” 
  dyn_c_PLR_anarchy:0 “Intermarium Confederation” 
  dyn_c_PLR_anarchy_adj:0 “Confederation”
-
+ 
  greek_catholic:0 “Greek Catholic”
